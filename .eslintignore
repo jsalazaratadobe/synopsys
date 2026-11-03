@@ -1,2 +1,4 @@
 helix-importer-ui
 *.min.js
+# stardust/ is migration evidence (prototypes, captures, tooling) — never served, never runtime
+stardust/

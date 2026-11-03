@@ -1,0 +1,151 @@
+/* logo-marquee — lifted from the gated prototype (page CSS "logo marquee"), scoped */
+.logo-marquee {
+  padding: 4rem 1.5rem;
+}
+
+.logo-marquee .logo-marquee-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 103.75rem;
+  margin-inline: auto;
+}
+
+.logo-marquee .logo-marquee-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1.5rem;
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.logo-marquee .logo-marquee-track {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-marquee .logo-marquee-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 20%;
+  height: 100%;
+}
+
+.logo-marquee .logo-marquee-fade-l {
+  left: 0;
+  background-image: linear-gradient(to right, var(--color-base), var(--color-base), transparent);
+}
+
+.logo-marquee .logo-marquee-fade-r {
+  right: 0;
+  background-image: linear-gradient(to left, var(--color-base), var(--color-base), transparent);
+}
+
+.logo-marquee .logo-marquee-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes logo-marquee-scroll {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+.logo-marquee .logo-marquee-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: fit-content;
+  padding-left: 1.5rem;
+  animation: 40s linear infinite logo-marquee-scroll;
+}
+
+.logo-marquee .logo-marquee-row-medium {
+  animation-duration: 30s;
+}
+
+.logo-marquee .logo-marquee-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 2rem;
+}
+
+.logo-marquee .logo-marquee-item p,
+.logo-marquee .logo-marquee-item picture {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-marquee .logo-marquee-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@container section (width >= 48rem) {
+  .logo-marquee {
+    padding: 5rem 2rem;
+  }
+
+  .logo-marquee .logo-marquee-head {
+    font-size: var(--text-4xl);
+  }
+
+  .logo-marquee .logo-marquee-row {
+    gap: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@container section (width >= 64rem) {
+  .logo-marquee {
+    padding: 8rem 4rem;
+  }
+
+  .logo-marquee .logo-marquee-head {
+    padding-inline: 1.5rem;
+    padding-bottom: 2.25rem;
+    font-size: var(--text-5xl);
+    text-align: center;
+  }
+
+  .logo-marquee .logo-marquee-item {
+    width: 12rem;
+    height: 4rem;
+  }
+}
+
+@container section (width >= 80rem) {
+  .logo-marquee .logo-marquee-item {
+    width: 18rem;
+    height: 6rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .logo-marquee {
+    padding: 10rem 7rem;
+  }
+
+  .logo-marquee .logo-marquee-head {
+    padding-inline: 7rem;
+  }
+}
+

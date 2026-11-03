@@ -1,0 +1,1671 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-03T00:19:01.916Z",
+    "waitMode": "slow",
+    "waitMs": 5000,
+    "httpStatus": 200
+  },
+  "slug": "products-fluids-ansys-fluent-capabilities",
+  "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-03T00:19:01.916Z",
+  "finalUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+  "title": "Ansys Fluent Capabilities | Ansys",
+  "description": "Explore Ansys Fluent capabilities for advanced CFD simulation, including turbulence and battery modeling, electric motor cooling, multi-phase flows and advanced meshing technologies.",
+  "og": {
+    "title": "Ansys Fluent Capabilities | Ansys",
+    "description": "Explore Ansys Fluent capabilities for advanced CFD simulation, including turbulence and battery modeling, electric motor cooling, multi-phase flows and advanced meshing technologies.",
+    "image": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:ff7ba86f-1a0c-4d51-bc91-4971276b4be3/as/fluent-modal-multiphysics-integrations-component-section-media-with-content-multiphysics-examples.avif?preset=og-1200x630",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Countries & Regions"
+    },
+    {
+      "tag": "h1",
+      "text": "Powering Advanced CFD Simulations"
+    },
+    {
+      "tag": "h2",
+      "text": "Built for Every CFD Professional"
+    },
+    {
+      "tag": "h3",
+      "text": "Advanced Physics Models"
+    },
+    {
+      "tag": "h3",
+      "text": "Multiphysics Integrations"
+    },
+    {
+      "tag": "h3",
+      "text": "GPU Acceleration"
+    },
+    {
+      "tag": "h3",
+      "text": "Automation, Customization, and Optimization"
+    },
+    {
+      "tag": "h2",
+      "text": "Download the Ansys Fluent Brochure"
+    },
+    {
+      "tag": "h2",
+      "text": "Where Physics, Performance, and Precision Converge"
+    },
+    {
+      "tag": "h3",
+      "text": "Pre-Processing"
+    },
+    {
+      "tag": "h2",
+      "text": "Advanced Meshing Technologies"
+    },
+    {
+      "tag": "h6",
+      "text": "Task-Based, Automated Meshing"
+    },
+    {
+      "tag": "h6",
+      "text": "Mosaic Meshing"
+    },
+    {
+      "tag": "h6",
+      "text": "Rapid Octree Meshing"
+    },
+    {
+      "tag": "h6",
+      "text": "Wrap Meshing"
+    },
+    {
+      "tag": "h3",
+      "text": "Pre-Processing"
+    },
+    {
+      "tag": "h2",
+      "text": "Customizable Materials Database"
+    },
+    {
+      "tag": "h3",
+      "text": "Solving"
+    },
+    {
+      "tag": "h2",
+      "text": "Density-Based and Pressure-Based Solvers"
+    },
+    {
+      "tag": "h6",
+      "text": "Density-Based Solver"
+    },
+    {
+      "tag": "h6",
+      "text": "Pressure-Based Solver"
+    },
+    {
+      "tag": "h3",
+      "text": "Solving"
+    },
+    {
+      "tag": "h2",
+      "text": "Turbulence Models"
+    },
+    {
+      "tag": "h3",
+      "text": "Post-Processing"
+    },
+    {
+      "tag": "h2",
+      "text": "High-Fidelity Ray Tracing for Enhanced Visualization"
+    },
+    {
+      "tag": "h2",
+      "text": "Web-Based UI for Remote Access"
+    },
+    {
+      "tag": "h2",
+      "text": "Flexible HPC Licensing"
+    },
+    {
+      "tag": "h2",
+      "text": "Built for Real-World Complexity"
+    },
+    {
+      "tag": "h3",
+      "text": "Gas Turbines"
+    },
+    {
+      "tag": "h3",
+      "text": "Mixing"
+    },
+    {
+      "tag": "h3",
+      "text": "Heat Exchangers"
+    },
+    {
+      "tag": "h3",
+      "text": "Wind Turbines"
+    },
+    {
+      "tag": "h3",
+      "text": "Battery Simulation"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn from Ansys"
+    },
+    {
+      "tag": "h2",
+      "text": "Dive into Fluent resources"
+    },
+    {
+      "tag": "h3",
+      "text": "See what's new"
+    },
+    {
+      "tag": "h2",
+      "text": "Fluent’s latest features and updates"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to design without limits?"
+    }
+  ],
+  "body": [
+    "United States",
+    "United Kingdom",
+    "India",
+    "France",
+    "Deutschland",
+    "Italia",
+    "日本",
+    "대한민국",
+    "台灣",
+    "中国大陆",
+    "Ansys Discovery",
+    "Ansys HFSS",
+    "Ansys Motor-CAD",
+    "Ansys Icepak",
+    "Ansys Fluent",
+    "Ansys CFX",
+    "Ansys Rocky",
+    "Ansys Speos",
+    "Ansys Zemax OpticStudio",
+    "Ansys Lumerical FTDT",
+    "Ansys Mechanical",
+    "Ansys LS-DYNA",
+    "Ansys Sherlock",
+    "All Ansys Products",
+    "Free Trials",
+    "Ansys Software Release R1",
+    "Products for Students",
+    "Blogs",
+    "Case Studies",
+    "Demos",
+    "Videos",
+    "On-Demand Webinars",
+    "White Papers",
+    "Training for You",
+    "Training for Your Team",
+    "Training for Your Corporation",
+    "Find a Training Course",
+    "Browse Courses",
+    "Students",
+    "Educators",
+    "Researchers",
+    "Learning Resources",
+    "Learning Forum",
+    "Innovation Courses",
+    "SIM World 2025",
+    "Upcoming Events",
+    "Past Webinars",
+    "Ansys empowers the next generation of engineers.",
+    "Ansys Story",
+    "Success Stories",
+    "Leadership",
+    "Sustainability",
+    "Contacts & Locations",
+    "Corporate Responsibility",
+    "Quality Assurance",
+    "Contact Us",
+    "Find a Partner",
+    "Become an Ansys Partner",
+    "Technology Partners",
+    "Channel Partners",
+    "Services Partners",
+    "Strategic Partners",
+    "Academic Partners",
+    "Press Releases",
+    "Advantage Magazine",
+    "Blogs",
+    "Life at Ansys",
+    "University Programs",
+    "Employee Stories",
+    "Search for Jobs",
+    "Design your future.",
+    "Customer Center",
+    "Support",
+    "Partner Communities",
+    "Contact Sales",
+    "For United States and Canada",
+    "Fluent",
+    "Key Features",
+    "Task-Based, Automated Meshing Automate the meshing process with task-based workflows that optimize mesh quality and reduce manual setup.",
+    "Mosaic Meshing This patented technology connects polyhedral prism boundary elements to either polyhedral or hexahedral elements in bulk regions, delivering highly accurate flow resolutions without excessive mesh density and avoiding tetrahedral transition elements.",
+    "Rapid Octree Meshing Ideal for large, complex geometries, this top-down approach rapidly generates high-quality meshes from initial CAD, making it indispensable for high-resolution and multi-scale simulations.",
+    "Wrap Meshing Efficiently handles surface geometry in complex CAD models, speeding up setup time for fluid simulations.",
+    "Density-Based Solver Suitable for high-speed and highly compressible flows, including supersonic and hypersonic regimes. Common applications:Aerospace: Hypersonic vehicles, supersonic jets, rocket nozzles.; Combustion: Detonations, high-speed reactive flows.",
+    "Pressure-Based Solver Efficiently handles low-speed compressible and incompressible flows, from subsonic to low supersonic regimes. Common applications — HVAC and Building Systems: Airflow in ventilation and cooling systems; Automotive and Industrial Equipment: External aerodynamics, pumps, fans, and heat exchangers.",
+    "Applications & Use Cases",
+    "Ansys delivers industry-leading simulation solutions, empowering engineers to design innovative, reliable, and sustainable products across every industry.",
+    "All Products",
+    "Industries",
+    "Student Software",
+    "Free Trials",
+    "Customer Center",
+    "Platform Support",
+    "Licensing",
+    "Resource Center",
+    "Training Center",
+    "Student & Academic",
+    "Events & Webinars",
+    "Our Story",
+    "Careers",
+    "Investors",
+    "Leadership",
+    "News Center",
+    "Copyright © 2026 Synopsys, Inc. and ANSYS, Inc.",
+    "Learn about how all Ansys software is accessible."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Synopsys",
+      "href": "https://www.synopsys.com"
+    },
+    {
+      "label": "Ansys",
+      "href": "/"
+    },
+    {
+      "label": "Countries & Regions United States Countries & Regions United States",
+      "href": null
+    },
+    {
+      "label": "United States",
+      "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "United Kingdom",
+      "href": "/en-gb/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "India",
+      "href": "/en-in/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "France",
+      "href": "/fr-fr/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "Deutschland",
+      "href": "/de-de/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "Italia",
+      "href": "/it-it/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "日本",
+      "href": "/ja-jp/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "대한민국",
+      "href": "/ko-kr/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "台灣",
+      "href": "/zh-tw/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "中国大陆",
+      "href": "/zh-cn/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Ansys part of Synopsys",
+      "href": "/"
+    },
+    {
+      "label": "Products & Services Products & Services",
+      "href": null
+    },
+    {
+      "label": "Featured Products",
+      "href": null
+    },
+    {
+      "label": "Products by Collection",
+      "href": null
+    },
+    {
+      "label": "Student & Academic",
+      "href": null
+    },
+    {
+      "label": "Technology Trends",
+      "href": null
+    },
+    {
+      "label": "Applications",
+      "href": null
+    },
+    {
+      "label": "Industries",
+      "href": null
+    },
+    {
+      "label": "Service & Support",
+      "href": null
+    },
+    {
+      "label": "Developer Portal",
+      "href": null
+    },
+    {
+      "label": "3D Design",
+      "href": "https://ansys.synopsys.com/products/3d-design"
+    },
+    {
+      "label": "Ansys Discovery",
+      "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery"
+    },
+    {
+      "label": "Electronics",
+      "href": "https://ansys.synopsys.com/products/electronics"
+    },
+    {
+      "label": "Ansys HFSS",
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss"
+    },
+    {
+      "label": "Ansys Motor-CAD",
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad"
+    },
+    {
+      "label": "Ansys Icepak",
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+    },
+    {
+      "label": "Fluids",
+      "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+      "label": "Ansys Fluent",
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+    },
+    {
+      "label": "Ansys CFX",
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx"
+    },
+    {
+      "label": "Ansys Rocky",
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky"
+    },
+    {
+      "label": "Optics",
+      "href": "https://ansys.synopsys.com/products/optics"
+    },
+    {
+      "label": "Ansys Speos",
+      "href": "https://ansys.synopsys.com/products/optics/ansys-speos"
+    },
+    {
+      "label": "Ansys Zemax OpticStudio",
+      "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio"
+    },
+    {
+      "label": "Ansys Lumerical FTDT",
+      "href": "https://ansys.synopsys.com/products/optics/fdtd"
+    },
+    {
+      "label": "Structures",
+      "href": "https://ansys.synopsys.com/products/structures"
+    },
+    {
+      "label": "Ansys Mechanical",
+      "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical"
+    },
+    {
+      "label": "Ansys LS-DYNA",
+      "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna"
+    },
+    {
+      "label": "Ansys Sherlock",
+      "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock"
+    },
+    {
+      "label": "All Ansys Products",
+      "href": "https://ansys.synopsys.com/products"
+    },
+    {
+      "label": "Free Trials",
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+      "label": "Ansys Software Release R1",
+      "href": "https://ansys.synopsys.com/products/release-highlights"
+    },
+    {
+      "label": "Products for Students",
+      "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+      "label": "Learn Learn",
+      "href": null
+    },
+    {
+      "label": "Resource Center",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+      "label": "Case Studies",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+    },
+    {
+      "label": "Demos",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+    },
+    {
+      "label": "Videos",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+    },
+    {
+      "label": "On-Demand Webinars",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+    },
+    {
+      "label": "White Papers",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+    },
+    {
+      "label": "Simulation Topics",
+      "href": "https://ansys.synopsys.com/simulation-topics"
+    },
+    {
+      "label": "Ansys Training Center",
+      "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+      "label": "Training for You",
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+    },
+    {
+      "label": "Training for Your Team",
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+    },
+    {
+      "label": "Training for Your Corporation",
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+    },
+    {
+      "label": "Find a Training Course",
+      "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+      "label": "Ansys Learning Hub",
+      "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+    },
+    {
+      "label": "Browse Courses",
+      "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+      "label": "Student & Academic",
+      "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+      "label": "Students",
+      "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+      "label": "Educators",
+      "href": "https://ansys.synopsys.com/academic/educators"
+    },
+    {
+      "label": "Researchers",
+      "href": "https://ansys.synopsys.com/academic/researchers"
+    },
+    {
+      "label": "Learning Resources",
+      "href": "https://ansys.synopsys.com/academic/learning-resources"
+    },
+    {
+      "label": "Learning Forum",
+      "href": "https://innovationspace.ansys.com/forum"
+    },
+    {
+      "label": "Innovation Courses",
+      "href": "https://innovationspace.ansys.com/courses"
+    },
+    {
+      "label": "Events & Webinars",
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+      "label": "SIM World 2025",
+      "href": "https://ansys.synopsys.com/events/simulation-world"
+    },
+    {
+      "label": "Upcoming Events",
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+      "label": "Past Webinars",
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar"
+    },
+    {
+      "label": "Access Free Student Software",
+      "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+      "label": "About About",
+      "href": null
+    },
+    {
+      "label": "Company Information",
+      "href": "https://ansys.synopsys.com/company-information"
+    },
+    {
+      "label": "Ansys Story",
+      "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+    },
+    {
+      "label": "Success Stories",
+      "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+    },
+    {
+      "label": "Leadership",
+      "href": "https://ansys.synopsys.com/company-information/leadership"
+    },
+    {
+      "label": "Sustainability",
+      "href": "https://ansys.synopsys.com/company-information/sustainability"
+    },
+    {
+      "label": "Contacts & Locations",
+      "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+      "label": "Corporate Responsibility",
+      "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+    },
+    {
+      "label": "Quality Assurance",
+      "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+      "label": "Partner Ecosystem",
+      "href": "https://ansys.synopsys.com/partner-ecosystem"
+    },
+    {
+      "label": "Find a Partner",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+    },
+    {
+      "label": "Become an Ansys Partner",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+    },
+    {
+      "label": "Technology Partners",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+    },
+    {
+      "label": "Channel Partners",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners"
+    },
+    {
+      "label": "Services Partners",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners"
+    },
+    {
+      "label": "Strategic Partners",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners"
+    },
+    {
+      "label": "Academic Partners",
+      "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners"
+    },
+    {
+      "label": "Startup Program",
+      "href": "https://ansys.synopsys.com/startup-program"
+    },
+    {
+      "label": "News Center",
+      "href": "https://ansys.synopsys.com/news-center"
+    },
+    {
+      "label": "Press Releases",
+      "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy"
+    },
+    {
+      "label": "Advantage Magazine",
+      "href": "https://ansys.synopsys.com/advantage-magazine"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+      "label": "Careers",
+      "href": "https://ansys.synopsys.com/careers"
+    },
+    {
+      "label": "Life at Ansys",
+      "href": "https://ansys.synopsys.com/careers/life-at-ansys"
+    },
+    {
+      "label": "University Programs",
+      "href": "https://ansys.synopsys.com/careers/university-programs"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://ansys.synopsys.com/products",
+    "https://ansys.synopsys.com/products/fluids",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/en-gb/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/en-in/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/fr-fr/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/de-de/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/it-it/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/ja-jp/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/ko-kr/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/zh-tw/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/zh-cn/products/fluids/ansys-fluent/capabilities",
+    "https://ansys.synopsys.com/products/3d-design",
+    "https://ansys.synopsys.com/products/3d-design/ansys-discovery",
+    "https://ansys.synopsys.com/products/electronics",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-motor-cad",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://ansys.synopsys.com/products/fluids/ansys-cfx",
+    "https://ansys.synopsys.com/products/fluids/ansys-rocky",
+    "https://ansys.synopsys.com/products/optics",
+    "https://ansys.synopsys.com/products/optics/ansys-speos",
+    "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio",
+    "https://ansys.synopsys.com/products/optics/fdtd",
+    "https://ansys.synopsys.com/products/structures",
+    "https://ansys.synopsys.com/products/structures/ansys-mechanical",
+    "https://ansys.synopsys.com/products/structures/ansys-ls-dyna",
+    "https://ansys.synopsys.com/products/structures/ansys-sherlock",
+    "https://ansys.synopsys.com/products/acoustics-analysis",
+    "https://ansys.synopsys.com/products/additive",
+    "https://ansys.synopsys.com/products/ai",
+    "https://ansys.synopsys.com/products/av-simulation",
+    "https://ansys.synopsys.com/products/cloud",
+    "https://ansys.synopsys.com/products/connect",
+    "https://ansys.synopsys.com/products/missions",
+    "https://ansys.synopsys.com/products/digital-twin",
+    "https://ansys.synopsys.com/products/embedded-software",
+    "https://ansys.synopsys.com/products/materials",
+    "https://ansys.synopsys.com/products/safety-analysis",
+    "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+    "https://ansys.synopsys.com/academic",
+    "https://ansys.synopsys.com/academic/students",
+    "https://ansys.synopsys.com/academic/educators",
+    "https://ansys.synopsys.com/academic/researchers",
+    "https://ansys.synopsys.com/academic/learning-resources",
+    "https://innovationspace.ansys.com/forum/",
+    "https://innovationspace.ansys.com/courses/",
+    "https://ansys.synopsys.com/technology-trends",
+    "https://ansys.synopsys.com/technology-trends/5g",
+    "https://ansys.synopsys.com/technology-trends/artificial-intelligence",
+    "https://ansys.synopsys.com/technology-trends/autonomous-engineering",
+    "https://ansys.synopsys.com/technology-trends/cloud",
+    "https://ansys.synopsys.com/technology-trends/digital-engineering",
+    "https://ansys.synopsys.com/technology-trends/electrification",
+    "https://ansys.synopsys.com/technology-trends/iiot",
+    "https://ansys.synopsys.com/applications",
+    "https://ansys.synopsys.com/applications/antenna-design-and-placement",
+    "https://ansys.synopsys.com/applications/autonomous-sensor-development",
+    "https://ansys.synopsys.com/applications/avionics-and-flight-controls",
+    "https://ansys.synopsys.com/applications/battery",
+    "https://ansys.synopsys.com/applications/data-centers",
+    "https://ansys.synopsys.com/applications/electric-motors",
+    "https://ansys.synopsys.com/applications/electronics-reliability",
+    "https://ansys.synopsys.com/applications/electrothermal-systems-engineering",
+    "https://ansys.synopsys.com/applications/emi-emc",
+    "https://ansys.synopsys.com/applications/gas-turbines",
+    "https://ansys.synopsys.com/applications/power-electronics",
+    "https://ansys.synopsys.com/applications/rotating-machinery",
+    "https://ansys.synopsys.com/applications/topology-optimization",
+    "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software",
+    "https://ansys.synopsys.com/applications/wind-turbine-design",
+    "https://ansys.synopsys.com/industries",
+    "https://ansys.synopsys.com/industries/aerospace",
+    "https://ansys.synopsys.com/industries/automotive",
+    "https://ansys.synopsys.com/industries/defense",
+    "https://ansys.synopsys.com/industries/energy",
+    "https://ansys.synopsys.com/industries/healthcare",
+    "https://ansys.synopsys.com/industries/high-tech",
+    "https://ansys.synopsys.com/industries/industrial-equipment",
+    "https://ansys.synopsys.com/industries/space",
+    "https://ansys.synopsys.com/support",
+    "https://ansys.synopsys.com/it-solutions",
+    "https://ansys.synopsys.com/company-information/quality-assurance",
+    "https://ansys.synopsys.com/services/ansys-learning-hub",
+    "https://ansys.synopsys.com/training-center",
+    "https://ansys.synopsys.com/services",
+    "https://ansys.synopsys.com/services/consulting",
+    "https://ansys.synopsys.com/services/reliability-engineering-services",
+    "https://ansys.synopsys.com/services/automation-customization",
+    "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries",
+    "https://developer.synopsys.com/",
+    "https://developer.synopsys.com/docs",
+    "https://developer.synopsys.com/knowledge-base",
+    "https://developer.synopsys.com/app-catalog/catalog",
+    "https://ansys.synopsys.com/products/release-highlights",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy",
+    "https://ansys.synopsys.com/blog#tab=BlogsTab",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper",
+    "https://ansys.synopsys.com/simulation-topics",
+    "https://ansys.synopsys.com/training-center/course-catalog/training-for-you",
+    "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team",
+    "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation",
+    "https://learninghub.ansys.com/learn",
+    "https://innovationspace.ansys.com/forum",
+    "https://innovationspace.ansys.com/courses",
+    "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar",
+    "https://ansys.synopsys.com/company-information",
+    "https://ansys.synopsys.com/company-information/the-ansys-story",
+    "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab",
+    "https://ansys.synopsys.com/company-information/leadership",
+    "https://ansys.synopsys.com/company-information/sustainability",
+    "https://ansys.synopsys.com/contact-us",
+    "https://ansys.synopsys.com/company-information/corporate-responsibility",
+    "https://ansys.synopsys.com/partner-ecosystem",
+    "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab",
+    "https://ansys.synopsys.com/partner-ecosystem/become-a-partner",
+    "https://ansys.synopsys.com/partner-ecosystem/technology-partners",
+    "https://ansys.synopsys.com/partner-ecosystem/channel-partners",
+    "https://ansys.synopsys.com/partner-ecosystem/services-partners",
+    "https://ansys.synopsys.com/partner-ecosystem/strategic-partners",
+    "https://ansys.synopsys.com/partner-ecosystem/academic-partners",
+    "https://ansys.synopsys.com/startup-program",
+    "https://ansys.synopsys.com/news-center",
+    "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy",
+    "https://ansys.synopsys.com/advantage-magazine",
+    "https://ansys.synopsys.com/careers",
+    "https://ansys.synopsys.com/careers/life-at-ansys",
+    "https://ansys.synopsys.com/careers/university-programs",
+    "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys",
+    "https://careers.synopsys.com/",
+    "https://innovation.ansys.com/customer-center",
+    "https://partner.ansys.com/",
+    "tel:+18444626797",
+    "https://ansysaccount.b2clogin.com/ansysaccount.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_ANSYSID_SIGNUP_SIGNIN&client_id=b7f08794-f038-4c33-ae5a-5b589c912f36&redirect_uri=https://ansys.synopsys.com/content/ansysincprogram/en-us/home.ssologin.json&scope=openid&response_type=code%20id_token&response_mode=query&state=OpenIdConnect.AuthenticationProperties%3DZrhsk_kNHv8ptM5lY_fBHd1uIAs1d8CzZNpALhjxg6qOBx85yPJVjt0ysM6zfCdPdTpuzUeBXa2ItkPU6oXIkNVRzMqtTZgBiaqZrBQUi4vFSaI9U-FO-1adCX8wWOjJUNv8QZLEfZGG7yBov797MjQ_uSMyBvinimi8T5UtAqVzLBLU_x5D7Ez4vr6kMgJB&nonce=637646961893973035.OGRhOThjNzAtNDExYi00MmY3LThkNzEtYzNlZjdjMzg3MDA4YmNhODg4Y2YtY2E2Zi00YWVkLWI5MTctMmUxNGU0ZTBlMmE2&x-client-SKU=ID_NET461&x-client-ver=5.3.0.0",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/advanced-physics-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/multiphysics-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/gpu-acceleration-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/automation-optimization-gallery",
+    "https://ansys.synopsys.com/content/dam/content/Brochures/ansys-fluent-brochure25.pdf",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/web-interface",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/gas-turbines-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/mixing-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/heat-exchangers-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/wind-turbines-gallery",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#/battery-simulation-gallery",
+    "https://ansys.synopsys.com/email-opt-in",
+    "https://www.youtube.com/user/ansysinc",
+    "https://www.facebook.com/ansys",
+    "https://x.com/ansys",
+    "https://www.linkedin.com/company/ansys-inc",
+    "https://www.instagram.com/ansys_inc/",
+    "https://ansys.synopsys.com/it-solutions/platform-support",
+    "https://ansys.synopsys.com/it-solutions/licensing",
+    "https://ansys.synopsys.com/resource-center",
+    "https://ansys.synopsys.com/events",
+    "https://investors.ansys.com/",
+    "https://ansys.synopsys.com/legal/legal-notices",
+    "https://ansys.synopsys.com/legal/privacy-notice",
+    "https://ansys.synopsys.com/legal/cookie-policy",
+    "https://ansys.synopsys.com/legal/export-control-compliance",
+    "https://ansys.synopsys.com/legal/terms-and-conditions",
+    "https://ansys.synopsys.com/legal/report-piracy",
+    "https://ansys.synopsys.com/site-map#",
+    "https://ansys.synopsys.com/accessibility-conformance-reports",
+    "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities#",
+    "https://www.ansys.com/legal/privacy-notice"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:4a57a806-9187-434a-bb75-f1f08b7d8970/as/fluent-capabilities-component-topic-gallery-physics-models.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Zoomed-in image of an aerospace engineer designing a supersonic aircraft wing, computational fluid dynamics simulation on screen",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:ce6d03a8-40c6-432c-b233-d4da44569a15/as/fluent-capabilities-component-topic-gallery-multiphysics-integrations.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:e0e944db-9dd1-4630-8fec-2061b57530c0/as/fluent-capabilities-component-topic-gallery-gpu-acceleration.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:1fe62f57-51fb-4a92-a438-015387cd0289/as/fluent-capabilities-component-topic-gallery-automation-automation.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "A graphic representation of the hadron collider. AI generativ. ",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://play.vidyard.com/9jfFYuYygWfziQ3Gb1eV4B.jpg",
+        "alt": "",
+        "w": 398,
+        "h": 360
+      },
+      {
+        "src": "https://play.vidyard.com/thhpcYp54pbjg7pgkBzGD8.jpg",
+        "alt": "",
+        "w": 604,
+        "h": 360
+      },
+      {
+        "src": "https://play.vidyard.com/SYqYTjfKLV9PLECxgxY8M3.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://play.vidyard.com/aqz2BuAaaTChQMkdKLM9a3.jpg",
+        "alt": "",
+        "w": 606,
+        "h": 360
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:91d93d37-2c03-4d76-8001-2a26a18372d4/as/fluent-capabilities-component-section-media-with-content-ray-tracing.avif?smartcrop=3x2&width=756&quality=90&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 756,
+        "h": 504
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:4f1ddb08-762b-49e0-a5a0-9fd3b670b834/as/fluent-capabilities-component-section-media-with-content-ui-remote-access.avif?smartcrop=3x2&width=756&quality=90&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 756,
+        "h": 504
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:f299f2c6-469c-4602-a2ba-a782b98f9593/as/fluent-overview-component-topic-gallery-gas-turbines.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:883b61ee-1926-436f-ab3f-2b44d483d00b/as/fluent-overview-component-topic-gallery-mixing-v2.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:96ddf757-5a5d-485c-97c8-8d1f5dfbc658/as/fluent-capabilities-component-topic-gallery-heat-exchangers.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:5b2cca3b-88ce-4111-92ca-16dc3db6bf13/as/fluent-capabilities-component-topic-gallery-wind-turbines.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Wind turbine",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://delivery-p16153-e39454.adobeaemcloud.com/adobe/assets/urn:aaid:aem:2ba1cfa9-929b-4c69-a100-2cf91203884e/as/fluent-capabilities-component-topic-gallery-battery-simulation.webp?smartcrop=2x3&width=400&quality=100&fit=constrain&fallback=urn:aaid:aem:ecbebf58-9503-4b22-9127-c371b69c7f6a",
+        "alt": "Supporting image",
+        "w": 400,
+        "h": 600
+      },
+      {
+        "src": "https://play.vidyard.com/imwPW713ZTF3fKSDJrgVPF.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 717
+      },
+      {
+        "src": "https://play.vidyard.com/e7Td9zHEYciGVUJtUiuc7d.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      }
+    ],
+    "allImgCount": 17,
+    "cssBackgrounds": [],
+    "modals": [
+      "NOTICE: You are interacting with an AI-powered chatbot that provides general information about Ansys, including its products and services, which may be incorrect or incomplete. In the event of any conflict or discrepancy, the terms of your applicable agreements supersede any information provided by this chatbot. These chats may be accessed by Ansys and its service providers to customize the experience and improve this tool, and your use of this chatbot is an agreement to that data processing activity.",
+      "End Chat Closing this window clears your chat history and ends your session. Are you sure you want to end this chat? No Yes",
+      "Legal disclaimer NOTICE: You are interacting with an AI-powered chatbot that provides general information about Ansys, including its products and services, which may be incorrect or incomplete. In the event of any conflict or discrepancy, the terms of your applicable agreements supersede any information provided by this chatbot. These chats may be accessed by Ansys and its service providers to customize the experience and improve this tool, and your use of this chatbot is an agreement to that data processing activity. Close",
+      "Get My Free 30-Day Trial First Name *Error: This field is requiredLast Name *Error: This field is requiredCompany or School *Error: This field is requiredAre you a Student? *Please select an optionYesNoError: This field is requiredEmail *Error: This is not a valid email addressEmail *Error: This is not a valid email addressPhone *+1+20+211+212+213+216+218+220+221+222+223+224+225+226+227+228+229+230+231+232+233+234+235+236+237+238+239+240+241+242+243+244+245+246+248+249+250+251+252+253+254+255+256+257+258+260+261+262+263+264+265+266+267+268+269+27+290+291+297+298+299+30+31+32+33+34+350+351+352+353+354+355+356+357+358+359+36+370+371+372+373+374+375+376+377+378+380+381+382+385+386+387+389+39+40+41+420+421+423+43+44+45+46+47+48+49+500+501+502+503+504+505+506+507+508+509+51+52+53+54+55+56+57+58+590+591+592+593+594+595+596+597+598+599+60+61+62+63+64+65+66+670+672+673+674+675+676+677+678+679+680+681+682+683+685+686+687+688+689+690+691+692+7+81+82+84+850+852+853+855+856+86+880+886+90+91+92+93+94+95+960+961+962+963+964+965+966+967+968+970+971+972+973+974+975+976+977+98+992+993+994+995+996+998Error: This is not a valid phone numberCountry/Region *Error: This field is requiredState/Territory *Please select an optionAlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaPuerto RicoRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyomingError: This field is requiredCity *Error: This field is requiredPostal Code *Error: This field is requiredJob Level *Please select an optionC-levelConsultantDirectorEmployee (ANSYS)EngineerManagerPresidentProfessorStudentVice PresidentOtherError: This field is requiredBy providing your information, you agree to the processing of your personal data for the purposes of providing the activity and for related communications, including cross-border transfers (i.e., Synopsys is a global company) and inter-company and third-party sharing (including our subsidiaries, Ansys and AGI), as detailed in the Privacy Notice.Yes, I want to receive communications from Ansys, part of Synopsys, about products, services, and events. I may unsubscribe at any time. Error: This field is requiredcompanyLocation Error: This field is required"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://play.vidyard.com/9jfFYuYygWfziQ3Gb1eV4B/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      },
+      {
+        "src": "https://play.vidyard.com/thhpcYp54pbjg7pgkBzGD8/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      },
+      {
+        "src": "https://play.vidyard.com/SYqYTjfKLV9PLECxgxY8M3/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      },
+      {
+        "src": "https://play.vidyard.com/aqz2BuAaaTChQMkdKLM9a3/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      },
+      {
+        "src": "https://play.vidyard.com/imwPW713ZTF3fKSDJrgVPF/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      },
+      {
+        "src": "https://play.vidyard.com/e7Td9zHEYciGVUJtUiuc7d/type/background?disable_popouts=1&autoplay=1&v=4.3.26&type=inline&muted=1&loop=1&hidden_controls=1&disable_ctas=1&viral_sharing=0&embed_button=0",
+        "title": "Vidyard video player"
+      }
+    ]
+  },
+  "customProps": {
+    "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--spacing": ".25rem",
+    "--text-xs": ".75rem",
+    "--text-xs--line-height": "calc(1/.75)",
+    "--text-sm": ".875rem",
+    "--text-sm--line-height": "calc(1.25/.875)",
+    "--text-lg": "1.125rem",
+    "--text-lg--line-height": "calc(1.75/1.125)",
+    "--text-xl": "1.25rem",
+    "--text-xl--line-height": "calc(1.75/1.25)",
+    "--text-2xl": "1.5rem",
+    "--text-2xl--line-height": "calc(2/1.5)",
+    "--text-3xl": "1.875rem",
+    "--text-3xl--line-height": "1.2",
+    "--text-4xl": "2.25rem",
+    "--text-4xl--line-height": "calc(2.5/2.25)",
+    "--text-5xl": "3rem",
+    "--text-5xl--line-height": "1",
+    "--text-6xl": "3.75rem",
+    "--text-6xl--line-height": "1",
+    "--text-7xl": "4.5rem",
+    "--text-7xl--line-height": "1",
+    "--text-8xl": "6rem",
+    "--text-8xl--line-height": "1",
+    "--font-weight-normal": "400",
+    "--font-weight-medium": "500",
+    "--font-weight-semibold": "600",
+    "--font-weight-bold": "700",
+    "--font-weight-extrabold": "800",
+    "--font-weight-black": "900",
+    "--tracking-tight": "-.025em",
+    "--tracking-wide": ".025em",
+    "--tracking-wider": ".05em",
+    "--leading-tight": "1.25",
+    "--leading-snug": "1.375",
+    "--leading-relaxed": "1.625",
+    "--radius-sm": ".25rem",
+    "--radius-md": ".375rem",
+    "--radius-lg": ".5rem",
+    "--radius-xl": ".75rem",
+    "--radius-2xl": "1rem",
+    "--radius-3xl": "1.5rem",
+    "--radius-4xl": "2rem",
+    "--ease-out": "cubic-bezier(0,0,.2,1)",
+    "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+    "--default-transition-duration": ".15s",
+    "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+    "--default-mono-font-family": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--font-body": "\"Source Sans 3\",ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--font-heading": "\"Montserrat\",ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--border-radius-box": "1.5rem",
+    "--border-radius-button": "999rem",
+    "--color-tungsten-50": "#fcfcfc",
+    "--color-tungsten-100": "#ebebeb",
+    "--color-tungsten-200": "#c1c2c1",
+    "--color-tungsten-300": "#a3a5a3",
+    "--color-tungsten-400": "#797c79",
+    "--color-tungsten-500": "#5f625f",
+    "--color-tungsten-600": "#373b37",
+    "--color-tungsten-700": "#323632",
+    "--color-tungsten-800": "#272a27",
+    "--color-tungsten-900": "#1e201e",
+    "--color-tungsten-950": "#171917",
+    "--color-gold-50": "#fff9ea",
+    "--color-gold-100": "#fff1d3",
+    "--color-gold-200": "#fdde9c",
+    "--color-gold-300": "#fdd78a",
+    "--color-gold-400": "#fdcf73",
+    "--color-gold-500": "#fdb71a",
+    "--color-gold-600": "#d69b2c",
+    "--color-gold-700": "#b88525",
+    "--color-gold-800": "#594010",
+    "--color-gold-900": "#3f2e0b",
+    "--color-gold-950": "#1c1404",
+    "--color-blue-50": "#f0f8ff",
+    "--color-blue-100": "#e0f0fe",
+    "--color-blue-200": "#bad3f3",
+    "--color-blue-300": "#9abded",
+    "--color-blue-400": "#6b9fe6",
+    "--color-blue-500": "#4f8ce0",
+    "--color-blue-600": "#2570d9",
+    "--color-blue-700": "#2166c5",
+    "--color-blue-800": "#1a4f9a",
+    "--color-blue-900": "#143e77",
+    "--color-blue-950": "#0f2f5b",
+    "--color-brand-bronze": "#c7932c",
+    "--color-brand-gold": "#fdb71a",
+    "--color-brand-silver": "#d9d8d6",
+    "--color-brand-steel": "#898a8d",
+    "--color-brand-tungsten": "#373b37",
+    "--color-primary": "#fdb71a",
+    "--color-primary-content": "black",
+    "--color-primary-hover": "color-mix(in oklch,#fdb71a,black 15%)",
+    "--color-primary-hover-content": "color-mix(in oklch,black,black 15%)",
+    "--color-error": "#e02227",
+    "--color-error-content": "white",
+    "--color-success": "#0a5d3c",
+    "--color-success-content": "white",
+    "--color-action-link-content": "#9abded",
+    "--modal-vh": "9px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 36,
+    "mainTextLen": 18983,
+    "realImageCount": 17,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fcb0a-3dc6-7e13-b07b-7b16394f3285.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/events/{n}/get/live/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.gatedcontent.com/components/events/56074102/get/live/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fd83b-490c-7d45-9028-4886629ec68b/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "app.gatedcontent.com",
+        "path": "/tools/geoip",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.gatedcontent.com/tools/geoip",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/gate_translation_groups/{n}/{uuid}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 5,
+        "example": "https://app.gatedcontent.com/gate_translation_groups/56074102/48c92dc6-414d-4ee3-b690-7628be6aa765",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/bLayout-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fd83b-490c-7d45-9028-4886629ec68b/bLayout-en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202607.1.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 15000,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202607.1.0/assets/v2/otPcTab.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202607.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ansys.synopsys.com",
+        "path": "/content/ansysincprogram/en-us/home/search.coveotoken.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 373,
+        "hits": 1,
+        "example": "https://ansys.synopsys.com/content/ansysincprogram/en-us/home/search.coveotoken.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "ansys.synopsys.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ansys.synopsys.com/cdn-cgi/rum",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/gates/{n}/{uuid}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.gatedcontent.com/gates/56074102/ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/translations/{n}/get/live/en",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.gatedcontent.com/components/translations/56074102/get/live/en",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/form_types/{n}/get/live/FreeTrialStandardMKTOProductionAnsys",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://app.gatedcontent.com/components/form_types/56074102/get/live/FreeTrialStandardMKTOProductionAnsys",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "smetrics.synopsys.com",
+        "path": "/ee/or2/v1/privacy/set-consent",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://smetrics.synopsys.com/ee/or2/v1/privacy/set-consent",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/e7Td9zHEYciGVUJtUiuc7d.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1174,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/e7Td9zHEYciGVUJtUiuc7d.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/imwPW713ZTF3fKSDJrgVPF.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1172,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/imwPW713ZTF3fKSDJrgVPF.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/9jfFYuYygWfziQ3Gb1eV4B.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1721,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/9jfFYuYygWfziQ3Gb1eV4B.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/thhpcYp54pbjg7pgkBzGD8.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1722,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/thhpcYp54pbjg7pgkBzGD8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/SYqYTjfKLV9PLECxgxY8M3.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1452,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/SYqYTjfKLV9PLECxgxY8M3.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/aqz2BuAaaTChQMkdKLM9a3.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1724,
+        "hits": 1,
+        "example": "https://play.vidyard.com/background/aqz2BuAaaTChQMkdKLM9a3.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insights.gatedcontent.com",
+        "path": "/log_entry",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insights.gatedcontent.com/log_entry",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.vidyard.com",
+        "count": 18
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 17
+      },
+      {
+        "host": "challenges.cloudflare.com",
+        "count": 2
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "app.gatedcontent.com",
+        "count": 2
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "count": 1
+      },
+      {
+        "host": "universal-editor-service.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "play.vidyard.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "gcdc-modal-linked",
+        "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+      },
+      {
+        "marker": "gcdc-modal-linked",
+        "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "gcdc-modal-linked",
+        "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+      },
+      {
+        "marker": "gcdc-modal-linked",
+        "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "gcdc-modal-linked",
+        "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "bc-dialog-button",
+        "href": null
+      },
+      {
+        "marker": "bc-dialog-button",
+        "href": null
+      },
+      {
+        "marker": "bc-dialog-button",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 20,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/products-fluids-ansys-fluent-capabilities.png",
+  "renderedHtml": "pages/products-fluids-ansys-fluent-capabilities.html"
+}

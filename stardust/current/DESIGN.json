@@ -1,0 +1,531 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-03T00:30:00Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/ansys.css"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.36.0"
+  },
+  "name": "Ansys Fluent (ansys.synopsys.com)",
+  "colors": {
+    "tungsten-950": "#171917",
+    "tungsten-900": "#1e201e",
+    "tungsten-800": "#272a27",
+    "tungsten-600": "#373b37",
+    "tungsten-200": "#c1c2c1",
+    "tungsten-100": "#ebebeb",
+    "tungsten-50": "#fcfcfc",
+    "gold-500": "#fdb71a",
+    "gold-400": "#fdcf73",
+    "blue-700": "#2166c5",
+    "blue-300": "#9abded",
+    "white": "#ffffff",
+    "black": "#000000"
+  },
+  "typography": {
+    "headingFamily": "Montserrat",
+    "bodyFamily": "Source Sans 3",
+    "h1": {
+      "fontSize": "48px",
+      "fontWeight": 800
+    },
+    "h2": {
+      "fontSize": "48px",
+      "fontWeight": 800
+    }
+  },
+  "rounded": {
+    "sm": "4px",
+    "box": "24px",
+    "pill": "999rem"
+  },
+  "spacing": {
+    "unit": "4px"
+  },
+  "extensions": {
+    "componentStyle": {
+      "button": "pill, 2px border, 12px/20px padding, 16px semibold, gold-500 primary"
+    },
+    "motifs": {
+      "radius": "24px boxes, pill buttons",
+      "themes": "dark default, light scopes"
+    },
+    "voice": {
+      "heroHeadline": "Engineering the Future with Precision and Power",
+      "ctas": [
+        "Try Fluent Today",
+        "Free Trials"
+      ]
+    },
+    "modules": [
+      {
+        "id": "candidate-product-hero",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "products-fluids-ansys-fluent",
+            "selector": "main > section:first-child"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-capabilities",
+            "selector": "main > section:first-child"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-resources",
+            "selector": "main > section:first-child"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-product-updates",
+            "selector": "main > section:first-child"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-product-subnav",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "products-fluids-ansys-fluent",
+            "selector": "sticky Fluent sub-nav (Overview/Capabilities/Resources/Product Updates)"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-capabilities",
+            "selector": "sticky Fluent sub-nav (Overview/Capabilities/Resources/Product Updates)"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-resources",
+            "selector": "sticky Fluent sub-nav (Overview/Capabilities/Resources/Product Updates)"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-product-updates",
+            "selector": "sticky Fluent sub-nav (Overview/Capabilities/Resources/Product Updates)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-image-card-carousel",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "products-fluids-ansys-fluent",
+            "selector": "card carousel with arrows"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-capabilities",
+            "selector": "card carousel with arrows"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-product-updates",
+            "selector": "card carousel with arrows"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cta-banner",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "products-fluids-ansys-fluent-capabilities",
+            "selector": "Download the brochure strip"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-resource-cards",
+        "slots": [],
+        "instances": [
+          {
+            "slug": "products-fluids-ansys-fluent-resources",
+            "selector": "gold resource cards (Other Resources)"
+          },
+          {
+            "slug": "products-fluids-ansys-fluent-product-updates",
+            "selector": "gold resource cards (Other Resources)"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1660px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 2020,
+          "via": "max-width",
+          "selector": "section.relative > div.py-8 > div.px-6.py-12 > div.mx-auto.max-w-13xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "section.relative > div.py-8 > div.py-8 > div.mx-auto.max-w-12xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1660,
+          "via": "max-width",
+          "selector": "section.relative > div.py-8 > div.px-6.py-12 > div.mx-auto.max-w-11xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1280,
+          "via": "max-width",
+          "selector": "section.relative > div > div.px-6.py-16 > div.mx-auto.max-w-7xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1024,
+          "via": "max-width",
+          "selector": "div.flex.flex-col > div.px-6.py-12 > div.mx-auto.max-w-11xl > div.flex.max-w-4xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 896,
+          "via": "max-width",
+          "selector": "div.py-8 > div.px-6.py-8 > div.mx-auto.max-w-11xl > div.flex.max-w-4xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 836,
+          "via": "other",
+          "selector": "div > div.group > div.pointer-events-none.max-h-0 > div.pt-6.pr-12",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 768,
+          "via": "max-width",
+          "selector": "div.max-w-4xl > ul.flex.flex-col > li > div.flex.max-w-3xl",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 598,
+          "via": "fixed",
+          "selector": "div.px-6.py-8 > div.mx-auto.max-w-7xl > div.flex.flex-col > div.mx-auto.flex",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 512,
+          "via": "fixed",
+          "selector": "div.px-6.py-8 > div.mx-auto.max-w-11xl > div.relative.grid > div",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 434,
+          "via": "fixed",
+          "selector": "div.pt-6.pr-12 > div.prose > p > a",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 400,
+          "via": "fixed",
+          "selector": "div.mx-auto.max-w-12xl > div.relative.flex > div.scrollbar-hide.flex > a.cursor-pointer.items-center",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 345,
+          "via": "fixed",
+          "selector": "div.pt-6.pr-12 > div.prose > p > a",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 288,
+          "via": "fixed",
+          "selector": "div.relative.overflow-hidden > div.flex.flex-col > div.flex.w-fit > div.flex.h-8",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 264,
+          "via": "fixed",
+          "selector": "article.flex.flex-col-reverse > div.flex.w-full > div.flex.flex-col > a.cursor-pointer.items-center",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 243,
+          "via": "fixed",
+          "selector": "div.mx-auto.max-w-11xl > div.flex.flex-col > a.cursor-pointer.items-center > span.flex.items-center",
+          "pages": [
+            "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 0,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 1,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1280
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 2,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 3,
+          "selector": "body.h-full > main > section.relative",
+          "px": 2020
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 4,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 5,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1280
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "section": 6,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 0,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 1,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 2,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 3,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1920
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 4,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1280
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 5,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 6,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1920
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 7,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "section": 8,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 0,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 1,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 2,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 3,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 4,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 5,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 6,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1280
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "section": 7,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 0,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 1,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 2,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 3,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 4,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1660
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 5,
+          "selector": "body.h-full > main > section.relative",
+          "px": 1280
+        },
+        {
+          "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+          "section": 6,
+          "selector": "body.h-full > main > section.relative",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1280 (https://ansys.synopsys.com/products/fluids/ansys-fluent), 1660 (https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities), 1660 (https://ansys.synopsys.com/products/fluids/ansys-fluent/resources), 1660 (https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates) — decide per template in the inconsistency register",
+        "module cap 2020px on a single section (section.relative > div.py-8 > div.px-6.py-12 > div.mx-auto.max-w-13xl, https://ansys.synopsys.com/products/fluids/ansys-fluent) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-03T00:22:15.952Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+          "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+          "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+          "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+        ]
+      }
+    }
+  }
+}

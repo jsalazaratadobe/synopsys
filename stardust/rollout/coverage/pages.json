@@ -1,0 +1,232 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T04:36:21.818Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T20:09:36.381Z",
+  "pages": [
+    {
+      "slug": "products-fluids-ansys-fluent",
+      "path": "/products/fluids/ansys-fluent",
+      "title": "Ansys Fluent | Fluid Simulation Software",
+      "templateId": "products-fluids-ansys-fluent",
+      "source": {
+        "migratedHtml": "stardust/migrated/products/fluids/ansys-fluent/index.html",
+        "metaJson": "stardust/migrated/products/fluids/ansys-fluent/_meta.json",
+        "sourceHash": "sha256:4f99ba140dcc02e7ea4c342832aef8cf9b6486c44f6a8bf1cc6704a7a56784d1",
+        "sourceUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+      },
+      "blocks": [
+        "hero",
+        "product-subnav",
+        "video-feature",
+        "icon-cards",
+        "logo-marquee",
+        "tile-rail",
+        "case-carousel",
+        "capabilities-list",
+        "split",
+        "faq",
+        "cta-band",
+        "header",
+        "footer"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0f0b9fb5--aemcoder.aem.live/products/fluids/ansys-fluent",
+        "deployedAt": "2026-11-03T06:33:36.211Z",
+        "verifiedAt": "2026-11-03T20:09:36.381Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 8,
+            "missingButtons": 7,
+            "hiddenButtons": 0,
+            "findings": 29,
+            "variable": [
+              "main > section:has(header[data-component=MainNav])",
+              "main > section:has(footer[data-component=Footer])",
+              "main > div:has(#brandConcierge)"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T19:23:32.243Z"
+        }
+      }
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "path": "/products/fluids/ansys-fluent/capabilities",
+      "title": "Ansys Fluent Capabilities | Ansys",
+      "templateId": "products-fluids-ansys-fluent-capabilities",
+      "source": {
+        "migratedHtml": "stardust/migrated/products/fluids/ansys-fluent/capabilities/index.html",
+        "metaJson": "stardust/migrated/products/fluids/ansys-fluent/capabilities/_meta.json",
+        "sourceHash": "sha256:4af528eb3f9a0e4fbdd154c718b11cf0adf209a00f9e4f203436093892908ffb",
+        "sourceUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities"
+      },
+      "blocks": [
+        "hero",
+        "product-subnav",
+        "tile-rail",
+        "cta-band",
+        "split",
+        "header",
+        "footer"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0f0b9fb5--aemcoder.aem.live/products/fluids/ansys-fluent/capabilities",
+        "deployedAt": "2026-11-03T07:18:53.633Z",
+        "verifiedAt": "2026-11-03T20:09:36.381Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.13,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              "main > section:has(header[data-component=MainNav])",
+              "main > section:has(footer[data-component=Footer])",
+              "main > div:has(#brandConcierge)"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T19:23:32.243Z"
+        }
+      }
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "path": "/products/fluids/ansys-fluent/product-updates",
+      "title": "Ansys Fluent Updates | Fluent 2026 R1",
+      "templateId": "products-fluids-ansys-fluent-product-updates",
+      "source": {
+        "migratedHtml": "stardust/migrated/products/fluids/ansys-fluent/product-updates/index.html",
+        "metaJson": "stardust/migrated/products/fluids/ansys-fluent/product-updates/_meta.json",
+        "sourceHash": "sha256:00b80a7cfd27c3593a83c214141d3317d06ae8ed97ff3216f0d66bad5b2d0a85",
+        "sourceUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates"
+      },
+      "blocks": [
+        "hero",
+        "product-subnav",
+        "split",
+        "release-notes",
+        "link-cards",
+        "resource-cards",
+        "cta-band",
+        "header",
+        "footer"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0f0b9fb5--aemcoder.aem.live/products/fluids/ansys-fluent/product-updates",
+        "deployedAt": "2026-11-03T19:23:32.106Z",
+        "verifiedAt": "2026-11-03T20:09:36.381Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.3,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              "main > section:has(header[data-component=MainNav])",
+              "main > section:has(footer[data-component=Footer])",
+              "main > div:has(#brandConcierge)"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T19:23:32.243Z"
+        }
+      }
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "path": "/products/fluids/ansys-fluent/resources",
+      "title": "Ansys Fluent Resources | Webinars, Tutorials &amp; Documentation",
+      "templateId": "products-fluids-ansys-fluent-resources",
+      "source": {
+        "migratedHtml": "stardust/migrated/products/fluids/ansys-fluent/resources/index.html",
+        "metaJson": "stardust/migrated/products/fluids/ansys-fluent/resources/_meta.json",
+        "sourceHash": "sha256:9151854fc8c01c82aca335ec8eb39aa8acf5e954d78fcf40585e315e6d850721",
+        "sourceUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources"
+      },
+      "blocks": [
+        "hero",
+        "product-subnav",
+        "video-tabs",
+        "resource-cards",
+        "link-cards",
+        "split",
+        "cta-band",
+        "header",
+        "footer"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0f0b9fb5--aemcoder.aem.live/products/fluids/ansys-fluent/resources",
+        "deployedAt": "2026-11-03T19:23:32.032Z",
+        "verifiedAt": "2026-11-03T20:09:36.381Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.76,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": [
+              "main > section:has(header[data-component=MainNav])",
+              "main > section:has(footer[data-component=Footer])",
+              "main > div:has(#brandConcierge)"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T19:23:32.243Z"
+        }
+      }
+    }
+  ]
+}

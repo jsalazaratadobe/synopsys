@@ -1,0 +1,46 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "article"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-03T04:27:09Z",
+      "endedAt": "2026-11-03T04:27:13Z",
+      "verdict": "plan: 4 Path A (approved archetypes), 0 Path A' siblings, 0 Path B; gated-archetype precondition met for all 4 types"
+    },
+    "render-archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "article"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-03T04:27:31Z",
+      "endedAt": "2026-11-03T04:27:42.398Z",
+      "verdict": "render-archetypes: rendered 4, refused 0 → stardust/migrated/ (out-of-scope nav/footer targets unresolved by design → E2 repoint)"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "article"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-03T04:27:52Z",
+      "endedAt": "2026-11-03T04:33:57.736Z",
+      "verdict": "report: 4/4 migrated (Path A archetype tier), gate evidence 4 gates each, prototype tables 1440 4/4 + 360 4/4 PASS"
+    }
+  }
+}

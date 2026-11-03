@@ -1,0 +1,550 @@
+{
+  "_provenance": {
+    "writtenBy": "replica recreate subagent (canon archetype products-fluids-ansys-fluent)",
+    "writtenAt": "2026-11-03T02:15:45.107294Z"
+  },
+  "types": {
+    "landing": {
+      "slug": "products-fluids-ansys-fluent",
+      "pageType": "landing",
+      "archetype": "products-fluids-ansys-fluent",
+      "liveUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+      "prototype": "stardust/prototypes/products-fluids-ansys-fluent-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/products-fluids-ansys-fluent.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "round": "iter4 --full",
+          "pixel": 3.93,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory)",
+          "visualDiff": "4 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (360 = viewport)",
+          "chromeCrop": {
+            "header": 0,
+            "footer": 0
+          },
+          "chromeParity": "quiet",
+          "units": "PASS",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-360/verdict-iter4.json"
+        },
+        "1440": {
+          "round": "iter4 --full",
+          "pixel": 3.86,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory)",
+          "visualDiff": "4 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (1440 = viewport)",
+          "chromeCrop": {
+            "header": 0,
+            "footer": 0
+          },
+          "chromeParity": "quiet",
+          "units": "PASS (fresh 1440 origin, units-iter4-fresh.txt)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-1440/verdict-iter4.json"
+        }
+      },
+      "cap": "PASS (cap-probe at 2560: 8/8 rows — content cap 1280 = 1280; modules full-bleed/1280/2020/1660 matched)",
+      "justified": [
+        {
+          "probe": "visual",
+          "flag": "SURFACE/GROUND MISMATCH ×3 'Countries & Regions' + ×1 'What is Fluent?'",
+          "why": "duplicate heading texts (hidden dropdown/drawer copies, desktop/mobile feature headers) paired by text; the vdiff metrics heading arrays are identical in order and colour on both sides"
+        },
+        {
+          "probe": "content",
+          "flag": "🟡 MISSING BODY / EXTRA 'Page render time (ms): N'",
+          "why": "server debug string in main > div.hidden; the number changes on every live load (263 / 140 / 277); the capture's value is authored"
+        }
+      ],
+      "residuals": [
+        {
+          "width": 1440,
+          "band": "y 0–1000",
+          "pct": [
+            46.2,
+            7.1
+          ],
+          "cause": "capture-state: hero Vidyard background player frame at capture time vs the poster jpg (stitch-shot cannot freeze a cross-origin iframe)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 1440,
+          "band": "y 7000–8500",
+          "pct": [
+            4.9,
+            6.3,
+            3.1
+          ],
+          "cause": "capture-state: resources/updates inline Vidyard background players — Vidyard background player frame at capture time vs the poster jpg (stitch-shot cannot freeze a cross-origin iframe)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 1440,
+          "band": "y 10000–10500",
+          "pct": 12.1,
+          "cause": "capture-state: CTA band Vidyard background — Vidyard background player frame at capture time vs the poster jpg (stitch-shot cannot freeze a cross-origin iframe)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 1440,
+          "band": "y 2500–3000",
+          "pct": 2.9,
+          "cause": "logo marquee CSS animation phase (40s/30s linear infinite) differs between captures",
+          "flaggedFor": "user"
+        },
+        {
+          "width": 360,
+          "band": "y 0–500",
+          "pct": 36.9,
+          "cause": "capture-state: hero video (iframe covers the 360×665 hero) — Vidyard background player frame at capture time vs the poster jpg (stitch-shot cannot freeze a cross-origin iframe)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 360,
+          "band": "y 6000–7500",
+          "pct": [
+            8.2,
+            11.6,
+            15.3
+          ],
+          "cause": "capture-state: split Vidyard posters vs live frames (live frame also framed tighter)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 360,
+          "band": "y 9000–10000",
+          "pct": [
+            5.1,
+            7.6
+          ],
+          "cause": "capture-state: CTA band video",
+          "flaggedFor": "delivery"
+        }
+      ],
+      "captureState": [
+        {
+          "what": "hero background video rendered as poster frame (Vidyard Yv473KZk1DmCPJJKZtqyqq.jpg, cover-fit to section)",
+          "where": "hero",
+          "restoreAtDelivery": "Vidyard background player Yv473KZk1DmCPJJKZtqyqq: autoplay muted loop, hidden controls, iframe fills the section (measured 1440×608 / 360×665), opacity .5 over black"
+        },
+        {
+          "what": "CTA band background video as poster (LggnF4sTjaeAGs87mCxi1N.jpg)",
+          "where": "ctaband",
+          "restoreAtDelivery": "Vidyard background player LggnF4sTjaeAGs87mCxi1N: autoplay muted loop, fills section (1440×660 / 360×580), opacity .5"
+        },
+        {
+          "what": "resources + product-updates media as posters (imwPW713ZTF3fKSDJrgVPF, e7Td9zHEYciGVUJtUiuc7d)",
+          "where": "split ×2",
+          "restoreAtDelivery": "Vidyard inline background players: autoplay muted loop, hidden controls, 16:9 (56.02% / 56.25%)"
+        },
+        {
+          "what": "'What is Fluent?' play buttons (href #/fluent-overview) inert",
+          "where": "feature",
+          "restoreAtDelivery": "opens the Vidyard lightbox / video modal (not observed by the static gate — dynamics item)"
+        },
+        {
+          "what": "Try Fluent Today CTAs (#gate-ffce5c21…) inert",
+          "where": "hero, sub-nav, CTA band",
+          "restoreAtDelivery": "gatedcontent.com (gcdc) gated form modal — dynamics item"
+        },
+        {
+          "what": "search dialog / Ask chat (brand concierge) not wired",
+          "where": "header, floating Ask",
+          "restoreAtDelivery": "Coveo search modal; Adobe brand-concierge chat dialog (#brandConcierge) — dynamics items"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/products-fluids-ansys-fluent.json — fired: sticky clones (is-sticky; fixed utility bar top 0 + fixed product sub-nav top 57px, ≥1280), rail/case arrow scroll + 'disabled' class, arrow visibility init, FAQ/mega-menu open state swap ('hidden' class), dot width 300ms, hovers: btn-primary bg+color 300ms, light btn-secondary 300ms, footer link-ansys-nav 200ms, tile translate 400ms + reveal 700ms, Ask sparkle keyframes",
+        "implemented": [
+          "sticky clones with is-sticky class toggle (js/canon.js + canon.css)",
+          "rail + case carousels: arrows/dots/edge fades, disabled class+attr, arrows invisible until enabled",
+          "FAQ accordion + mega-menu/dropdown click toggles with span-state swap, Escape closes, tabs",
+          "primary/secondary/nav-link hover colours (lifted)",
+          "tile hover translate + description/badge reveal (lifted durations)",
+          "Ask fab rotating border + sparkle on hover",
+          "search dialog + mobile drawer open via showModal"
+        ],
+        "dead": [
+          "header scroll-morph (header static, relative)",
+          "sub-nav link hover (no diff on live)",
+          "tile <a> self colour hover",
+          "Ask fab self hover"
+        ],
+        "compare": "build click run 22 parity / 4 missing; the 4 misses are a probe-order artifact (the probe's mega-menu click leaves the menu + full-viewport overlay open on the build, so later hovers hit the overlay — live overlay intercepts identically when open); hover-only build run motion/products-fluids-ansys-fluent-build-hovers.json gives parity on every hover line"
+      },
+      "headerContract": {
+        "tool": "chrome-compare --profile replica (stardust/chrome/header-contract.json vs stardust/chrome/header-build-products-fluids-ansys-fluent.json)",
+        "result": "41 🔴 / 36 🟡 — advisory, outside the static bar",
+        "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-1440/chrome-compare.json",
+        "residuals": [
+          {
+            "what": "Ask (brand-concierge chat) states, Legal disclaimer / Minimize / End chat controls, its input + scroll lock",
+            "cause": "dynamics item — chat dialog not part of the static replica",
+            "flaggedFor": "delivery"
+          },
+          {
+            "what": "close-path/keyboard reds (Escape, outside click, focus return) on Products/Customers/Search/Countries",
+            "cause": "explorer disagrees with direct Playwright checks (Escape closes + returns focus, outside click closes, tabs reset on close — verified on build); likely state-sequencing in the explorer",
+            "flaggedFor": "user"
+          },
+          {
+            "what": "panel-visual crop deltas (mega/Customers/Countries)",
+            "cause": "explorer crops different panel boxes per side; direct open-state screenshots of Products mega, Customers, drawer and search match live (mega rects 1440×780/596/638 identical)",
+            "flaggedFor": "user"
+          },
+          {
+            "what": "Synopsys / Ansys link [hover] 'opens' (0 links)",
+            "cause": "source-side false positive (no panel)",
+            "flaggedFor": "user"
+          }
+        ]
+      },
+      "notes": [
+        "Live DOES have a <footer> (main > section:last-child > div > footer) — mirrored inside main so cap-probe classifies it like live; content-diff chrome roots stay absent on both sides",
+        "unit-geometry origin cache (stardust/current/measure/<slug>-units.json) is keyed by slug, not width: gate.sh --full at a second width reuses the first width's origin → false FAIL; re-run with --force per width (fresh 1440 + 360 runs PASS)"
+      ]
+    },
+    "program": {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "pageType": "program",
+      "archetype": "products-fluids-ansys-fluent-capabilities",
+      "liveUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+      "prototype": "stardust/prototypes/products-fluids-ansys-fluent-capabilities-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/products-fluids-ansys-fluent-capabilities.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "round": "iter3 --full",
+          "pixel": 4.15,
+          "heightDelta": -1,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory: per-request render-time stamp)",
+          "visualDiff": "3 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (360 = viewport)",
+          "chromeCrop": {
+            "header": 0,
+            "footer": 0
+          },
+          "chromeParity": "within tolerance",
+          "units": "PASS on fresh 360 origin (5 units, 15 elements within 4px); gate iter3 line FAIL was a stale origin cache (stardust/current/measure/products-fluids-ansys-fluent-capabilities-units.json is keyed by slug, not width — the concurrent 1440 job wrote 1440 geometry that the 360 job read)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-capabilities-360/verdict-iter3.json"
+        },
+        "1440": {
+          "round": "iter3 --full",
+          "pixel": 2.66,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory: per-request render-time stamp)",
+          "visualDiff": "3 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (1440 = viewport)",
+          "chromeCrop": {
+            "header": 0,
+            "footer": 0
+          },
+          "chromeParity": "within tolerance",
+          "units": "PASS (6 units, 19 elements within 4px)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-capabilities-1440/verdict-iter3.json"
+        }
+      },
+      "cap": "PASS (cap-probe at 2560: 10/10 rows — content cap 1660 = 1660, modules 1660/1920/1280 match, 3 full-bleed)",
+      "justified": [
+        {
+          "probe": "visual",
+          "flag": "SURFACE/GROUND MISMATCH ×3 'Countries & Regions'",
+          "why": "duplicate heading texts (hidden dropdown/drawer copies of the canon header) paired by text; same justification as the landing"
+        },
+        {
+          "probe": "content",
+          "flag": "MISSING/EXTRA body 'Page render time (ms)'",
+          "why": "hidden per-request server timing stamp; differs on every request"
+        }
+      ],
+      "residuals": [
+        {
+          "width": 1440,
+          "band": "y 2500–3000",
+          "pct": [
+            18.7
+          ],
+          "cause": "capture-state: Key Features split 1 Vidyard background player (9jfFYuYygWfziQ3Gb1eV4B) frame at capture time vs the poster jpg; every other video band (y 3000–5500, 8500–9500) is the same cause below the hot threshold",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 360,
+          "band": "y 2000–2500, 4000–5000, 6000–6500, 9500–10000",
+          "pct": [
+            23.3,
+            13.4,
+            11.3,
+            21.1,
+            23.8
+          ],
+          "cause": "capture-state: Vidyard background players (9jfFYuYygWfziQ3Gb1eV4B, thhpcYp54pbjg7pgkBzGD8, SYqYTjfKLV9PLECxgxY8M3, aqz2BuAaaTChQMkdKLM9a3, imwPW713ZTF3fKSDJrgVPF) mid-playback frames vs poster jpgs; geometry identical (measure Δ 0 on every section)",
+          "flaggedFor": "delivery"
+        }
+      ],
+      "captureState": [
+        {
+          "what": "six inline background videos rendered as poster frames (Vidyard <id>.jpg in a padding-bottom ratio box, same ratio as live)",
+          "where": "Key Features splits ×4 (9jfFYuYygWfziQ3Gb1eV4B, thhpcYp54pbjg7pgkBzGD8, SYqYTjfKLV9PLECxgxY8M3, aqz2BuAaaTChQMkdKLM9a3) + resources/updates splits (imwPW713ZTF3fKSDJrgVPF, e7Td9zHEYciGVUJtUiuc7d)",
+          "restoreAtDelivery": "Vidyard background players: type/background, autoplay muted loop, disable_popouts, pointer-events none, iframe fills the ratio box"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/products-fluids-ansys-fluent-capabilities.json — fired: sticky clones (is-sticky ×4: utility bar + product sub-nav, sticky breadcrumb max-width/opacity .5s), rail arrow disabled class (×2), tile hover translate 400ms + reveal 700ms, btn-secondary/primary hover 300ms (brochure, Key Features, closing CTA); rail next-arrow pokes: no sampled scroll change on live (dead)",
+        "implemented": [
+          "all reused from canon.js/canon.css (sticky clones, rails arrows/dots/edges, tile hover, button hovers); no per-page JS",
+          "breadcrumb collapse (Products / … / Ansys Fluent / Capabilities) inside the sticky utility bar — markup + canon CSS"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "rail next-arrow scroll on probe (no sampled change on live)",
+          "tile <a> self hover"
+        ],
+        "compare": "motion-compare: 26 parity, 0 missing, 0 extra, 4 advisory (border-width transitions incidental to transition:all on .btn)"
+      },
+      "notes": [
+        "body authored by re-reading the live capture (sections: text hero, capabilities rail ×4 tiles, brochure band, Key Features: galhead + 7 splits (2 with checklists, 2 with images) + HPC text-CTA, applications rail ×5 + 2 resource splits, closing text-CTA). New page modules: .phero, .dlband, .checks/.check, .split__img, .tcta.",
+        "The applications rail images on this page differ from the landing copy (mixing-v2, heat-exchangers…) — never copy rail markup across pages; regenerate from each page capture."
+      ]
+    },
+    "listing": {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "pageType": "listing",
+      "archetype": "products-fluids-ansys-fluent-resources",
+      "liveUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+      "prototype": "stardust/prototypes/products-fluids-ansys-fluent-resources-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/products-fluids-ansys-fluent-resources.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js",
+        "stardust/prototypes/js/products-fluids-ansys-fluent-resources.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "round": "iter2 --full",
+          "pixel": 0.53,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (12 advisory, same as 1440)",
+          "visualDiff": "3 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (360 = viewport)",
+          "chromeParity": "within tolerance",
+          "units": "PASS (10 units, 43 elements within 4px; re-run with --force — the gate round reused the 1440 origin cache)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-resources-360/verdict-iter2.json, stardust/replica/gates/products-fluids-ansys-fluent-resources-360/units-iter2b.txt"
+        },
+        "1440": {
+          "round": "iter3 --full",
+          "pixel": 0.34,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (12 advisory: render-time stamp ×2, fragment-href icon pairing ×5, Vidyard play-glyph ×5)",
+          "visualDiff": "3 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (1440 = viewport)",
+          "chromeParity": "within tolerance",
+          "units": "PASS (8 units, 36 elements within 4px)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-resources-1440/verdict-iter3.json"
+        }
+      },
+      "cap": "PASS (cap-probe at 2560: 9/9 rows — content cap 1660 = 1660, CTA banner 1280)",
+      "justified": [
+        {
+          "probe": "visual",
+          "flag": "SURFACE/GROUND MISMATCH ×3 'Countries & Regions'",
+          "why": "duplicate heading texts (hidden dropdown/drawer copies of the canon header); same as landing/program"
+        },
+        {
+          "probe": "content",
+          "flag": "MISSING/EXTRA body 'Page render time (ms)'",
+          "why": "hidden per-request server timing stamp"
+        },
+        {
+          "probe": "content",
+          "flag": "ICON MOVED ×5 (0 0 32 32 play icon in hidden @5xl–@7xl poster link)",
+          "why": "href '#/videoN' resolves against the host URL; same icon, same order"
+        },
+        {
+          "probe": "content",
+          "flag": "EXTRA ICON ×5 (0 0 45 48)",
+          "why": "Vidyard player play glyph drawn over the poster — on live it lives inside the player iframe (not in the DOM)"
+        }
+      ],
+      "residuals": [
+        {
+          "width": 360,
+          "band": "y 12000–12500",
+          "pct": [
+            15.2
+          ],
+          "cause": "capture-state: 'See what's new' split Vidyard background player (e7Td9zHEYciGVUJtUiuc7d) shows a playing, cover-cropped frame on live vs the poster jpg; same cause at 1440 y 8500–9000 below the hot threshold",
+          "flaggedFor": "delivery"
+        }
+      ],
+      "captureState": [
+        {
+          "what": "five inline Vidyard players (media-player tab panels) rendered as poster jpg + play button at rest; inactive panels stacked with opacity 0 as live",
+          "where": "Video Tutorials media player (ZVegqQjUdMxF2mc6rYoPUm, krDQzqBuvgG3TZjZN5WCQi, hciLvnsPuATML6fMc8UFjg, GYpia8zT7w15DHGkeKccdw, 2bMTxdiyAdcVF4nMMPrYJb)",
+          "restoreAtDelivery": "Vidyard inline players (autoplay=0) in each tab panel ≥80rem; below 64rem the tabs open window.openModal('videoN') with modal-template-videoN (templates authored after </main>)"
+        },
+        {
+          "what": "background Vidyard video rendered as its poster frame",
+          "where": "'See what's new' split (e7Td9zHEYciGVUJtUiuc7d/type/background)",
+          "restoreAtDelivery": "Vidyard background player: autoplay muted loop, hidden controls"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/products-fluids-ansys-fluent-resources.json — fired: sticky clones (is-sticky ×4), video tab click → panel cross-fade (opacity/transform .5s) + tab border-color .15s, card-action hover (translate .3s, border/box-shadow, ghost-link fill/padding .3s); hover probes measured no self diff (translate property)",
+        "implemented": [
+          "video tabs: per-page js/products-fluids-ansys-fluent-resources.js (click + arrow keys, aria-selected/inert) + lifted [data-tab-transition] panel CSS",
+          "card hovers (resource/blog/white-paper/technical/curated) in page CSS; sticky clones/subnav/header from canon.js"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "tab/card hover self-diff (no measured diff on live)"
+        ],
+        "compare": "motion-compare: 22 parity, 0 missing, 0 extra, 4 advisory (subnav sticky border-width transitions — canon chrome, incidental)"
+      },
+      "dynamics": [
+        "Webinars / blog / white papers / case studies grids are server-rendered (Astro) curated lists in the capture — no client fetch observed; map to authored/sheet-backed content at delivery",
+        "'View more' links go to Coveo search (search#q=Fluent…) — Coveo is the existing dynamics item",
+        "'Try Fluent Today' opens the gcdc gated trial form modal (#gate-ffce5c21…) — form dynamics item"
+      ],
+      "notes": [
+        "body authored from the live capture via a throwaway generator (texts/hrefs/icon geometry/picture sources from the capture): text hero, video-tutorial media player (5 tabs), dark resources section (webinars ×4, blog ×3, white papers ×4, technical papers ×3, case studies ×3), gold curated cards ×4 + split, CTA banner. New page modules: .mp, .morelink, .rgrid/.rcard, .bcard, .wpgrid/.wpi, .tpgrid/.tpi, .ccard, .ctab, .vyplay.",
+        ".phero moved from the program CSS into canon.css unchanged (shared by program + listing)."
+      ]
+    },
+    "article": {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "pageType": "article",
+      "archetype": "products-fluids-ansys-fluent-product-updates",
+      "liveUrl": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+      "prototype": "stardust/prototypes/products-fluids-ansys-fluent-product-updates-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/products-fluids-ansys-fluent-product-updates.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "round": "iter2 --full",
+          "pixel": 0,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory: render-time stamp)",
+          "visualDiff": "4 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (360 = viewport)",
+          "chromeParity": "within tolerance",
+          "units": "PASS (8 units, 42 elements within 4px; iter1 round reused the 1440 origin cache → re-run with --force before iter2)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-product-updates-360/verdict-iter2.json"
+        },
+        "1440": {
+          "round": "iter2 --full",
+          "pixel": 0,
+          "heightDelta": 0,
+          "contentDiff": "0 structural 🔴, 0 nothing-lost 🟡 (2 advisory: render-time stamp)",
+          "visualDiff": "4 advisory, justified",
+          "clip": 0,
+          "overflow": "ok (1440 = viewport)",
+          "chromeParity": "within tolerance",
+          "units": "PASS (8 units, 42 elements within 4px)",
+          "evidence": "stardust/replica/gates/products-fluids-ansys-fluent-product-updates-1440/verdict-iter2.json"
+        }
+      },
+      "cap": "PASS (cap-probe at 2560: 8/8 rows — content cap 1660 = 1660, CTA banner 1280)",
+      "justified": [
+        {
+          "probe": "visual",
+          "flag": "SURFACE/GROUND MISMATCH ×3 'Countries & Regions'",
+          "why": "duplicate heading texts (hidden dropdown/drawer copies of the canon header); same as landing/program/listing"
+        },
+        {
+          "probe": "visual",
+          "flag": "IMAGERY GAP: source 15 images, build 5",
+          "why": "the 10 extra source images are AdRoll/martech 1×1 / 0×0 tracking pixels (rendered 0×0); all 5 content images present at the same renditions"
+        },
+        {
+          "probe": "content",
+          "flag": "MISSING/EXTRA body 'Page render time (ms)'",
+          "why": "hidden per-request server timing stamp"
+        }
+      ],
+      "residuals": [],
+      "captureState": [],
+      "motion": {
+        "observed": "stardust/replica/motion/products-fluids-ansys-fluent-product-updates.json — fired: sticky clones (is-sticky ×4), btn hovers (bg/color .3s), card-action hover lift (translate .3s) + border/box-shadow; card/morelink hover probes measured no self diff (translate property)",
+        "implemented": [
+          "link-card + past-release-card hover lift (translate 0 -.5rem .3s), border-color/box-shadow, past-card link nudge (translate .5rem 0) in page CSS",
+          "buttons/sticky clones/subnav/header from canon"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "card/morelink hover self-diff (no measured diff on live)"
+        ],
+        "compare": "motion-compare: 24 parity, 0 missing, 0 extra, 4 advisory (subnav sticky border-width transitions — canon chrome, incidental); post-motion pixel round 1440 0.01%, Δh 0"
+      },
+      "dynamics": [
+        "Release notes timeline, More resources and Past Releases cards are server-rendered (Astro) in the capture — no client fetch/API feeds content; map to authored content at delivery",
+        "\"View All Previous Releases\" goes to Coveo search (search#q=fluent release…) — Coveo is the existing dynamics item",
+        "'Try Fluent Today' in the sub-nav opens the gcdc gated trial form modal (#gate-ffce5c21…, app.gatedcontent.com) — form dynamics item; the bottom CTA banner links to the trial page instead"
+      ],
+      "notes": [
+        "body authored from the live capture via a throwaway generator (texts/hrefs/icon geometry/picture sources from the capture): text hero + download CTA, two release splits (image right / image left), release-notes timeline ×3 (gold slash marker, prose h6/p/ul), More resources link cards ×4, Past Releases image-overlay cards ×3 (first spans 2 cols) + morelink, CTA banner. New page modules: .rnhead, .rn, .mres, .past/.pcard.",
+        "moved into canon.css unchanged (shared): .s-7, .card-action, .blk--s, .morelink* and .ctab* from the listing CSS; .split__img from the program CSS. Sibling re-check at 1440 after the move: listing 0.34 %, program 2.66 % (= gated values).",
+        "timeline rows mirror the live structure (marker/body siblings in one container, no per-row wrapper) — a per-row wrapper tripped content-diff ICON MOVED (anchor text differs)."
+      ]
+    }
+  },
+  "siblings": {},
+  "migrate": {
+    "at": "2026-11-03T04:33:57.669Z",
+    "pages": 4,
+    "archetypes": 4,
+    "siblings": 0,
+    "thin": 0,
+    "gates": {
+      "pixel-gate-360": 4,
+      "content-count": 4,
+      "delivery-lint": 4,
+      "pixel-gate-1440": 4
+    },
+    "missing": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout C0 foundation (runtime-detection probe)",
+    "readArtifacts": ["scripts/scripts.js", "scripts/aem.js", "styles/styles.css"],
+    "writtenAt": "2026-11-03"
+  },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "blockDom": "div.<name>.block[data-block-name] inside div.<name>-wrapper; the section gains .<name>-container",
+  "wrapTextNodes": true,
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonLook": "a.button = the source .btn.btn-md (pill, 2px border, 1rem 1.75rem, text-lg/600) + trailing arrow (::after mask /icons/arrow.svg); primary = gold, secondary = outline in --color-secondary",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionMetadata": "server-side (rendering version >= 2): style values become section classes; foundation styles .light / .dark",
+  "icons": "authored :name: tokens become span.icon.icon-<name> (name = letters/hyphens, digits only trailing — ':nav-3d-design:' is NOT converted); chrome blocks inline /icons/<name>.svg via scripts/chrome-utils.js (currentColor)",
+  "containers": "the source sizes against named containers: main (page) and section (band). main is `container: main / inline-size`, every main > .section is `container: section / inline-size`; header/footer blocks carry both names. Block CSS lifted from canon keeps its @container main / section queries",
+  "theme": "page default is the source's dark scope (html[data-theme=dark]); [data-theme=light|dark] and main .section.light|.dark switch the --color-base-* palette",
+  "fonts": "styles/fonts.css: Montserrat + Source Sans 3 (OFL) woff2, latin + latin-ext + italic; metric-matched montserrat-fallback / source-sans-3-fallback in styles.css",
+  "navHeight": { "below1280": "84px", "from1280": "159px" },
+  "chrome": {
+    "header": "blocks/header ← /nav (utility bar, brand + CTA, mega menus, Customers dropdown, strips); breadcrumb derived from the URL path",
+    "footer": "blocks/footer ← /footer (brand, link columns, legal, accessibility band, floating Ask button)",
+    "sharedHelpers": "scripts/chrome-utils.js (h, loadIcons, icon, authoredIcon, stripInstrumentation, plainLink)"
+  },
+  "lint": "eslint (airbnb-base) on blocks/ scripts/ (stardust/ ignored as evidence); stylelint standard on blocks/**/*.css styles/*.css — classes kebab-case (BEM __/-- renamed to -)"
+}

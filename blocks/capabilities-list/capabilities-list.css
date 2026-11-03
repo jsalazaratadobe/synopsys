@@ -1,0 +1,156 @@
+/* capabilities-list — lifted from the gated prototype (page CSS "capabilities"), scoped */
+.capabilities-list {
+  padding: 3rem 1.5rem;
+}
+
+.capabilities-list .capabilities-list-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 103.75rem;
+  margin-inline: auto;
+}
+
+.capabilities-list .capabilities-list-intro {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1.5rem;
+  max-width: 56rem;
+  height: 100%;
+  padding-bottom: 3rem;
+}
+
+.capabilities-list .capabilities-list-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.capabilities-list .capabilities-list-eyebrow {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  line-height: 1.375;
+  text-wrap: balance;
+}
+
+.capabilities-list .capabilities-list-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.capabilities-list .capabilities-list-lede {
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+.capabilities-list .capabilities-list-cta {
+  padding-top: 1rem;
+}
+
+.capabilities-list .capabilities-list-items {
+  max-width: 56rem;
+}
+
+.capabilities-list .capabilities-list-items ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.capabilities-list .iconcard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 48rem;
+}
+
+.capabilities-list .iconcard-ic {
+  color: var(--color-primary);
+  font-size: var(--text-5xl);
+  line-height: 1;
+}
+
+.capabilities-list .iconcard-ic .icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+}
+
+.capabilities-list .iconcard-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.capabilities-list .iconcard-body {
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+@container section (width >= 48rem) {
+  .capabilities-list {
+    padding-inline: 2rem;
+  }
+
+  .capabilities-list .capabilities-list-title {
+    font-size: var(--text-4xl);
+  }
+
+  .capabilities-list .iconcard-title {
+    font-size: var(--text-2xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .capabilities-list {
+    padding: 5rem 4rem;
+  }
+
+  .capabilities-list .capabilities-list-title {
+    font-size: var(--text-5xl);
+  }
+
+  .capabilities-list .iconcard-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+@container section (width >= 80rem) {
+  .capabilities-list .capabilities-list-inner {
+    flex-direction: row;
+  }
+
+  .capabilities-list .capabilities-list-intro {
+    top: 6rem;
+    width: 50%;
+    padding-block: 2rem;
+    padding-right: 5rem;
+  }
+
+  .capabilities-list .capabilities-list-items {
+    width: 50%;
+  }
+
+  .capabilities-list .capabilities-list-items ul {
+    padding-block: 3rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .capabilities-list {
+    padding: 6rem 7rem;
+  }
+
+  .capabilities-list .capabilities-list-intro {
+    padding-right: 7rem;
+  }
+}

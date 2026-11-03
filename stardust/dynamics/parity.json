@@ -1,0 +1,305 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-03T19:31:31Z"
+  },
+  "method": "16 curated features from stardust/dynamic-features.md; self rows replayed on the published origin, interim rows check their link-out, martech checks from the contract",
+  "features": [
+    {
+      "id": "martech-stack",
+      "feature": "tag stack (Launch, Analytics, GTM, pixels \u2026)",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "martech contract checks (appended from stardust/martech-contract.json)",
+      "checks": [],
+      "owner": "D1 \u2014 enable the CMP, then each tag route"
+    },
+    {
+      "id": "consent-onetrust",
+      "feature": "OneTrust CMP",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "no CMP request while disabled",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/products/fluids/ansys-fluent",
+          "forbiddenHosts": [
+            "cdn.cookielaw.org",
+            "geolocation.onetrust.com"
+          ]
+        }
+      ],
+      "owner": "D1 \u2014 CMP id + enable"
+    },
+    {
+      "id": "data-layers",
+      "feature": "digitalData / dataLayer / adobeDataLayer globals",
+      "class": "A",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "",
+      "checks": [],
+      "owner": "D1 \u2014 Launch data-layer rules rewritten by the owner"
+    },
+    {
+      "id": "gated-trial-form",
+      "feature": "Try Fluent Today gated trial form",
+      "class": "F",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "trial CTAs link to the source page hash, which opens \"Get My Free 30-Day Trial\" (verified on the source)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": "main a[href^=\"https://ansys.synopsys.com/products/fluids/ansys-fluent#gate-\"]",
+          "min": 1
+        }
+      ],
+      "owner": "D2 \u2014 form service on the new host"
+    },
+    {
+      "id": "vidyard-player",
+      "feature": "Vidyard background + inline players",
+      "class": "V",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/products/fluids/ansys-fluent",
+          "iframeSelector": ".hero iframe[src*=\"play.vidyard.com\"]",
+          "playbackHost": "vidyard"
+        },
+        {
+          "type": "video-plays",
+          "path": "/products/fluids/ansys-fluent",
+          "trigger": ".video-feature-play-desk",
+          "iframeSelector": "dialog iframe",
+          "playbackHost": "vidyard"
+        },
+        {
+          "type": "video-plays",
+          "path": "/products/fluids/ansys-fluent/resources",
+          "trigger": ".video-tabs .vyplay",
+          "iframeSelector": ".video-tabs iframe[src*=\"play.vidyard.com\"]",
+          "playbackHost": "vidyard"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "feature": "YouTube links (FAQ, learning playlist)",
+      "class": "V",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": "main a[href*=\"youtube.com\"]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "feature": "video lightboxes + search modal",
+      "class": "M",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/products/fluids/ansys-fluent",
+          "trigger": ".video-feature-play-desk"
+        },
+        {
+          "type": "click-dialog",
+          "path": "/products/fluids/ansys-fluent",
+          "trigger": ".header .nav-search"
+        }
+      ]
+    },
+    {
+      "id": "header-chrome",
+      "feature": "header mega menus, Countries & Regions, mobile drawer",
+      "class": "M",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "chrome-compare on the deployed overview: remaining errors are the Ask chat (D5) and source-side crop artifacts",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": ".header button[aria-expanded]",
+          "min": 4
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/products/fluids/ansys-fluent",
+            "/products/fluids/ansys-fluent/capabilities",
+            "/products/fluids/ansys-fluent/resources",
+            "/products/fluids/ansys-fluent/product-updates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-search",
+      "feature": "header search \u2192 source /search",
+      "class": "S",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": ".header form[action^=\"https://ansys.synopsys.com/search\"]",
+          "min": 1
+        }
+      ],
+      "owner": "D3 \u2014 site search on the new host"
+    },
+    {
+      "id": "carousels",
+      "feature": "case carousel + tile rails",
+      "class": "CR",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": ".case-carousel article.case",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent",
+          "selector": ".tile-rail .tile-card",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "utility-nav",
+      "feature": "utility bar + breadcrumb",
+      "class": "CR",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent/capabilities",
+          "selector": ".header .ubar-crumbs a",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "locale-variants",
+      "feature": "Countries & Regions \u2192 source locales",
+      "class": "I18N",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "",
+      "checks": [],
+      "owner": "D4 \u2014 locale pages out of this run"
+    },
+    {
+      "id": "ask-ai",
+      "feature": "Ask AI assistant",
+      "class": "X",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "",
+      "checks": [],
+      "owner": "D5 \u2014 assistant backend"
+    },
+    {
+      "id": "sign-in",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "",
+      "checks": [],
+      "owner": "D5 \u2014 account pages stay on the source"
+    },
+    {
+      "id": "privacy-edge",
+      "feature": "Experience Edge privacy/interact",
+      "class": "A",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "martech contract checks",
+      "checks": [],
+      "owner": "D1"
+    },
+    {
+      "id": "card-listings",
+      "feature": "authored card groups",
+      "class": "L",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent/resources",
+          "selector": "main .resource-cards a[href]",
+          "min": 6
+        },
+        {
+          "type": "dom-count",
+          "path": "/products/fluids/ansys-fluent/product-updates",
+          "selector": "main .release-notes .release-notes-body",
+          "min": 1
+        }
+      ]
+    }
+  ]
+}

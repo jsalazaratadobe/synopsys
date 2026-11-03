@@ -1,0 +1,407 @@
+/* case-carousel — lifted from the gated prototype (canon.css "case-study gallery"), scoped */
+.case-carousel {
+  padding: 3rem 1.5rem;
+}
+
+.case-carousel .case-carousel-inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 126.25rem;
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.case-carousel .case-carousel-track {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.case-carousel .case-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.case-carousel .case {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-box);
+  scroll-snap-align: start;
+}
+
+.case-carousel .case-bg {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.case-carousel .case-bg p,
+.case-carousel .case-bg picture,
+.case-carousel .case-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.case-carousel .case-shade1 {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, rgb(0 0 0 / 20%) 10%, rgb(0 0 0 / 30%) 90%);
+}
+
+.case-carousel .case-shade2 {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background-image: linear-gradient(to bottom, rgb(0 0 0 / 40%), rgb(0 0 0 / 60%));
+}
+
+.case-carousel .case-frame {
+  z-index: 3;
+  height: 100%;
+}
+
+.case-carousel .case-in {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 3.5rem 2rem 6rem;
+}
+
+.case-carousel .case-stats {
+  display: none;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.case-carousel .case-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 20rem;
+}
+
+.case-carousel .case-num {
+  width: fit-content;
+  font-family: var(--font-heading);
+  font-size: var(--text-6xl);
+  font-weight: 800;
+  line-height: 1;
+  text-wrap: balance;
+}
+
+.case-carousel a.button:has(.case-cta-ic)::after {
+  display: none;
+}
+
+.case-carousel .case-cta-ic {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.case-carousel .case-stat-label {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  line-height: 1.375;
+  text-wrap: balance;
+}
+
+.case-carousel .case-logo-wrap {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  height: fit-content;
+  padding-top: 0.5rem;
+}
+
+.case-carousel .case-logo {
+  display: flex;
+  align-items: center;
+  min-width: 7.5rem;
+  max-width: 240px;
+}
+
+.case-carousel .case-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.case-carousel .case-quote-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 64rem;
+  margin-inline: auto;
+}
+
+.case-carousel .case-quote-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.case-carousel .case-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.case-carousel .case-q {
+  position: relative;
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.case-carousel .case-qmark {
+  position: absolute;
+  top: 0;
+  left: -1.25rem;
+}
+
+.case-carousel .case-by {
+  display: flex;
+  font-size: var(--text-2xl);
+  font-style: italic;
+  line-height: calc(2 / 1.5);
+}
+
+.case-carousel .case-carousel-arrow {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  height: fit-content;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  background-color: rgb(from var(--color-base-900) r g b / 20%);
+  transition: all 0.3s;
+}
+
+.case-carousel .case-carousel-arrow:disabled {
+  background-color: rgb(from var(--color-base-900) r g b / 10%);
+  cursor: not-allowed;
+}
+
+.case-carousel .case-carousel-arrow:hover:not(:disabled) {
+  background-color: rgb(from var(--color-base-900) r g b / 70%);
+}
+
+.case-carousel .case-carousel-arrow-ic {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  background-color: var(--color-base-900);
+}
+
+.case-carousel .case-carousel-prev .case-carousel-arrow-ic {
+  rotate: 180deg;
+}
+
+.case-carousel .case-carousel-arrow:disabled .case-carousel-arrow-ic {
+  background-color: rgb(from var(--color-base-900) r g b / 10%);
+}
+
+.case-carousel .case-carousel-dots {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  gap: 0.75rem;
+  background: transparent;
+  translate: -50% 0;
+}
+
+.case-carousel .case-carousel-dot {
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  background-color: var(--color-base-900);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s var(--ease);
+}
+
+.case-carousel .case-carousel-dot[data-active='true'] {
+  width: 3rem;
+  opacity: 0.9;
+}
+
+@container section (width >= 48rem) {
+  .case-carousel {
+    padding-inline: 2rem;
+  }
+
+  .case-carousel .case-carousel-inner {
+    border-radius: 1.5rem;
+  }
+
+  .case-carousel .case-in {
+    padding: 5rem 4rem 9rem;
+  }
+
+  .case-carousel .case-stats {
+    display: flex;
+  }
+
+  .case-carousel .case-num {
+    font-size: var(--text-7xl);
+  }
+
+  .case-carousel .case-q {
+    font-size: var(--text-3xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .case-carousel {
+    padding: 5rem 4rem;
+  }
+
+  .case-carousel .case-in {
+    padding-inline: 5rem;
+    padding-bottom: 13rem;
+  }
+
+  .case-carousel .case-stat {
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .case-carousel .case-logo-wrap {
+    width: 50%;
+  }
+
+  .case-carousel .case-quote-col {
+    gap: 5rem;
+  }
+
+  .case-carousel .case-q {
+    font-size: var(--text-4xl);
+  }
+
+  .case-carousel .case-qmark {
+    left: -1.75rem;
+  }
+
+  .case-carousel .case-carousel-arrow {
+    bottom: 3rem;
+    display: block;
+  }
+
+  .case-carousel .case-carousel-prev {
+    left: 4.5rem;
+  }
+
+  .case-carousel .case-carousel-next {
+    right: 4.5rem;
+  }
+
+  .case-carousel .case-carousel-dots {
+    bottom: 4.5rem;
+  }
+}
+
+@container section (width >= 80rem) {
+  .case-carousel .case-frame {
+    margin: 4rem 3.5rem 9.5rem;
+    border: 8px solid rgb(255 255 255 / 30%);
+    border-radius: 1.5rem;
+  }
+
+  .case-carousel .case-in {
+    padding: 5rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .case-carousel {
+    padding: 6rem 7rem;
+  }
+
+  .case-carousel .case-frame {
+    margin: 8rem 9rem;
+  }
+
+  .case-carousel .case-in {
+    padding: 6rem 7rem 7rem 5rem;
+  }
+
+  .case-carousel .case-stat {
+    width: 100%;
+  }
+
+  .case-carousel .case-logo-wrap {
+    width: 100%;
+  }
+
+  .case-carousel .case-carousel-arrow {
+    top: 50%;
+    bottom: 50%;
+  }
+
+  .case-carousel .case-carousel-prev {
+    left: 2.5rem;
+  }
+
+  .case-carousel .case-carousel-next {
+    right: 2.5rem;
+  }
+}
+
+@container section (width >= 103.75rem) {
+  .case-carousel .case-frame {
+    margin: 9rem 11rem;
+  }
+
+  .case-carousel .case-in {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .case-carousel .case-stats {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.5rem;
+  }
+
+  .case-carousel .case-num {
+    font-size: var(--text-8xl);
+  }
+
+  .case-carousel .case-logo-wrap {
+    justify-content: flex-start;
+  }
+
+  .case-carousel .case-carousel-prev {
+    left: 3.5rem;
+  }
+
+  .case-carousel .case-carousel-next {
+    right: 3.5rem;
+  }
+}

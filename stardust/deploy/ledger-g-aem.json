@@ -1,0 +1,38 @@
+{
+  "/products/fluids/ansys-fluent/capabilities": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T20:08:44.224Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products/fluids/ansys-fluent/product-updates": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T20:08:44.224Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products/fluids/ansys-fluent/resources": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T20:08:50.496Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products/fluids/ansys-fluent": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T20:08:50.605Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

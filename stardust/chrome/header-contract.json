@@ -1,0 +1,6397 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+ "at": "2026-11-03T00:49:23.948Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>main>section:nth-of-type(1)>div>header",
+   "controls": [
+    {
+     "name": "Ansys part of Synopsys",
+     "key": "ansys part of synopsys",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>a",
+     "href": "https://ansys.synopsys.com/",
+     "expanded": null,
+     "rect": [
+      24,
+      21,
+      80,
+      41
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Menu",
+     "key": "menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(6)>div>button",
+     "expanded": null,
+     "rect": [
+      322,
+      20,
+      44,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+         },
+         {
+          "text": "",
+          "href": "https://www.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://www.synopsys.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Products & Services",
+         "Learn",
+         "About",
+         "Countries & Regions",
+         "Customers Customers",
+         "Ask"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         20,
+         342,
+         688
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "fill",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "svg.size-5"
+        }
+       ],
+       "shot": "390-001-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+         },
+         {
+          "text": "",
+          "href": "https://www.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://www.synopsys.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Search",
+         "Products & Services",
+         "Learn",
+         "About",
+         "Countries & Regions",
+         "Customers Customers",
+         "Ask"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         20,
+         342,
+         688
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": "390-002-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#MainNavMenuModal>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        324,
+        24,
+        42,
+        42
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": true,
+         "hidden": 13,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           316,
+           2452,
+           74,
+           -1608
+          ]
+         },
+         "expanded": null,
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": null,
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#MainNavMenuModal>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>section>div>div>nav>div>button",
+       "expanded": null,
+       "rect": [
+        24,
+        112,
+        342,
+        45
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [
+           "search"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           70,
+           24,
+           320,
+           820
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          }
+         ],
+         "shot": "390-003-Search-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "search"
+          ],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           70,
+           24,
+           296,
+           95
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "390-004-Search-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Products & Services",
+       "key": "products services",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-mobile-trigger-0",
+       "expanded": "false",
+       "rect": [
+        24,
+        181,
+        342,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 10,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/release-highlights"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Back",
+           "Featured Products Featured Products",
+           "Products by Collection Products by Collection",
+           "Student & Academic Student & Academic",
+           "Technology Trends Technology Trends",
+           "Applications Applications",
+           "Industries Industries",
+           "Service & Support Service & Support",
+           "Developer Portal Developer Portal"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "390-005-Products-Services-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 10,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/release-highlights"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Back",
+           "Featured Products Featured Products",
+           "Products by Collection Products by Collection",
+           "Student & Academic Student & Academic",
+           "Technology Trends Technology Trends",
+           "Applications Applications",
+           "Industries Industries",
+           "Service & Support Service & Support",
+           "Developer Portal Developer Portal"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.relative"
+          }
+         ],
+         "shot": "390-006-Products-Services-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Learn",
+       "key": "learn",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-mobile-trigger-1",
+       "expanded": "false",
+       "rect": [
+        24,
+        228,
+        342,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 10,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/simulation-topics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Back"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "390-007-Learn-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 10,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/simulation-topics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Back"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.relative"
+          }
+         ],
+         "shot": "390-008-Learn-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "About",
+       "key": "about",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-mobile-trigger-2",
+       "expanded": "false",
+       "rect": [
+        24,
+        274,
+        342,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/leadership"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/sustainability"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Back"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "390-009-About-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/leadership"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/sustainability"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Back"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           88,
+           390,
+           756
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.relative"
+          }
+         ],
+         "shot": "390-010-About-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Countries & Regions",
+       "key": "countries regions",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#MainNavMenuModal>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>section>div>div>nav>div>div:nth-of-type(3)>div:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        383,
+        342,
+        41
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/en-gb/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/en-in/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/fr-fr/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/de-de/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/it-it/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/ja-jp/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/ko-kr/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/zh-tw/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/zh-cn/products/fluids/ansys-fluent"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           440,
+           366,
+           404
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div.pointer-events-none"
+          }
+         ],
+         "shot": "390-011-Countries-Regions-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/en-gb/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/en-in/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/fr-fr/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/de-de/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/it-it/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/ja-jp/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/ko-kr/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/zh-tw/products/fluids/ansys-fluent"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/zh-cn/products/fluids/ansys-fluent"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           440,
+           366,
+           404
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div.pointer-events-none"
+          }
+         ],
+         "shot": "390-012-Countries-Regions-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Customers Customers",
+       "key": "customers customers",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#MainNavMenuModal>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>section>div>div>nav>div>div:nth-of-type(3)>div:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        24,
+        428,
+        342,
+        41
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://innovation.ansys.com/customer-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/support"
+           },
+           {
+            "text": "",
+            "href": "https://partner.ansys.com/"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "tel:+18444626797"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           469,
+           342,
+           375
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div.pointer-events-none"
+          }
+         ],
+         "shot": "390-013-Customers-Customers-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://innovation.ansys.com/customer-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/support"
+           },
+           {
+            "text": "",
+            "href": "https://partner.ansys.com/"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/contact-us"
+           },
+           {
+            "text": "",
+            "href": "tel:+18444626797"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           24,
+           485,
+           366,
+           359
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 200,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "div.pointer-events-none"
+          }
+         ],
+         "shot": "390-014-Customers-Customers-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Ask",
+       "key": "ask",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#MainNavMenuModal>div>div:nth-of-type(2)>div>div>div:nth-of-type(1)>section>div>div>nav>div>div:nth-of-type(3)>button",
+       "expanded": null,
+       "rect": [
+        24,
+        473,
+        342,
+        41
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Legal disclaimer",
+           "Minimize chat",
+           "End chat",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           37,
+           20,
+           353,
+           824
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 500,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "dialog.fixed"
+          }
+         ],
+         "shot": "390-015-Ask-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 2,
+          "inputs": [
+           "text"
+          ],
+          "buttons": [
+           "Legal disclaimer",
+           "Minimize chat",
+           "End chat",
+           "Send message"
+          ],
+          "options": 0,
+          "rect": [
+           31,
+           20,
+           359,
+           824
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-top-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-bottom-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-left-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "border-right-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "fill",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "svg.size-5"
+          },
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 500,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "dialog.fixed"
+          },
+          {
+           "kind": "transition",
+           "prop": "row-gap",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.input-container"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-left",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.input-container"
+          },
+          {
+           "kind": "transition",
+           "prop": "column-gap",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.input-container"
+          },
+          {
+           "kind": "transition",
+           "prop": "padding-right",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.input-container"
+          },
+          {
+           "kind": "transition",
+           "prop": "margin-top",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.input-section"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "390-016-Ask-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 84,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 84,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 84,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 84,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 17,
+   "truncated": "depth 2 at Menu > ",
+   "loads": 46
+  },
+  "1440": {
+   "root": "body>main>section:nth-of-type(1)>div>header",
+   "controls": [
+    {
+     "name": "Synopsys",
+     "key": "synopsys",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(3)>div>div:nth-of-type(1)>div>a",
+     "href": "https://www.synopsys.com/",
+     "expanded": null,
+     "rect": [
+      24,
+      14,
+      73,
+      28
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1222,
+         2685,
+         218,
+         -1785
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        }
+       ],
+       "shot": null
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Ansys",
+     "key": "ansys",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(3)>div>div:nth-of-type(1)>a",
+     "href": "https://ansys.synopsys.com/",
+     "expanded": null,
+     "rect": [
+      122,
+      14,
+      45,
+      28
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1184,
+         2805,
+         256,
+         -1905
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        }
+       ],
+       "shot": null
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Countries & Regions",
+     "key": "countries regions",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(3)>div>div:nth-of-type(3)>div>button",
+     "expanded": "false",
+     "rect": [
+      1182,
+      8,
+      152,
+      40
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/en-gb/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/en-in/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/fr-fr/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/de-de/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/it-it/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/ja-jp/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/ko-kr/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/zh-tw/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/zh-cn/products/fluids/ansys-fluent"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1113,
+         90,
+         327,
+         810
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-001-Countries-Regions-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/en-gb/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/en-in/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/fr-fr/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/de-de/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/it-it/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/ja-jp/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/ko-kr/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/zh-tw/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/zh-cn/products/fluids/ansys-fluent"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1113,
+         90,
+         327,
+         810
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-002-Countries-Regions-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Ask",
+     "key": "ask",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(3)>div>div:nth-of-type(3)>button",
+     "expanded": null,
+     "rect": [
+      1347,
+      10,
+      69,
+      36
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1204,
+         2685,
+         236,
+         -1785
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": null
+      },
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Legal disclaimer",
+         "Minimize chat",
+         "End chat",
+         "Send message"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         200,
+         1440,
+         700
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 500,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "dialog.fixed"
+        }
+       ],
+       "shot": "1440-003-Ask-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [
+         "Legal disclaimer",
+         "Minimize chat",
+         "End chat",
+         "Send message"
+        ],
+        "options": 0,
+        "rect": [
+         184,
+         200,
+         1256,
+         700
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 500,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "dialog.fixed"
+        }
+       ],
+       "shot": "1440-004-Ask-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Legal disclaimer",
+       "key": "legal disclaimer",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#brandConcierge>div>div:nth-of-type(1)>div:nth-of-type(2)>div>button",
+       "expanded": "false",
+       "rect": [
+        1162,
+        200,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close legal disclaimer"
+          ],
+          "options": 0,
+          "rect": [
+           512,
+           240,
+           682,
+           144
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "span.flex"
+          }
+         ],
+         "shot": "1440-005-Legal-disclaimer-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close legal disclaimer"
+          ],
+          "options": 0,
+          "rect": [
+           512,
+           240,
+           682,
+           144
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-006-Legal-disclaimer-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": false,
+        "toggle": true
+       }
+      },
+      {
+       "name": "Minimize chat",
+       "key": "minimize chat",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#brandConcierge>div>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        1198,
+        200,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Ask a Question"
+          ],
+          "options": 0,
+          "rect": [
+           1360,
+           820,
+           56,
+           56
+          ]
+         },
+         "expanded": null,
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "animation",
+           "prop": "rotate-border",
+           "ms": 4000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-007-Minimize-chat-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Ask a Question"
+          ],
+          "options": 0,
+          "rect": [
+           1360,
+           820,
+           56,
+           56
+          ]
+         },
+         "expanded": null,
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "animation",
+           "prop": "rotate-border",
+           "ms": 4000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-008-Minimize-chat-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       }
+      },
+      {
+       "name": "End chat",
+       "key": "end chat",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#brandConcierge>div>div:nth-of-type(1)>div:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1234,
+        200,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "No",
+           "Yes"
+          ],
+          "options": 0,
+          "rect": [
+           144,
+           180,
+           1152,
+           720
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-009-End-chat-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "No",
+           "Yes"
+          ],
+          "options": 0,
+          "rect": [
+           144,
+           180,
+           1152,
+           720
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-color",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-010-End-chat-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Message input",
+       "key": "message input",
+       "role": "input",
+       "kind": "input",
+       "sel": "#ai-chat-input",
+       "expanded": null,
+       "rect": [
+        209,
+        785,
+        984,
+        64
+       ],
+       "actions": {},
+       "search": {
+        "probe": "synopsys",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      },
+      {
+       "name": "Send message",
+       "key": "send message",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#brand-concierge-mount>div:nth-of-type(1)>div>div>div:nth-of-type(3)>div:nth-of-type(2)>button",
+       "expanded": null,
+       "rect": [
+        1213,
+        804,
+        34,
+        26
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Ansys part of Synopsys",
+     "key": "ansys part of synopsys",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>a",
+     "href": "https://ansys.synopsys.com/",
+     "expanded": null,
+     "rect": [
+      64,
+      77,
+      120,
+      62
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1222,
+         2685,
+         218,
+         -1785
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": null
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Products & Services Products & Services",
+     "key": "products services products services",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(1)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      232,
+      78,
+      228,
+      60
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1187,
+         2685,
+         253,
+         -1785
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": null
+      },
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/3d-design"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/ansys-speos"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/fdtd"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/release-highlights"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Featured Products",
+         "Products by Collection",
+         "Student & Academic",
+         "Technology Trends",
+         "Applications",
+         "Industries",
+         "Service & Support",
+         "Developer Portal"
+        ],
+        "options": 0,
+        "rect": [
+         69,
+         138,
+         1143,
+         740
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-011-Products-Services-Products-Services-clic.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/3d-design"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/ansys-speos"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/optics/fdtd"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/products/release-highlights"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Featured Products",
+         "Products by Collection",
+         "Student & Academic",
+         "Technology Trends",
+         "Applications",
+         "Industries",
+         "Service & Support",
+         "Developer Portal"
+        ],
+        "options": 0,
+        "rect": [
+         69,
+         224,
+         1371,
+         676
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-012-Products-Services-Products-Services-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Featured Products",
+       "key": "featured products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-featured-products-tab-0",
+       "expanded": null,
+       "rect": [
+        69,
+        224,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Products by Collection",
+       "key": "products by collection",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-products-by-collection-tab-1",
+       "expanded": null,
+       "rect": [
+        69,
+        280,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/3d-design"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/acoustics-analysis"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/additive"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/ai"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/av-simulation"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/cloud"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/connect"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/missions"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/digital-twin"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/electronics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/embedded-software"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/fluids"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/materials"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/optics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/safety-analysis"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/structures"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-013-Products-by-Collection-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 19,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/3d-design"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/acoustics-analysis"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/additive"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/ai"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/av-simulation"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/cloud"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/connect"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/missions"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/digital-twin"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/electronics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/embedded-software"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/fluids"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/materials"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/optics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/safety-analysis"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products/structures"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-014-Products-by-Collection-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Student & Academic",
+       "key": "student academic",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-student-academic-tab-2",
+       "expanded": null,
+       "rect": [
+        69,
+        336,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/educators"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/researchers"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/learning-resources"
+           },
+           {
+            "text": "",
+            "href": "https://innovationspace.ansys.com/forum/"
+           },
+           {
+            "text": "",
+            "href": "https://innovationspace.ansys.com/courses/"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-015-Student-Academic-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/educators"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/researchers"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/learning-resources"
+           },
+           {
+            "text": "",
+            "href": "https://innovationspace.ansys.com/forum/"
+           },
+           {
+            "text": "",
+            "href": "https://innovationspace.ansys.com/courses/"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/academic/students"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-016-Student-Academic-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Technology Trends",
+       "key": "technology trends",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-technology-trends-tab-3",
+       "expanded": null,
+       "rect": [
+        69,
+        392,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/5g"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/cloud"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/digital-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/electrification"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/iiot"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-017-Technology-Trends-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/5g"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/cloud"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/digital-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/electrification"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/iiot"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-018-Technology-Trends-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Applications",
+       "key": "applications",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-applications-tab-4",
+       "expanded": null,
+       "rect": [
+        69,
+        448,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 19,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/battery"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/data-centers"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electric-motors"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electronics-reliability"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/emi-emc"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/gas-turbines"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/power-electronics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/rotating-machinery"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/topology-optimization"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/wind-turbine-design"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-019-Applications-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/battery"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/data-centers"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electric-motors"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electronics-reliability"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/emi-emc"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/gas-turbines"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/power-electronics"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/rotating-machinery"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/topology-optimization"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications/wind-turbine-design"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/applications"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-020-Applications-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Industries",
+       "key": "industries",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-industries-tab-5",
+       "expanded": null,
+       "rect": [
+        69,
+        504,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/aerospace"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/automotive"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/defense"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/energy"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/healthcare"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/high-tech"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/industrial-equipment"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/space"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-021-Industries-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/aerospace"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/automotive"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/defense"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/energy"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/healthcare"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/high-tech"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/industrial-equipment"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries/space"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/industries"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-022-Industries-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Service & Support",
+       "key": "service support",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-service-support-tab-6",
+       "expanded": null,
+       "rect": [
+        69,
+        560,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/support"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/it-solutions"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/consulting"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/reliability-engineering-services"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/automation-customization"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           325,
+           224,
+           1115,
+           676
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-023-Service-Support-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/support"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/it-solutions"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/training-center"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/consulting"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/reliability-engineering-services"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/services/automation-customization"
+           },
+           {
+            "text": "",
+            "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-024-Service-Support-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Developer Portal",
+       "key": "developer portal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#ansys-nav-developer-portal-tab-7",
+       "expanded": null,
+       "rect": [
+        69,
+        616,
+        200,
+        48
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           1222,
+           2685,
+           218,
+           -1785
+          ]
+         },
+         "expanded": null,
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": null
+        },
+        "click": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/docs"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/knowledge-base"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/app-catalog/catalog"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/app-catalog/catalog"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-025-Developer-Portal-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 18,
+         "panel": {
+          "links": [
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/docs"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/knowledge-base"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/app-catalog/catalog"
+           },
+           {
+            "text": "",
+            "href": "https://developer.synopsys.com/app-catalog/catalog"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           293,
+           224,
+           1078,
+           540
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "outline-offset",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          },
+          {
+           "kind": "transition",
+           "prop": "outline-width",
+           "ms": 300,
+           "delay": 0,
+           "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+           "target": "button.cursor-pointer"
+          }
+         ],
+         "shot": "1440-026-Developer-Portal-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       }
+      }
+     ]
+    },
+    {
+     "name": "Learn Learn",
+     "key": "learn learn",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(1)>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      462,
+      78,
+      120,
+      60
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/simulation-topics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+         },
+         {
+          "text": "",
+          "href": "https://learninghub.ansys.com/learn"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+         },
+         {
+          "text": "",
+          "href": "https://learninghub.ansys.com/learn"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/educators"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/researchers"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/learning-resources"
+         },
+         {
+          "text": "",
+          "href": "https://innovationspace.ansys.com/forum"
+         },
+         {
+          "text": "",
+          "href": "https://innovationspace.ansys.com/courses"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events/simulation-world"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         101,
+         138,
+         1254,
+         566
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-027-Learn-Learn-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/simulation-topics"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+         },
+         {
+          "text": "",
+          "href": "https://learninghub.ansys.com/learn"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+         },
+         {
+          "text": "",
+          "href": "https://learninghub.ansys.com/learn"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/educators"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/researchers"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/learning-resources"
+         },
+         {
+          "text": "",
+          "href": "https://innovationspace.ansys.com/forum"
+         },
+         {
+          "text": "",
+          "href": "https://innovationspace.ansys.com/courses"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events/simulation-world"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/academic/students"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         101,
+         224,
+         1339,
+         676
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-028-Learn-Learn-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "About About",
+     "key": "about about",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(1)>div:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      584,
+      78,
+      123,
+      60
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1193,
+         2685,
+         247,
+         -1785
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": null
+      },
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/leadership"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/sustainability"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/startup-program"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/news-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/advantage-magazine"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers/life-at-ansys"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers/university-programs"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys"
+         },
+         {
+          "text": "",
+          "href": "https://careers.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         101,
+         224,
+         1339,
+         676
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-029-About-About-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/leadership"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/sustainability"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/startup-program"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/news-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/advantage-magazine"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers/life-at-ansys"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/careers/university-programs"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys"
+         },
+         {
+          "text": "",
+          "href": "https://careers.synopsys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         101,
+         138,
+         1254,
+         608
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-030-About-About-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      1004,
+      90,
+      36,
+      36
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1202,
+         2685,
+         238,
+         -1785
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": null
+      },
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         40,
+         1440,
+         92
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": "1440-031-Search-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 1,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         456,
+         72,
+         984,
+         828
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.cursor-pointer"
+        }
+       ],
+       "shot": "1440-032-Search-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search or ask a question...",
+       "key": "search or ask a question",
+       "role": "input",
+       "kind": "search",
+       "sel": "#coveo-search-form>div:nth-of-type(1)>input",
+       "expanded": null,
+       "rect": [
+        456,
+        72,
+        560,
+        28
+       ],
+       "actions": {},
+       "search": {
+        "probe": "synopsys",
+        "typeahead": {
+         "links": 1,
+         "options": 0
+        },
+        "submit": "https://ansys.{q}.com/search#q={q}&tab=AllAnsysTab"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Customers Customers",
+     "key": "customers customers",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      1056,
+      78,
+      190,
+      60
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://innovation.ansys.com/customer-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/support"
+         },
+         {
+          "text": "",
+          "href": "https://partner.ansys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "tel:+18444626797"
+         },
+         {
+          "text": "",
+          "href": "https://ansysaccount.b2clogin.com/ansysaccount.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_ANSYSID_SIGNUP_SIGNIN&client_id=b7f08794-f038-4c33-ae5a-5b589c912f36&redirect_uri=https://ansys.synopsys.com/content/ansysincprogram/en-us/home.ssologin.json&scope=openid&response_type=code%20id_token&response_mode=query&state=OpenIdConnect.AuthenticationProperties%3DZrhsk_kNHv8ptM5lY_fBHd1uIAs1d8CzZNpALhjxg6qOBx85yPJVjt0ysM6zfCdPdTpuzUeBXa2ItkPU6oXIkNVRzMqtTZgBiaqZrBQUi4vFSaI9U-FO-1adCX8wWOjJUNv8QZLEfZGG7yBov797MjQ_uSMyBvinimi8T5UtAqVzLBLU_x5D7Ez4vr6kMgJB&nonce=637646961893973035.OGRhOThjNzAtNDExYi00MmY3LThkNzEtYzNlZjdjMzg3MDA4YmNhODg4Y2YtY2E2Zi00YWVkLWI5MTctMmUxNGU0ZTBlMmE2&x-client-SKU=ID_NET461&x-client-ver=5.3.0.0"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1090,
+         184,
+         350,
+         716
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-033-Customers-Customers-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://innovation.ansys.com/customer-center"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/support"
+         },
+         {
+          "text": "",
+          "href": "https://partner.ansys.com/"
+         },
+         {
+          "text": "",
+          "href": "https://ansys.synopsys.com/contact-us"
+         },
+         {
+          "text": "",
+          "href": "tel:+18444626797"
+         },
+         {
+          "text": "",
+          "href": "https://ansysaccount.b2clogin.com/ansysaccount.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_ANSYSID_SIGNUP_SIGNIN&client_id=b7f08794-f038-4c33-ae5a-5b589c912f36&redirect_uri=https://ansys.synopsys.com/content/ansysincprogram/en-us/home.ssologin.json&scope=openid&response_type=code%20id_token&response_mode=query&state=OpenIdConnect.AuthenticationProperties%3DZrhsk_kNHv8ptM5lY_fBHd1uIAs1d8CzZNpALhjxg6qOBx85yPJVjt0ysM6zfCdPdTpuzUeBXa2ItkPU6oXIkNVRzMqtTZgBiaqZrBQUi4vFSaI9U-FO-1adCX8wWOjJUNv8QZLEfZGG7yBov797MjQ_uSMyBvinimi8T5UtAqVzLBLU_x5D7Ez4vr6kMgJB&nonce=637646961893973035.OGRhOThjNzAtNDExYi00MmY3LThkNzEtYzNlZjdjMzg3MDA4YmNhODg4Y2YtY2E2Zi00YWVkLWI5MTctMmUxNGU0ZTBlMmE2&x-client-SKU=ID_NET461&x-client-ver=5.3.0.0"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1090,
+         108,
+         187,
+         433
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-offset",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "outline-width",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "button.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.pointer-events-none"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.pointer-events-none"
+        }
+       ],
+       "shot": "1440-034-Customers-Customers-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Free Trials",
+     "key": "free trials",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>main>section:nth-of-type(1)>div>header>div:nth-of-type(4)>nav>div:nth-of-type(5)>a",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+     "expanded": null,
+     "rect": [
+      1262,
+      82,
+      147,
+      52
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1167,
+         2685,
+         273,
+         -1785
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 300,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "a.cursor-pointer"
+        }
+       ],
+       "shot": null
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 159,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 159,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 159,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 159,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 43,
+   "truncated": "depth 2 at Ask > Legal disclaimer",
+   "loads": 138
+  }
+ },
+ "probe": "synopsys"
+}

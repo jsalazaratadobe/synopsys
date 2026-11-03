@@ -1,0 +1,189 @@
+/* faq — lifted from the gated prototype (page CSS "FAQ accordion"), scoped */
+
+/* the FAQ band's own block padding (prototype .content__pad) */
+main .section.faq-container {
+  padding-block: 2rem;
+}
+
+@container main (width >= 48rem) {
+  main .section.faq-container {
+    padding-block: 3rem;
+  }
+}
+
+@container main (width >= 96rem) {
+  main .section.faq-container {
+    padding-block: 4rem;
+  }
+}
+
+@container main (width >= 103.75rem) {
+  main .section.faq-container {
+    padding-block: 5rem;
+  }
+}
+
+.faq {
+  padding: 3rem 1.5rem;
+}
+
+.faq .faq-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 103.75rem;
+  margin-inline: auto;
+}
+
+.faq .faq-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 48rem;
+}
+
+.faq .faq-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq .faq-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.faq .faq-lede {
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+.faq .faq-list {
+  position: relative;
+}
+
+.faq .faq-row {
+  padding-block: 2.75rem;
+  border-bottom: 2px solid var(--color-base-200);
+}
+
+.faq .faq-q {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq .faq-title {
+  flex: 1 1 0%;
+  width: 100%;
+  padding-right: 3rem;
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.faq .faq-ic {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  background-color: var(--color-base-950);
+}
+
+.faq .faq-ic svg {
+  width: 1.5rem;
+  height: auto;
+}
+
+.faq .faq-ic-minus,
+.faq .faq-row[data-open='true'] .faq-ic-plus {
+  display: none;
+}
+
+.faq .faq-row[data-open='true'] .faq-ic-minus {
+  display: block;
+}
+
+.faq .faq-ans {
+  padding: 1.5rem 3rem 2rem 0;
+}
+
+.faq .faq-ans .prose {
+  max-width: 100%;
+}
+
+@container section (width >= 48rem) {
+  .faq {
+    padding-inline: 2rem;
+  }
+
+  .faq .faq-titles {
+    font-size: var(--text-4xl);
+  }
+
+  .faq .faq-title {
+    font-size: var(--text-2xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .faq {
+    padding: 5rem 4rem;
+  }
+
+  .faq .faq-titles {
+    font-size: var(--text-5xl);
+  }
+
+  .faq .faq-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+@container section (width >= 80rem) {
+  .faq .faq-inner {
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .faq .faq-intro {
+    width: 40%;
+    gap: 3rem;
+  }
+
+  .faq .faq-lede {
+    font-size: var(--text-2xl);
+    line-height: calc(2 / 1.5);
+  }
+
+  .faq .faq-list {
+    width: 60%;
+    padding-right: 4rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .faq {
+    padding: 6rem 7rem;
+  }
+
+  .faq .faq-inner {
+    gap: 7rem;
+  }
+
+  .faq .faq-list {
+    padding-right: 6rem;
+  }
+}

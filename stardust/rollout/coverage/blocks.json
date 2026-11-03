@@ -1,0 +1,395 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-03T04:36:21.912Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T20:10:05.359Z",
+  "blocks": [
+    {
+      "id": "capabilities-list",
+      "label": "capabilities-list",
+      "kind": "module",
+      "signature": "module:capabilities-list",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "capabilities-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "case-carousel",
+      "label": "case-carousel",
+      "kind": "module",
+      "signature": "module:case-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "case-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-band",
+      "label": "cta-band",
+      "kind": "module",
+      "signature": "module:cta-band",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cta-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq",
+      "label": "faq",
+      "kind": "module",
+      "signature": "module:faq",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "footer",
+      "label": "footer",
+      "kind": "chrome",
+      "signature": "chrome:footer",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "footer",
+        "blockPath": "fragments/footer.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "header",
+      "label": "header",
+      "kind": "chrome",
+      "signature": "chrome:header",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "header",
+        "blockPath": "fragments/header.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "icon-cards",
+      "label": "icon-cards",
+      "kind": "module",
+      "signature": "module:icon-cards",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "icon-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "link-cards",
+      "label": "link-cards",
+      "kind": "module",
+      "signature": "module:link-cards",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "link-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "logo-marquee",
+      "label": "logo-marquee",
+      "kind": "module",
+      "signature": "module:logo-marquee",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "logo-marquee",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-subnav",
+      "label": "product-subnav",
+      "kind": "module",
+      "signature": "module:product-subnav",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-subnav",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "release-notes",
+      "label": "release-notes",
+      "kind": "module",
+      "signature": "module:release-notes",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent-product-updates"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent-product-updates"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "release-notes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "resource-cards",
+      "label": "resource-cards",
+      "kind": "module",
+      "signature": "module:resource-cards",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "resource-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "split",
+      "label": "split",
+      "kind": "module",
+      "signature": "module:split",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tile-rail",
+      "label": "tile-rail",
+      "kind": "module",
+      "signature": "module:tile-rail",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tile-rail",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-feature",
+      "label": "video-feature",
+      "kind": "module",
+      "signature": "module:video-feature",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "video-feature",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-tabs",
+      "label": "video-tabs",
+      "kind": "module",
+      "signature": "module:video-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "usedByPages": [
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "video-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

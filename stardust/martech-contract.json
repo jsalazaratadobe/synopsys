@@ -1,0 +1,672 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-03T04:38:04.091Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "ansys.synopsys.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "019fcb0a-3dc6-7e13-b07b-7b16394f3285"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "per-tag",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/launch-2396cdda8e60.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-1",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtag/js?id=G-T3YLKBRZ5S",
+   "boot": "gtag",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-2",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtag/js?id=AW-1060031238",
+   "boot": "gtag",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-3",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtag/js?id=AW-1022216734",
+   "boot": "gtag",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: Google Analytics / Ads",
+  "marketing: Marketo Munchkin",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer",
+  "digitalData"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [
+   {
+    "id": "RL0058caed2fdf48f6890c20a112cdab3b",
+    "name": "cvent conversion - multi-die-auto-routing-wp",
+    "paths": [
+     "/resources/multi-die-auto-routing-wp.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL26b445074a5a477e8a12c42b50ecb4cf",
+    "name": "Ansys - File Download Variables",
+    "paths": [],
+    "selectors": [
+     "a[href]"
+    ]
+   },
+   {
+    "id": "RL2b87ac5296c4455bba38a5ec7422c2b8",
+    "name": "cvent conversion - innovate-faster",
+    "paths": [
+     "/multi-die-system/innovate-faster.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL2f9dd9932c85454cb7f0d016a7f1bab3",
+    "name": "CES Registration - Pageview thankyou",
+    "paths": [
+     "/events/ces/register/thankyou.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5014c0fd6f8b4e13a55835c5afaa7fae",
+    "name": "TheTradeDesk - Click - Silicon IP Form Submit DW",
+    "paths": [],
+    "selectors": [
+     "#form input"
+    ]
+   },
+   {
+    "id": "RL5253bf7224a440249c330476bd363b22",
+    "name": "TheTradeDesk - Click - Silicon IP DL Brochure DW",
+    "paths": [
+     "/designware-ip/processor-solutions/arc-processors.html"
+    ],
+    "selectors": [
+     "a"
+    ]
+   },
+   {
+    "id": "RL56c327f9b9d0404cb5665da97921d11b",
+    "name": "Intensify - Pageview thankyou",
+    "paths": [
+     "/thankyou.html",
+     "/thank-you.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL57e41e68052145b3b46bfcb981de6d1e",
+    "name": "WebSDK - Set User Consent",
+    "paths": [
+     "/page_login_timeout.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL5903abff79e346af80b200c0f8c6f92d",
+    "name": "ANSYS LEGACY - SimulationWorld - Register Now - Virtual Events Click",
+    "paths": [],
+    "selectors": [
+     "a#reg-button"
+    ]
+   },
+   {
+    "id": "RL60fc47cf263c45a6956ffbe65772394b",
+    "name": "cvent conversion - start-guide",
+    "paths": [
+     "/multi-die-system/start-guide.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL757f0f3aaa6c4e389e0b44a2d92d987a",
+    "name": "Automitive eBook - Pageview thankyou",
+    "paths": [
+     "/resources/navigating-software-defined-vehicle-development/thank-you.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL7f9993f7bb6b461599e3e8372edf7309",
+    "name": "Custom - Redirect with Identity",
+    "paths": [],
+    "selectors": [
+     "a[href]"
+    ]
+   },
+   {
+    "id": "RLa84be48673134bc0b9746d39f5d8ef60",
+    "name": "Google Ads - Pageview - Virtual Processing TY",
+    "paths": [
+     "/blogs/chip-design/ai-software-testing-architectural-separation-reliable-results.html"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLacd9749dc6914286afecc85010be8cb1",
+    "name": "ANSYS LEGACY - Google AGI ODTK button pixel",
+    "paths": [],
+    "selectors": [
+     "div.hero__content>div> div.cta-group>a"
+    ]
+   },
+   {
+    "id": "RLbcc0b4bd7372404b9df7e6f639340bce",
+    "name": "TheTradeDesk - Click - Silicon IP Form Input DW",
+    "paths": [],
+    "selectors": [
+     "#form input"
+    ]
+   },
+   {
+    "id": "RLc87c2190c5b84089a1bd40255310de3c",
+    "name": "TheTradeDesk - Click - Silicon IP Arc Page DW",
+    "paths": [
+     "/designware-ip/processor-solutions/arc-processors.html"
+    ],
+    "selectors": [
+     "a"
+    ]
+   },
+   {
+    "id": "RLd4c1054b5dbf4085912b7c05b4717695",
+    "name": "Custom - Thank You Page Redirect",
+    "paths": [
+     "/thankyou.html(\\\\?)?.*",
+     "/thank-you.html(\\\\?)?.*",
+     "/converge/livestream-2026/watch\\\\.html(\\\\?.*)?$",
+     "/converge/executive-forum-2025/watch.html(\\\\?.*)?$",
+     "/converge/executive-forum-2026/watch.html(\\\\?.*)?$"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RLd561ec325f8f47dfaa20822697f6eff5",
+    "name": "ANSYS LEGACY - Google AGI STK button pixel",
+    "paths": [],
+    "selectors": [
+     "div.hero__content>div> div.cta-group>a"
+    ]
+   },
+   {
+    "id": "RLf398f26059fc4b5abe365f99bb6ca749",
+    "name": "TheTradeDesk - Click - Silicon IP Contact Sales DW",
+    "paths": [
+     "/designware-ip/processor-solutions/arc-processors.html"
+    ],
+    "selectors": [
+     "a"
+    ]
+   }
+  ],
+  "dataElements": [
+   {
+    "name": "ANSYS LEGACY MAIN - Custom Code: Search Tab",
+    "selectors": [
+     "atomic-tab[active]",
+     "atomic-tab-manager"
+    ]
+   },
+   {
+    "name": "Custom - PDF Page View Event",
+    "selectors": [
+     "[id^="
+    ]
+   },
+   {
+    "name": "Solvnet - User Company Name",
+    "selectors": [
+     "div > c-analytics-user-detail",
+     "span[id*="
+    ]
+   },
+   {
+    "name": "DataLayer - Product Interests",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "ANSYS LEGACY - Core: Convertful Source",
+    "selectors": [
+     "div.conv_active.conv-widget"
+    ]
+   },
+   {
+    "name": "Custom - Form ID",
+    "selectors": [
+     "form"
+    ]
+   },
+   {
+    "name": "Custom - Tab Name",
+    "selectors": [
+     ".primary-nav-button[data-target="
+    ]
+   },
+   {
+    "name": "Custom - Form Provider",
+    "selectors": [
+     ".mktoForm, form[id^="
+    ]
+   },
+   {
+    "name": "Custom - Form Name",
+    "selectors": [
+     ".page-title"
+    ]
+   },
+   {
+    "name": "Solvnet - User ID",
+    "selectors": [
+     "div > c-analytics-user-detail",
+     "span[id*="
+    ]
+   },
+   {
+    "name": "ANSYS LEGACY MAIN - Authenticated",
+    "selectors": [
+     "button.theavatar-loggedin"
+    ]
+   },
+   {
+    "name": "ANSYS LEGACY MAIN - Custom Code: Search Term",
+    "selectors": [
+     "atomic-search-interface"
+    ]
+   },
+   {
+    "name": "Custom - Client Type",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Custom - Survey ID",
+    "selectors": [
+     "a.sg-b-l-m[href*="
+    ]
+   },
+   {
+    "name": "Custom - Blog Title",
+    "selectors": [
+     "h1.title"
+    ]
+   },
+   {
+    "name": "Custom - Blog Publish Date",
+    "selectors": [
+     ".date"
+    ]
+   },
+   {
+    "name": "Custom - Blog Author",
+    "selectors": [
+     ".blog-author span"
+    ]
+   }
+  ],
+  "library": "Adobe Launch",
+  "dataLayer": [
+   {
+    "id": "RL15858b1b815a4c45a2c20ad0efe200ff",
+    "name": "Google Ads - Pageview",
+    "events": [
+     "concierge:meeting-scheduled"
+    ]
+   },
+   {
+    "id": "RL17c93ffb557f453ca9b7aebc05836d27",
+    "name": "Brand Concierge (BC) - Session Timer",
+    "events": [
+     "concierge:open-modal",
+     "concierge:close-confirm",
+     "concierge:minimize"
+    ]
+   },
+   {
+    "id": "RL1bf2125f51494bb7924c67166ad39340",
+    "name": "WebSDK - Form Tracking",
+    "events": [
+     "formInitiation",
+     "formError",
+     "formSuccess",
+     "formPrefillSuccess",
+     "form-view",
+     "formStep"
+    ]
+   },
+   {
+    "id": "RL3c2ffb2ef1a949b5a9df134b061ce902",
+    "name": "Bing - Form Submit (Synopsys)",
+    "events": [
+     "formSuccess",
+     "formPrefillSuccess"
+    ]
+   },
+   {
+    "id": "RL5b0acc1bcea04597a58744024d528290",
+    "name": "WebSDK - Pageview - Error",
+    "events": [
+     "page-view"
+    ]
+   },
+   {
+    "id": "RL64f21ebdb0de4123afa6cbaa99573b37",
+    "name": "OpenAI - Form Submit",
+    "events": [
+     "formSuccess"
+    ]
+   },
+   {
+    "id": "RL6c2eac447020495dabaf8747ff29c44a",
+    "name": "Forms - Set UTM and DnB Fields",
+    "events": [
+     "page-view-dnb"
+    ]
+   },
+   {
+    "id": "RL741577f363124b0180a43399c18eb6eb",
+    "name": "LinkedIn - Pageview (Ansys)",
+    "events": [
+     "concierge:meeting-scheduled"
+    ]
+   },
+   {
+    "id": "RL7c74ff055658407b9f5bf6f55bbed75c",
+    "name": "WebSDK -\\xa0Video Tracking",
+    "events": [
+     "video_open",
+     "video_25",
+     "video_50",
+     "video_75",
+     "video_close",
+     "video_90"
+    ]
+   },
+   {
+    "id": "RL868ea2439b52491393fd44e7b1573816",
+    "name": "LinkedIn - Pageview (Synopsys)",
+    "events": [
+     "concierge:meeting-scheduled"
+    ]
+   },
+   {
+    "id": "RL9a4fd5f8b45f435d97c215a55410c0f5",
+    "name": "WebSDK - Search - Filters",
+    "events": [
+     "searchSortFilterAction"
+    ]
+   },
+   {
+    "id": "RL9c2e0506bb104e21a1da48efd625e794",
+    "name": "LinkedIn - Form Submit (Ansys)",
+    "events": [
+     "formSuccess"
+    ]
+   },
+   {
+    "id": "RLa42749b2463842e495c39d8100637f89",
+    "name": "WebSDk - Search Result Click",
+    "events": [
+     "searchResultsClicksAction"
+    ]
+   },
+   {
+    "id": "RLa4d60e6f9c9743edb8d59903bf833b61",
+    "name": "WebSDK - Search Pagination Click",
+    "events": [
+     "searchPaginationClicksAction"
+    ]
+   },
+   {
+    "id": "RLa84be48673134bc0b9746d39f5d8ef60",
+    "name": "Google Ads - Pageview - Virtual Processing TY",
+    "events": [
+     "concierge:meeting-scheduled"
+    ]
+   },
+   {
+    "id": "RLb8cfe69a565f455284d7c1e108083df9",
+    "name": "WebSDK - Search",
+    "events": [
+     "search"
+    ]
+   },
+   {
+    "id": "RLc787dcd2af0443eca9f7dd11470e4e0a",
+    "name": "LinkedIn - Form Submit (Synopsys)",
+    "events": [
+     "formSuccess",
+     "formPrefillSuccess"
+    ]
+   },
+   {
+    "id": "RLea28f0a8c0b040d69b0ae548dac25a47",
+    "name": "WebSDK - Target Decisioning Pre Fetch",
+    "events": [
+     "page-view-dnb"
+    ]
+   },
+   {
+    "id": "RLee0c5cfe6d1e4b418933249ae22e8d94",
+    "name": "ANSYS LEGACY - Media Tags: Universal Form Submission (C0002)",
+    "events": [
+     "formSuccess"
+    ]
+   },
+   {
+    "id": "RLf12fcf70a7794f5692490fe5965627ec",
+    "name": "WebSDK - Navbar Hover",
+    "events": [
+     "nav-hover"
+    ]
+   },
+   {
+    "id": "RLf4e55f5f159c4e37937fb152852252b6",
+    "name": "WebSDK - Scroll",
+    "events": [
+     "scroll"
+    ]
+   },
+   {
+    "id": "RLfc9d421a22994b58b9fcb49d62265c9b",
+    "name": "WebSDK - Component Click (Solvnet Temp)",
+    "events": [
+     "click-link-solvnet"
+    ]
+   },
+   {
+    "id": "RLfdf55e86a54d4a65bc47ba245e8b3fbd",
+    "name": "WebSDK - Brand Concierge (BC)",
+    "events": [
+     "concierge:impression",
+     "concierge:open-modal",
+     "concierge:close-confirm",
+     "concierge:close-request",
+     "concierge:close-cancel",
+     "concierge:minimize",
+     "concierge:hide-chatbar",
+     "concierge:floating-icon-clicked",
+     "concierge:resume-chatbar",
+     "concierge:query:submitted",
+     "concierge:response:completed",
+     "concierge:link-clicked",
+     "concierge:card_clicked",
+     "concierge:citation_source_clicked",
+     "concierge:promptSuggestion:clicked",
+     "concierge:feedback:submitted",
+     "concierge:error:occurred",
+     "concierge:session-time",
+     "concierge:citation_superscript_clicked"
+    ]
+   }
+  ],
+  "dataLayerPaths": [
+   "siteKnowledge.supportSiteSearch.searchType",
+   "company_name",
+   "_synopsys.forms.formProvider",
+   "_synopsys.web.webPageDetails.pageType",
+   "_synopsys.forms.formTypeDetail",
+   "_synopsys.forms.formName",
+   "_synopsys.videos.videoName",
+   "_synopsys.forms.formType",
+   "_synopsys.web.webInteraction.rightRailComponent",
+   "company_revenue",
+   "_synopsys.videos.videoTimeSpent.value",
+   "_synopsys.internalCampaign.campaignCode",
+   "siteKnowledge.supportSiteSearch.refinementType",
+   "siteKnowledge.supportSiteSearch.sortType",
+   "_synopsys.web.webPageDetails.solutionInterest.solutionInterest1",
+   "siteKnowledge.supportSiteSearch.nullInstances",
+   "_synopsys.internalSearch.searchHub",
+   "web.webInteraction.type",
+   "web.webPageDetails.name",
+   "_synopsys.web.webPageDetails.siteSubSection3",
+   "web.webInteraction.componentType",
+   "siteKnowledge.supportSiteSearch.refinementValue",
+   "_synopsys.videos.videoId",
+   "_synopsys.web.webPageDetails.product",
+   "company_size",
+   "siteKnowledge.supportSiteSearch.term",
+   "web.webInteraction.URL",
+   "web.webInteraction.linkName",
+   "_synopsys.surveys.surveyId",
+   "_synopsys.web.webPageDetails.siteName",
+   "_synopsys.forms.formStep",
+   "web.webPageDetails.siteSection",
+   "_synopsys.web.webPageDetails.articleAuthor",
+   "_synopsys.web.webPageDetails.articlePublishDate",
+   "_synopsys.web.webPageDetails.countryLanguage",
+   "web.webInteraction.componentName",
+   "_synopsys.forms.formID",
+   "_synopsys.videos.contentSegment",
+   "web.webInteraction.linkClicks.value",
+   "web.webInteraction.linkRegion",
+   "web.webPageDetails.isErrorPage",
+   "company_industry",
+   "domain",
+   "_synopsys.videos.videoTotalLength",
+   "_synopsys.videos.videoProvider",
+   "_synopsys.web.webPageDetails.siteSubSection2",
+   "_synopsys.web.webPageDetails.siteSubSection1",
+   "_synopsys.forms.formNameNew",
+   "web.webInteraction.fileTitle",
+   "_synopsys.web.webInteraction.linkLevel",
+   "siteKnowledge.supportSiteSearch.numberOfResults"
+  ]
+ },
+ "aemMartech": {
+  "plugin": {
+   "name": "aem-martech",
+   "repo": "https://github.com/adobe-rnd/aem-martech.git",
+   "path": "plugins/martech",
+   "edge": "edge.adobedc.net",
+   "sdkDefaultConsent": "in",
+   "launchExtensions": [
+    "Adobe Client Data Layer"
+   ]
+  },
+  "config": {
+   "orgId": "96E61CFE53295EF20A490D45@AdobeOrg",
+   "datastreamId": null,
+   "alloyInstanceName": "alloy",
+   "edgeDomain": "smetrics.synopsys.com",
+   "defaultConsent": "pending",
+   "launchUrls": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/launch-2396cdda8e60.min.js"
+   ]
+  },
+  "candidates": {
+   "datastreamId": [
+    "d1b60f6b-909e-4efa-9b2e-f909e1628080",
+    "f4a7084d-6768-447f-b65e-c9f8afa3753a",
+    "2176cf9f-2ff5-45aa-9dae-6a6d24efd275",
+    "ea4980cc-9e09-4d81-8b60-5e60b99a4657",
+    "b6fcba23-df1c-4889-9f12-551793a32348",
+    "96f90a97-f187-4033-8eed-af1b12440d77",
+    "4e614e4a-8f05-4027-89b7-37558e8dfec9",
+    "9d60ac7e-06dc-4f23-b533-0717a7af979a"
+   ],
+   "stagingDatastreamId": [
+    "d1b60f6b-909e-4efa-9b2e-f909e1628080",
+    "f4a7084d-6768-447f-b65e-c9f8afa3753a",
+    "2176cf9f-2ff5-45aa-9dae-6a6d24efd275",
+    "ea4980cc-9e09-4d81-8b60-5e60b99a4657",
+    "b6fcba23-df1c-4889-9f12-551793a32348",
+    "96f90a97-f187-4033-8eed-af1b12440d77",
+    "4e614e4a-8f05-4027-89b7-37558e8dfec9",
+    "9d60ac7e-06dc-4f23-b533-0717a7af979a"
+   ]
+  },
+  "extension": {
+   "version": "2.38.0",
+   "selfHostable": true,
+   "library": "managed"
+  },
+  "missingExtensions": [],
+  "category": null,
+  "enabled": false
+ },
+ "target": {
+  "atjs": {
+   "from": "launch",
+   "extension": "adobe-target-v2"
+  },
+  "webSdk": {
+   "renderRules": [
+    {
+     "id": "RLea28f0a8c0b040d69b0ae548dac25a47",
+     "name": "WebSDK - Target Decisioning Pre Fetch"
+    }
+   ],
+   "prehiding": false
+  },
+  "enabled": false
+ }
+}

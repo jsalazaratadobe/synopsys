@@ -1,0 +1,9 @@
+Source	Destination
+# root: the source home page is outside this run's 4-page scope — / answers with the Fluent overview
+/	/products/fluids/ansys-fluent
+/index.html	/products/fluids/ansys-fluent
+# source 301s trailing-slash URLs to the slash-less page
+/products/fluids/ansys-fluent/	/products/fluids/ansys-fluent
+/products/fluids/ansys-fluent/capabilities/	/products/fluids/ansys-fluent/capabilities
+/products/fluids/ansys-fluent/resources/	/products/fluids/ansys-fluent/resources
+/products/fluids/ansys-fluent/product-updates/	/products/fluids/ansys-fluent/product-updates

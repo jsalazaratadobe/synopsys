@@ -1,0 +1,171 @@
+{
+  "topic-tile": {
+    "origin": "main>section:nth-of-type(4) a[aria-label]>article",
+    "build": "main>section:nth-of-type(4) .tile__card, main .tile-rail .tile-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent",
+      "products-fluids-ansys-fluent-capabilities"
+    ],
+    "templates": [
+      "landing",
+      "program"
+    ]
+  },
+  "case-slide": {
+    "origin": "main>section:nth-of-type(4)>div>div:nth-of-type(6) article:first-of-type",
+    "build": "main>section:nth-of-type(4) .case:first-of-type, main .case-carousel .case:first-of-type",
+    "n": 1,
+    "required": false,
+    "pages": [
+      "products-fluids-ansys-fluent"
+    ],
+    "templates": [
+      "landing",
+      "program"
+    ],
+    "note": "carousel: only slide 1 is on-canvas; slides 2+ sit off-canvas (clipped) identically on live and build, so the family measures slide 1 only; advisory"
+  },
+  "icon-card": {
+    "origin": "main>section:nth-of-type(4)>div>div:nth-of-type(2) h4",
+    "build": "main>section:nth-of-type(4) .why__grid .iconcard__title, main .icon-cards .iconcard-title h4",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "faq-row": {
+    "origin": "main>section:nth-of-type(5) button>span:first-child h4",
+    "build": "main>section:nth-of-type(5) button>span:first-child h4, main .faq .faq-title h4",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "footer-column": {
+    "origin": "main>section:last-of-type ul",
+    "build": "main>section:last-of-type .sf__list, footer .sf-list",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent",
+      "products-fluids-ansys-fluent-capabilities",
+      "products-fluids-ansys-fluent-product-updates"
+    ],
+    "templates": [
+      "landing",
+      "program",
+      "listing",
+      "article"
+    ]
+  },
+  "feature-check": {
+    "origin": "main>section:nth-of-type(6) li h6",
+    "build": "main>section:nth-of-type(6) .check__title, main .split .split-check-title h6",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-capabilities"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "video-tab": {
+    "origin": "main>section:nth-of-type(4) button.pr-16.select-none",
+    "build": "main>section:nth-of-type(4) .mp__tab, main .video-tabs .video-tabs-tab",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-resources"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "note": "origin selector avoids \"=\" (gate-all splits origin=build on the first =)"
+  },
+  "resource-card": {
+    "origin": "main>section:nth-of-type(5) article.gap-11.border-4",
+    "build": "main>section:nth-of-type(5) .rcard, main .resource-cards:not(.blog, .compact, .featured) .resource-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-resources"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "note": "origin selector avoids \"=\" (gate-all splits origin=build on the first =)"
+  },
+  "blog-card": {
+    "origin": "main>section:nth-of-type(5) article.min-h-120",
+    "build": "main>section:nth-of-type(5) .bcard, main .resource-cards.blog .resource-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-resources"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "note": "origin selector avoids \"=\" (gate-all splits origin=build on the first =)"
+  },
+  "curated-card": {
+    "origin": "main>section:nth-of-type(6) article.gap-11.p-8",
+    "build": "main>section:nth-of-type(6) .ccard, main .resource-cards.compact .resource-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-resources"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "note": "origin selector avoids \"=\" (gate-all splits origin=build on the first =)"
+  },
+  "release-note-row": {
+    "origin": "main>section:nth-of-type(5) .border-l-2",
+    "build": "main>section:nth-of-type(5) .rn__body, main .release-notes .release-notes-body",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-product-updates"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "link-card": {
+    "origin": "main>section:nth-of-type(5) .min-h-40",
+    "build": "main>section:nth-of-type(5) .mres__card, main .link-cards.boxed .link-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-product-updates"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "past-release-card": {
+    "origin": "main>section:nth-of-type(5) article.rounded-box",
+    "build": "main>section:nth-of-type(5) .pcard, main .resource-cards.featured .resource-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "products-fluids-ansys-fluent-product-updates"
+    ],
+    "templates": [
+      "article"
+    ]
+  }
+}

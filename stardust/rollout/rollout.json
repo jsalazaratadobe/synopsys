@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T04:36:21.818Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://ansys.synopsys.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "0f0b9fb5",
+      "ref": "main"
+    },
+    "liveHost": "main--0f0b9fb5--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 4,
+    "discovered": 4,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-03T20:10:05.359Z",
+    "pages": {
+      "total": 4,
+      "verified": 4,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 17,
+      "converted": 17,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

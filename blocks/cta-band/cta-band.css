@@ -1,0 +1,322 @@
+/* cta-band — lifted from the gated prototype (canon.css "CTA band"), scoped */
+.cta-band {
+  position: relative;
+}
+
+.cta-band .cta-band-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.cta-band .cta-band-bg .vy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.cta-band .vy-region {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.cta-band .vy-poster,
+.cta-band .vy-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.cta-band .cta-band-pad {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 3rem 1.5rem;
+}
+
+.cta-band.video .cta-band-pad {
+  min-height: 36.25rem;
+}
+
+.cta-band .cta-band-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+}
+
+.cta-band .cta-band-stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  text-align: center;
+}
+
+.cta-band .cta-band-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cta-band .cta-band-eyebrow {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  line-height: 1.375;
+  text-wrap: balance;
+}
+
+.cta-band .cta-band-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.cta-band .cta-band-lede {
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+@container section (width >= 48rem) {
+  .cta-band .cta-band-pad {
+    padding-inline: 2rem;
+  }
+
+  .cta-band.video .cta-band-pad {
+    min-height: 33.75rem;
+  }
+
+  .cta-band .cta-band-wrap {
+    padding-inline: 1.5rem;
+  }
+
+  .cta-band .cta-band-title {
+    font-size: var(--text-4xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .cta-band .cta-band-pad {
+    padding: 5rem 4rem;
+  }
+
+  .cta-band .cta-band-wrap {
+    padding-inline: 4rem;
+  }
+}
+
+@container section (width >= 80rem) {
+  .cta-band.video .cta-band-pad {
+    min-height: 41.25rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .cta-band .cta-band-pad {
+    padding: 6rem 7rem;
+  }
+}
+
+@container section (width >= 103.75rem) {
+  .cta-band .cta-band-title {
+    font-size: var(--text-5xl);
+  }
+}
+
+/* lede variant — left title + lede + button (program archetype .tcta) */
+.cta-band.lede .cta-band-pad {
+  display: block;
+  padding: 4rem 1.5rem;
+}
+
+.cta-band.lede .cta-band-wrap {
+  display: block;
+  max-width: 103.75rem;
+  padding-inline: 0;
+}
+
+.cta-band.lede .cta-band-stack {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 0;
+  text-align: left;
+}
+
+.cta-band.lede .cta-band-head {
+  display: contents;
+}
+
+.cta-band.lede .cta-band-title {
+  font-size: var(--text-3xl);
+}
+
+.cta-band.lede .cta-band-lede {
+  margin-top: 1.25rem;
+}
+
+.cta-band.lede .cta-row {
+  margin-top: 2.25rem;
+}
+
+/* default variant — compact centred title + button band (program brochure .dlband) */
+.cta-band:not(.video, .lede) .cta-band-pad {
+  display: block;
+  padding: 2rem 1.5rem;
+  background-color: var(--color-base-0);
+}
+
+.cta-band:not(.video, .lede) .cta-band-wrap {
+  display: block;
+  max-width: 80rem;
+  padding-inline: 0;
+}
+
+.cta-band:not(.video, .lede) .cta-band-stack {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.cta-band:not(.video, .lede) .cta-band-head {
+  justify-content: center;
+  gap: 0.5rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.cta-band:not(.video, .lede) .cta-band-title {
+  font-size: var(--text-xl);
+}
+
+.cta-band:not(.video, .lede) .cta-row {
+  justify-content: center;
+  align-items: center;
+}
+
+@container section (width >= 48rem) {
+  .cta-band.lede .cta-band-pad {
+    padding: 5rem 2rem;
+  }
+
+  .cta-band.lede .cta-band-wrap,
+  .cta-band:not(.video, .lede) .cta-band-wrap {
+    padding-inline: 0;
+  }
+
+  .cta-band.lede .cta-band-title {
+    font-size: var(--text-4xl);
+  }
+
+  .cta-band.lede .cta-row {
+    margin-top: 2.5rem;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-pad {
+    padding-inline: 2rem;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-title {
+    font-size: var(--text-2xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .cta-band.lede .cta-band-pad {
+    padding: 8rem 4rem;
+  }
+
+  .cta-band.lede .cta-band-wrap,
+  .cta-band:not(.video, .lede) .cta-band-wrap {
+    padding-inline: 0;
+  }
+
+  .cta-band.lede .cta-band-stack {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    column-gap: 3rem;
+  }
+
+  .cta-band.lede .cta-band-title {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    font-size: var(--text-5xl);
+  }
+
+  .cta-band.lede .cta-band-lede {
+    grid-column: 2;
+    margin-top: 0;
+    font-size: var(--text-2xl);
+    line-height: calc(2 / 1.5);
+  }
+
+  .cta-band.lede .cta-row {
+    grid-column: 2;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-pad {
+    padding: 3rem 4rem;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-stack {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-head {
+    margin-inline: 0;
+    text-align: left;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+@container section (width >= 80rem) {
+  .cta-band.lede .cta-band-lede {
+    font-size: var(--text-3xl);
+    line-height: calc(2.25 / 1.875);
+  }
+}
+
+@container section (width >= 96rem) {
+  .cta-band.lede .cta-band-pad {
+    padding: 10rem 7rem;
+  }
+
+  .cta-band.lede .cta-band-lede,
+  .cta-band.lede .cta-row {
+    padding-right: 4rem;
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-pad {
+    padding: 3rem 7rem;
+  }
+}
+
+@container section (width >= 103.75rem) {
+  .cta-band.lede .cta-band-title {
+    font-size: var(--text-5xl);
+  }
+
+  .cta-band:not(.video, .lede) .cta-band-title {
+    font-size: var(--text-3xl);
+  }
+}
