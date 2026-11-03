@@ -1,0 +1,77 @@
+/* products-fluids-ansys-fluent (landing) — page-only modules. Shared layer: canon.css */
+
+/* why choose (intro + 3 icon cards) */
+.why { display: flex; flex-direction: column; gap: 3rem; }
+@container section (min-width: 64rem) { .why { gap: 4rem; } }
+.why__intro { position: relative; }
+.why__intro-in { display: flex; max-width: 64rem; flex-direction: column; gap: 1rem; }
+@container section (min-width: 48rem) { .why__intro-in { gap: 2rem; } }
+@container section (min-width: 80rem) { .why__intro-in { gap: 3rem; } }
+.why__head { display: flex; flex-direction: column; gap: .5rem; }
+.why__lede { font-size: var(--text-lg); line-height: calc(1.75 / 1.125); }
+@container section (min-width: 48rem) { .why__lede { font-size: var(--text-2xl); line-height: calc(2 / 1.5); } }
+@container section (min-width: 103.75rem) { .why__lede { font-size: var(--text-3xl); line-height: 1.2; } }
+.why__grid { display: grid; width: 100%; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 3rem; }
+@container section (min-width: 64rem) { .why__grid { row-gap: 6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container section (min-width: 96rem) { .why__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* logo marquee ("Trusted by innovators…") */
+.blk--logos { padding-block: 4rem; }
+@container section (min-width: 48rem) { .blk--logos { padding-block: 5rem; } }
+@container section (min-width: 64rem) { .blk--logos { padding-block: 8rem; } }
+@container section (min-width: 96rem) { .blk--logos { padding-block: 10rem; } }
+.logos { display: flex; flex-direction: column; gap: 1.25rem; }
+.logos__head { display: flex; flex-direction: column; gap: .5rem; padding-bottom: 1.5rem; }
+@container section (min-width: 64rem) { .logos__head { padding-inline: 1.5rem; padding-bottom: 2.25rem; } .logos__title { text-align: center; } }
+@container section (min-width: 96rem) { .logos__head { padding-inline: 7rem; } }
+.marquee { position: relative; overflow: hidden; }
+.marquee__fade { position: absolute; top: 0; bottom: 0; z-index: 10; height: 100%; width: 20%; }
+.marquee__fade--l { left: 0; background-image: linear-gradient(to right, var(--color-base), var(--color-base), transparent); }
+.marquee__fade--r { right: 0; background-image: linear-gradient(to left, var(--color-base), var(--color-base), transparent); }
+.marquee__rows { display: flex; flex-direction: column; gap: 1.5rem; overflow: hidden; white-space: nowrap; }
+@keyframes scroll { 0% { transform: translate(0); } to { transform: translate(-50%); } }
+.marquee__row--medium { animation-duration: 30s !important; }
+.marquee__row { display: flex; width: fit-content; align-items: center; gap: 1.5rem; padding-left: 1.5rem; animation: 40s linear infinite scroll; }
+@container section (min-width: 48rem) { .marquee__row { gap: 2rem; padding-left: 2rem; } }
+.marquee__item { display: flex; height: 2rem; width: 6rem; align-items: center; justify-content: center; }
+@container section (min-width: 64rem) { .marquee__item { height: 4rem; width: 12rem; } }
+@container section (min-width: 80rem) { .marquee__item { height: 6rem; width: 18rem; } }
+.marquee__item img { width: 100%; height: 100%; object-fit: contain; }
+
+/* capabilities (sticky-ish intro + icon list) */
+.caps { position: relative; display: flex; flex-direction: column; gap: 1.25rem; }
+@container section (min-width: 80rem) { .caps { flex-direction: row; } }
+.caps__intro { display: flex; height: 100%; max-width: 56rem; flex-grow: 1; flex-direction: column; gap: 1.5rem; padding-bottom: 3rem; }
+@container section (min-width: 80rem) { .caps__intro { top: 6rem; width: 50%; padding-block: 2rem; padding-right: 5rem; } }
+@container section (min-width: 96rem) { .caps__intro { padding-right: 7rem; } }
+.caps__head { display: flex; width: 100%; flex-direction: column; gap: .5rem; }
+.caps__lede { font-size: var(--text-lg); line-height: calc(1.75 / 1.125); }
+.caps__cta { padding-top: 1rem; }
+.caps__list { max-width: 56rem; }
+@container section (min-width: 80rem) { .caps__list { width: 50%; } }
+.caps__list ul { display: flex; flex-direction: column; gap: 3rem; }
+@container section (min-width: 80rem) { .caps__list ul { padding-block: 3rem; } }
+
+/* FAQ accordion */
+.faq { display: flex; flex-direction: column; gap: 2.5rem; }
+@container section (min-width: 80rem) { .faq { flex-direction: row; gap: 5rem; } }
+@container section (min-width: 96rem) { .faq { gap: 7rem; } }
+.faq__intro { display: flex; width: 100%; max-width: 48rem; flex-direction: column; gap: 2.5rem; }
+@container section (min-width: 80rem) { .faq__intro { width: 40%; gap: 3rem; } }
+.faq__head { display: flex; flex-direction: column; gap: 1rem; }
+.faq__head > div { display: flex; flex-direction: column; gap: .5rem; }
+.faq__lede { font-size: var(--text-lg); line-height: calc(1.75 / 1.125); }
+@container section (min-width: 80rem) { .faq__lede { font-size: var(--text-2xl); line-height: calc(2 / 1.5); } }
+.faq__list { position: relative; }
+@container section (min-width: 80rem) { .faq__list { width: 60%; padding-right: 4rem; } }
+@container section (min-width: 96rem) { .faq__list { padding-right: 6rem; } }
+.faq__row { border-bottom: 2px solid var(--color-base-200); padding-block: 2.75rem; }
+.faq__btn { display: block; width: 100%; cursor: pointer; text-align: left; }
+.faq__q { display: flex; justify-content: space-between; }
+.faq__title { width: 100%; flex: 1 1 0%; flex-grow: 1; padding-right: 3rem; font-family: var(--font-heading); font-weight: 800; text-wrap: balance; font-size: var(--text-xl); line-height: 1.25; }
+@container section (min-width: 48rem) { .faq__title { font-size: var(--text-2xl); } }
+@container section (min-width: 64rem) { .faq__title { font-size: var(--text-3xl); } }
+.faq__ic { display: flex; width: 2rem; height: 2rem; align-items: center; justify-content: center; border-radius: 9999px; background-color: var(--color-base-950); }
+.faq__ic-svg { height: auto; width: 1.5rem; }
+.faq__ans { padding: 1.5rem 3rem 2rem 0; }
+.faq__ans .prose { max-width: 100%; }

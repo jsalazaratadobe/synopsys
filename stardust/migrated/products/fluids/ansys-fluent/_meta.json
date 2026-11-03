@@ -1,0 +1,1523 @@
+{
+  "slug": "products-fluids-ansys-fluent",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "product-subnav",
+    "video-feature",
+    "icon-cards",
+    "logo-marquee",
+    "tile-rail",
+    "case-carousel",
+    "capabilities-list",
+    "split",
+    "faq",
+    "cta-band",
+    "header",
+    "footer"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "sec",
+    "sec",
+    "sec",
+    "sec",
+    "sec",
+    "sec",
+    "sec",
+    "div"
+  ],
+  "canonShas": {
+    "header": "97a2657387c7",
+    "footer": "deff2b79946b",
+    "css": "880b925c07e6"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Ansys Fluent | Fluid Simulation Software",
+    "description": "Ansys Fluent is the industry-leading fluid simulation software known for its advanced physics modeling capabilities and unmatched accuracy.",
+    "canonical": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Ansys Fluent | Fluid Simulation Software",
+    "description": "Ansys Fluent is the industry-leading fluid simulation software known for its advanced physics modeling capabilities and unmatched accuracy.",
+    "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+  },
+  "migratedAt": "2026-11-03T04:27:33Z",
+  "designMdSha": "8bc261fc8a7a",
+  "designJsonSha": "f3cde6b06fb4",
+  "sourceCurrentSha": "f3ad36e24f38",
+  "sourceProposedSha": "e035e34e3fb2",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "pixel-gate-360",
+    "content-count",
+    "delivery-lint",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "pixel-gate-1440": "3.83%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "3.93%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "content-diff: 2 (0 structural 🔴) — looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 2 (products-fluids-ansys-fluent-1440-iter4.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/products/fluids/ansys-fluent.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /products/fluids/ansys-fluent)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 10,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it-it/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ja-jp/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ko-kr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-tw/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-cn/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it-it/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ja-jp/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ko-kr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-tw/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-cn/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/ansys-speos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/fdtd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/acoustics-analysis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/additive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/av-simulation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/connect",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/missions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/digital-twin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/embedded-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/safety-analysis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/educators",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/researchers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/learning-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/5g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/digital-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/electrification",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/iiot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/battery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/data-centers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electric-motors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electronics-reliability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/emi-emc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/gas-turbines",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/power-electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/rotating-machinery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/topology-optimization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/wind-turbine-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/aerospace",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/defense",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/energy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/healthcare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/high-tech",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/industrial-equipment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/space",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/it-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/quality-assurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/ansys-learning-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/consulting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/reliability-engineering-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/automation-customization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/release-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/simulation-topics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/ansys-learning-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/educators",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/researchers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/learning-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events/simulation-world",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/the-ansys-story",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/leadership",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/corporate-responsibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/quality-assurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/startup-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/news-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/advantage-magazine",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers/life-at-ansys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers/university-programs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it-it/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ja-jp/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ko-kr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-tw/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-cn/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-gb/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-in/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr-fr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it-it/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ja-jp/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ko-kr/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-tw/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/zh-cn/products/fluids/ansys-fluent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/ansys-speos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics/fdtd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/3d-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/acoustics-analysis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/additive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/av-simulation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/connect",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/missions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/digital-twin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/embedded-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/fluids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/optics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/safety-analysis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/structures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/educators",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/researchers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/learning-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/5g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/cloud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/digital-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/electrification",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/iiot",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/battery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/data-centers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electric-motors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electronics-reliability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/emi-emc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/gas-turbines",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/power-electronics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/rotating-machinery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/topology-optimization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications/wind-turbine-design",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/applications",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/aerospace",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/automotive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/defense",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/energy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/healthcare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/high-tech",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/industrial-equipment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries/space",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/it-solutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/quality-assurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/ansys-learning-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/consulting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/reliability-engineering-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/automation-customization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products/release-highlights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/simulation-topics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/services/ansys-learning-hub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/educators",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/researchers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/learning-resources",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events/simulation-world",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/the-ansys-story",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/leadership",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/corporate-responsibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/quality-assurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/startup-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/news-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/advantage-magazine",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#tab=BlogsTab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers/life-at-ansys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers/university-programs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/blog/ferrari-competizioni-gt-produces-simulations-3x-faster-cfd-workflow",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center/case-study/seagate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center/case-study/leonardo-helicopters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/email-opt-in",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/industries",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/it-solutions/platform-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/it-solutions/licensing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/resource-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/training-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/academic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/events",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/the-ansys-story",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/company-information/leadership",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/news-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/email-opt-in",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/legal-notices",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/privacy-notice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/cookie-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/export-control-compliance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/terms-and-conditions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/legal/report-piracy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/site-map#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://ansys.synopsys.com/accessibility-conformance-reports",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "products/fluids/ansys-fluent/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "products/fluids/ansys-fluent/_meta.json",
+  "driverVersion": "1"
+}

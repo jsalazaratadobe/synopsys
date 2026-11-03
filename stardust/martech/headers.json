@@ -1,0 +1,16 @@
+{
+ "cache-control": "max-age=3600,s-maxage=60,stale-while-revalidate=43200,stale-if-error=43200,no-cache,must-revalidate",
+ "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline';",
+ "server": "cloudflare",
+ "strict-transport-security": "max-age=31557600",
+ "x-cache": "MISS",
+ "x-content-type-options": "nosniff",
+ "x-debug-forwarded": "i=89",
+ "x-debug-host": "(null)",
+ "x-debug-xfh": "i=89",
+ "x-frame-options": "SAMEORIGIN",
+ "x-served-by": "cache-sjc10045-SJC",
+ "x-timer": "S1793668606.517077,VS0,VS0,VE74",
+ "x-vhost": "publish",
+ "x-xss-protection": "1; mode=block"
+}

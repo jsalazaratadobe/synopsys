@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-11-03T20:10:27.227Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://ansys.synopsys.com/",
+    "liveHost": "main--0f0b9fb5--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 4,
+    "prototyped": 4,
+    "deployed": 4,
+    "optimised": 4
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 4
+  },
+  "pages": [
+    {
+      "slug": "products-fluids-ansys-fluent",
+      "path": "/products/fluids/ansys-fluent",
+      "stage": "optimised",
+      "templateId": "products-fluids-ansys-fluent",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "path": "/products/fluids/ansys-fluent/capabilities",
+      "stage": "optimised",
+      "templateId": "products-fluids-ansys-fluent-capabilities",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "path": "/products/fluids/ansys-fluent/product-updates",
+      "stage": "optimised",
+      "templateId": "products-fluids-ansys-fluent-product-updates",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "path": "/products/fluids/ansys-fluent/resources",
+      "stage": "optimised",
+      "templateId": "products-fluids-ansys-fluent-resources",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "products-fluids-ansys-fluent",
+      "archetype": "products-fluids-ansys-fluent",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-capabilities",
+      "archetype": "products-fluids-ansys-fluent-capabilities",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-product-updates",
+      "archetype": "products-fluids-ansys-fluent-product-updates",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-resources",
+      "archetype": "products-fluids-ansys-fluent-resources",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 17,
+    "converted": 17
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      60,
+      60,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

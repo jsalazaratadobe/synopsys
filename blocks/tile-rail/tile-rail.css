@@ -1,0 +1,407 @@
+/* tile-rail — lifted from the gated prototype (canon.css "tile rail"), scoped */
+
+/* the content band's own block padding (prototype .content__pad) */
+main .section.tile-rail-container {
+  padding-block: 2rem;
+}
+
+@container main (width >= 48rem) {
+  main .section.tile-rail-container {
+    padding-block: 3rem;
+  }
+}
+
+@container main (width >= 96rem) {
+  main .section.tile-rail-container {
+    padding-block: 4rem;
+  }
+}
+
+@container main (width >= 103.75rem) {
+  main .section.tile-rail-container {
+    padding-block: 5rem;
+  }
+}
+
+/* the rail */
+.tile-rail {
+  padding-block: 2rem;
+}
+
+.tile-rail .tile-rail-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  max-width: 120rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.tile-rail .tile-rail-view {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tile-rail .tile-rail-track {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  height: 100%;
+  padding-top: 0.5rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.tile-rail .tile-rail-track::-webkit-scrollbar {
+  display: none;
+}
+
+.tile-rail .tile {
+  display: flex;
+  scroll-snap-align: start;
+  transition: all 0.4s var(--ease);
+}
+
+.tile-rail .tile:hover {
+  translate: 0 -0.5rem;
+}
+
+.tile-rail .tile-card {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  min-width: 350px;
+  max-width: 400px;
+  min-height: 36.25rem;
+  overflow: hidden;
+  border-radius: var(--border-radius-box);
+}
+
+.tile-rail .tile-media {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tile-rail .tile-media picture,
+.tile-rail .tile-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tile-rail .tile-shade {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to bottom, rgb(0 0 0 / 40%), rgb(0 0 0 / 60%));
+}
+
+.tile-rail .tile-body {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 33.75rem;
+  padding: 5rem 2rem 4rem;
+}
+
+.tile-rail .tile-head {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 1rem;
+  height: 100%;
+}
+
+.tile-rail .tile-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.tile-rail .tile-more {
+  height: 100%;
+  max-height: 11rem;
+  transition: max-height 0.7s;
+}
+
+.tile-rail .tile-desc {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: var(--text-lg);
+  font-weight: 600;
+  line-height: calc(1.75 / 1.125);
+  opacity: 1;
+  transition: opacity 0.7s;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+.tile-rail .tile-badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  border-radius: 2rem;
+  background-color: var(--color-base-950);
+  color: var(--color-base-50);
+}
+
+.tile-rail .tile-badge-in {
+  width: fit-content;
+  max-width: 10rem;
+  overflow: hidden;
+  transition: max-width 0.7s;
+}
+
+.tile-rail .tile-badge-in p {
+  padding-left: 1rem;
+  font-weight: 700;
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 0.7s;
+}
+
+.tile-rail .tile-rail-badge-ic {
+  width: 2rem;
+  height: 2rem;
+  margin-inline: 0.25rem;
+}
+
+.tile-rail .tile-rail-edge {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: none;
+  width: 2.25rem;
+  height: 100%;
+  transition: opacity 0.15s;
+}
+
+.tile-rail .tile-rail-edge-r {
+  right: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(from var(--color-base-50) r g b / 0%),
+    var(--color-base-50)
+  );
+  opacity: 1;
+}
+
+.tile-rail .tile-rail-edge-l {
+  left: 0;
+  background-image: linear-gradient(
+    to left,
+    rgb(from var(--color-base-50) r g b / 0%),
+    var(--color-base-50)
+  );
+  opacity: 0;
+}
+
+.tile-rail .tile-rail-dots {
+  display: flex;
+  align-self: center;
+  gap: 0.75rem;
+}
+
+.tile-rail .tile-rail-dot {
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  background-color: var(--color-base-900);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s var(--ease);
+}
+
+.tile-rail .tile-rail-dot[data-active='true'] {
+  width: 3rem;
+  opacity: 1;
+}
+
+.tile-rail .tile-rail-arrows {
+  display: none;
+  align-self: center;
+  gap: 1rem;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  background-color: rgb(from var(--color-base-950) r g b / 20%);
+}
+
+.tile-rail .tile-rail-inner.is-static .tile-rail-arrows {
+  visibility: hidden;
+}
+
+.tile-rail .tile-rail-arrow {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.tile-rail .tile-rail-arrow:disabled {
+  cursor: not-allowed;
+}
+
+.tile-rail .tile-rail-arrow:hover:not(:disabled) {
+  background-color: rgb(from var(--color-base-950) r g b / 70%);
+}
+
+.tile-rail .tile-rail-arrow-ic {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  background-color: var(--color-base-950);
+}
+
+.tile-rail .tile-rail-arrow:disabled .tile-rail-arrow-ic {
+  background-color: rgb(from var(--color-base-950) r g b / 10%);
+}
+
+@container section (width >= 36rem) {
+  .tile-rail .tile-rail-edge {
+    display: block;
+  }
+}
+
+@container section (width >= 48rem) {
+  .tile-rail .tile-rail-inner {
+    padding-inline: 2rem;
+  }
+
+  .tile-rail .tile-card {
+    min-width: 400px;
+  }
+
+  .tile-rail .tile-title {
+    font-size: var(--text-2xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .tile-rail {
+    padding-block: 3rem;
+  }
+
+  .tile-rail .tile-title {
+    font-size: var(--text-3xl);
+  }
+
+  .tile-rail .tile-more {
+    max-height: 0;
+  }
+
+  .tile-rail .tile-desc {
+    opacity: 0;
+  }
+
+  .tile-rail .tile-badge-in {
+    max-width: 0;
+  }
+
+  .tile-rail .tile-badge-in p {
+    opacity: 0;
+  }
+
+  .tile-rail .tile-card:hover .tile-more {
+    max-height: 11rem;
+  }
+
+  .tile-rail .tile-card:hover .tile-desc {
+    opacity: 1;
+  }
+
+  .tile-rail .tile-card:hover .tile-badge {
+    gap: 0.25rem;
+  }
+
+  .tile-rail .tile-card:hover .tile-badge-in {
+    max-width: 10rem;
+  }
+
+  .tile-rail .tile-card:hover .tile-badge-in p {
+    opacity: 1;
+  }
+
+  .tile-rail .tile-rail-dots {
+    display: none;
+  }
+
+  .tile-rail .tile-rail-arrows {
+    display: flex;
+  }
+}
+
+@container section (width >= 80rem) {
+  .tile-rail .tile-card {
+    min-height: 40rem;
+  }
+}
+
+/* gallery heading: the section's default content right before a rail (eyebrow + h2 + lede) */
+main .section.tile-rail-container .default-content-wrapper {
+  max-width: 117.75rem;
+  padding-block: 2rem 1.5rem;
+}
+
+main .section.tile-rail-container .default-content-wrapper :is(p, h2) {
+  max-width: 56rem;
+}
+
+main .section.tile-rail-container .default-content-wrapper h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+main .section.tile-rail-container .default-content-wrapper p:has(+ h2) {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  line-height: 1.375;
+  text-wrap: balance;
+}
+
+main .section.tile-rail-container .default-content-wrapper h2 ~ p {
+  margin-top: 1rem;
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+@container section (width >= 48rem) {
+  main .section.tile-rail-container .default-content-wrapper h2 {
+    font-size: var(--text-4xl);
+  }
+
+  main .section.tile-rail-container .default-content-wrapper h2 ~ p {
+    font-size: var(--text-2xl);
+    line-height: calc(2 / 1.5);
+  }
+}
+
+@container section (width >= 64rem) {
+  main .section.tile-rail-container .default-content-wrapper {
+    padding-block: 3rem 1.5rem;
+  }
+
+  main .section.tile-rail-container .default-content-wrapper h2 {
+    font-size: var(--text-5xl);
+  }
+}

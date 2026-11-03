@@ -1,0 +1,116 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T04:36:21.818Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T20:10:05.359Z",
+  "templates": [
+    {
+      "id": "products-fluids-ansys-fluent",
+      "representativeSlug": "products-fluids-ansys-fluent",
+      "pages": [
+        "products-fluids-ansys-fluent"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "capabilities-list",
+        "case-carousel",
+        "cta-band",
+        "faq",
+        "footer",
+        "header",
+        "hero",
+        "icon-cards",
+        "logo-marquee",
+        "product-subnav",
+        "split",
+        "tile-rail",
+        "video-feature"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-capabilities",
+      "representativeSlug": "products-fluids-ansys-fluent-capabilities",
+      "pages": [
+        "products-fluids-ansys-fluent-capabilities"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-band",
+        "footer",
+        "header",
+        "hero",
+        "product-subnav",
+        "split",
+        "tile-rail"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-product-updates",
+      "representativeSlug": "products-fluids-ansys-fluent-product-updates",
+      "pages": [
+        "products-fluids-ansys-fluent-product-updates"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-band",
+        "footer",
+        "header",
+        "hero",
+        "link-cards",
+        "product-subnav",
+        "release-notes",
+        "resource-cards",
+        "split"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "products-fluids-ansys-fluent-resources",
+      "representativeSlug": "products-fluids-ansys-fluent-resources",
+      "pages": [
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-band",
+        "footer",
+        "header",
+        "hero",
+        "link-cards",
+        "product-subnav",
+        "resource-cards",
+        "split",
+        "video-tabs"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

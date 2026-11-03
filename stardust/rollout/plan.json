@@ -1,0 +1,208 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-03T04:36:22.014Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T04:36:22.014Z",
+  "fragments": [
+    {
+      "id": "footer",
+      "blockPath": "fragments/footer.html",
+      "status": "pending"
+    },
+    {
+      "id": "header",
+      "blockPath": "fragments/header.html",
+      "status": "pending"
+    }
+  ],
+  "deliveryOrder": [
+    "products-fluids-ansys-fluent",
+    "products-fluids-ansys-fluent-capabilities",
+    "products-fluids-ansys-fluent-product-updates",
+    "products-fluids-ansys-fluent-resources"
+  ],
+  "steps": [
+    {
+      "slug": "products-fluids-ansys-fluent",
+      "path": "/products/fluids/ansys-fluent",
+      "templateId": "products-fluids-ansys-fluent",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "product-subnav",
+          "edsBlockName": "product-subnav"
+        },
+        {
+          "id": "video-feature",
+          "edsBlockName": "video-feature"
+        },
+        {
+          "id": "icon-cards",
+          "edsBlockName": "icon-cards"
+        },
+        {
+          "id": "logo-marquee",
+          "edsBlockName": "logo-marquee"
+        },
+        {
+          "id": "tile-rail",
+          "edsBlockName": "tile-rail"
+        },
+        {
+          "id": "case-carousel",
+          "edsBlockName": "case-carousel"
+        },
+        {
+          "id": "capabilities-list",
+          "edsBlockName": "capabilities-list"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "path": "/products/fluids/ansys-fluent/capabilities",
+      "templateId": "products-fluids-ansys-fluent-capabilities",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "product-subnav",
+          "edsBlockName": "product-subnav",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "tile-rail",
+          "edsBlockName": "tile-rail",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split",
+          "convertedBy": "products-fluids-ansys-fluent"
+        }
+      ]
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "path": "/products/fluids/ansys-fluent/product-updates",
+      "templateId": "products-fluids-ansys-fluent-product-updates",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "release-notes",
+          "edsBlockName": "release-notes"
+        },
+        {
+          "id": "link-cards",
+          "edsBlockName": "link-cards"
+        },
+        {
+          "id": "resource-cards",
+          "edsBlockName": "resource-cards"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "product-subnav",
+          "edsBlockName": "product-subnav",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "products-fluids-ansys-fluent"
+        }
+      ]
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "path": "/products/fluids/ansys-fluent/resources",
+      "templateId": "products-fluids-ansys-fluent-resources",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "video-tabs",
+          "edsBlockName": "video-tabs"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "product-subnav",
+          "edsBlockName": "product-subnav",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "resource-cards",
+          "edsBlockName": "resource-cards",
+          "convertedBy": "products-fluids-ansys-fluent-product-updates"
+        },
+        {
+          "id": "link-cards",
+          "edsBlockName": "link-cards",
+          "convertedBy": "products-fluids-ansys-fluent-product-updates"
+        },
+        {
+          "id": "split",
+          "edsBlockName": "split",
+          "convertedBy": "products-fluids-ansys-fluent"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "products-fluids-ansys-fluent"
+        }
+      ]
+    }
+  ]
+}

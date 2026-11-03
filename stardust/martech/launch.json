@@ -1,0 +1,4836 @@
+{
+ "url": "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/launch-2396cdda8e60.min.js",
+ "pages": 5,
+ "build": "buildInfo:{minified:!0,buildDate:\"2026-10-27T15:21:27Z\",turbineBuildDate:\"2026-06-04T21:23:22Z\",turbineVersion:\"29.1.0\"}",
+ "orgId": "96E61CFE53295EF20A490D45@AdobeOrg",
+ "extensions": [
+  "OneTrust Consent Management for Cookies",
+  "Adobe Client Data Layer",
+  "Adobe Target v2",
+  "Adobe Experience Platform Web SDK",
+  "Core"
+ ],
+ "webSdk": {
+  "version": "2.38.0",
+  "selfHostable": true,
+  "library": "managed",
+  "instances": [
+   {
+    "name": "alloy",
+    "edgeDomain": "smetrics.synopsys.com",
+    "defaultConsent": "pending",
+    "datastream": {
+     "ref": "%Custom - Datastream ID%",
+     "ids": [
+      "d1b60f6b-909e-4efa-9b2e-f909e1628080",
+      "f4a7084d-6768-447f-b65e-c9f8afa3753a",
+      "2176cf9f-2ff5-45aa-9dae-6a6d24efd275",
+      "ea4980cc-9e09-4d81-8b60-5e60b99a4657",
+      "b6fcba23-df1c-4889-9f12-551793a32348",
+      "96f90a97-f187-4033-8eed-af1b12440d77",
+      "4e614e4a-8f05-4027-89b7-37558e8dfec9",
+      "9d60ac7e-06dc-4f23-b533-0717a7af979a"
+     ]
+    },
+    "stagingDatastream": {
+     "ref": "%Custom - Datastream ID%",
+     "ids": [
+      "d1b60f6b-909e-4efa-9b2e-f909e1628080",
+      "f4a7084d-6768-447f-b65e-c9f8afa3753a",
+      "2176cf9f-2ff5-45aa-9dae-6a6d24efd275",
+      "ea4980cc-9e09-4d81-8b60-5e60b99a4657",
+      "b6fcba23-df1c-4889-9f12-551793a32348",
+      "96f90a97-f187-4033-8eed-af1b12440d77",
+      "4e614e4a-8f05-4027-89b7-37558e8dfec9",
+      "9d60ac7e-06dc-4f23-b533-0717a7af979a"
+     ]
+    }
+   },
+   {
+    "name": "alloy2",
+    "edgeDomain": "smetrics.ansys.com",
+    "defaultConsent": null,
+    "datastream": {
+     "ref": "2342caeb-a1ab-4234-9542-c72a6e975d7a",
+     "ids": [
+      "2342caeb-a1ab-4234-9542-c72a6e975d7a"
+     ]
+    },
+    "stagingDatastream": {
+     "ref": "f3104aeb-1276-4d5f-b6bb-f5774a2ee275",
+     "ids": [
+      "f3104aeb-1276-4d5f-b6bb-f5774a2ee275"
+     ]
+    }
+   }
+  ]
+ },
+ "target": {
+  "atjs": "adobe-target-v2",
+  "renderRules": [
+   {
+    "id": "RLea28f0a8c0b040d69b0ae548dac25a47",
+    "name": "WebSDK - Target Decisioning Pre Fetch"
+   }
+  ],
+  "prehiding": false
+ },
+ "dataElements": [
+  {
+   "name": "DataLayer - File Extension",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Pardot ID",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.pardotID",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Search Time on Page",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Cookie - CID",
+   "type": "cookie",
+   "source": "campaign_cid",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - digitalData: Form Submitted",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.submitted",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: insight.adsrvr - File Download URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Launch Build Info",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Cookie - s_campaign",
+   "type": "cookie",
+   "source": "s_campaign",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Content Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: User Role",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.userRole",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Year",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Form - Student Status Yes Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Form Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Type",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.searchType",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Targeting (C0004)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: GA - Download Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - RollWorks Company Name",
+   "type": "datalayerComputedState",
+   "source": "company_name",
+   "selectors": []
+  },
+  {
+   "name": "Cookie - PLID",
+   "type": "cookie",
+   "source": "campaign_plid",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Provider",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formProvider",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Page Full URL",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Strictly Necessary (C0001)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Coveo Environment",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.coveoEnvironment",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Marketing Cloud ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Site Section 2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Variation (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Full Link URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - PDF View",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Result Count",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchResults",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Submit Success",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - All Product Levels",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page Hash",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: GA - Download Event Category",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OneTrust - Geolocation Country",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SessionStorage - pagesScrolled25",
+   "type": "sessionStorage",
+   "source": "pagesScrolled25",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Marketing Stage",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Page Type",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.pageType",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Campaigns Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Datastream ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Marketo Cookie",
+   "type": "index",
+   "source": "Marketo Cookie Set",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Type Detail",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formTypeDetail",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: insight.adsrvr Vidyard Conversion URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: File Download URL",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.downloadedFileUrl",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Bing - Download Event Category",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - File Download",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Site Section 1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Functional (C0003)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Custom Code: Search Tab",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "atomic-tab[active]",
+    "atomic-tab-manager"
+   ]
+  },
+  {
+   "name": "Custom - PDF Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "[id^="
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Google Ads AGI Forms Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Session Time (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Name",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formName",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Download Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Content Authors",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Login Status",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.loginStatus",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Solution",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Product Tag hierarchies list",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Form Type Detail",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Link Click",
+   "type": "index",
+   "source": "%DataLayer - Link Name%",
+   "selectors": []
+  },
+  {
+   "name": "Solvnet - User Company Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div > c-analytics-user-detail",
+    "span[id*="
+   ]
+  },
+  {
+   "name": "DataLayer - Video Name",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.videoName",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Type",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formType",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - File Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: External Campaign Code",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: Application",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.application",
+   "selectors": []
+  },
+  {
+   "name": "XDM - Scroll",
+   "type": "index",
+   "source": "Scroll",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Site SubSection 3",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Right Rail Component",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webInteraction.rightRailComponent",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Core: Vidyard Play Percentage",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - RollWorks Company Revenue",
+   "type": "datalayerComputedState",
+   "source": "company_revenue",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Video Time Spent",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.videoTimeSpent.value",
+   "selectors": []
+  },
+  {
+   "name": "Datalayer - Internal Campaign Code",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.internalCampaign.campaignCode",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Download URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Server-Domain",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - digitalData: Form Errors",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.errors",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Refinement Type",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.refinementType",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Sort",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.sortType",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: LinkedIn Vidyard Conversion ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Locale",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchLocale",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Solution Interest",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.solutionInterest.solutionInterest1",
+   "selectors": []
+  },
+  {
+   "name": "Ansys.com Domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Full URL (no Query String)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - No Search Result Event",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.nullInstances",
+   "selectors": []
+  },
+  {
+   "name": "All Query Strings",
+   "type": "javascriptVariable",
+   "source": "location.search",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Hub",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.internalSearch.searchHub",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Google Ads - File Download Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Search: AIS Sites",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Ansys Next Web",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - digitalData: Form Name",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.name",
+   "selectors": []
+  },
+  {
+   "name": "Ansys Main Domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Solution",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Text (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Content Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Video Segment Viewed Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Download Asset Mapper",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Bizzabo-dataLayer-FormRegister",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Type",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.type",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Search Abandonment Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Page Name",
+   "type": "datalayerComputedState",
+   "source": "web.webPageDetails.name",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Site SubSection 3",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.siteSubSection3",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Product Interests",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "meta[name="
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Form Type",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.type",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Term",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchTerm",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Prefill",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: Google UTM: Ad Content",
+   "type": "queryStringParameter",
+   "source": "utm_content",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Drift: Campaign",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Component Type",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.componentType",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Full Refinement",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.refinementValue",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: ResourceType",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.resourceType",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: pageErrors",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageErrors",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Context",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Form Submission Legacy Mapper",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Video ID",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.videoId",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Product",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.product",
+   "selectors": []
+  },
+  {
+   "name": "Form - Student Status",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Referrer",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: CapabilityGroup",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.capabilityGroup",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - RollWorks Company Size",
+   "type": "datalayerComputedState",
+   "source": "company_size",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Page Language",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Event Name",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.eventName",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: yahoojapan Form Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Query String: Search Term (Developer App Catalog)",
+   "type": "queryStringParameter",
+   "source": "keywords",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Term",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.term",
+   "selectors": []
+  },
+  {
+   "name": "Cookie - _mkto_trk",
+   "type": "cookie",
+   "source": "_mkto_trk",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Blog Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: Discipline",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.discipline",
+   "selectors": []
+  },
+  {
+   "name": "Cookie - testdev",
+   "type": "cookie",
+   "source": "testdev",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Drift: Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Drift: EmailCapture",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link URL",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.URL",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Name",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.linkName",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Social (C0005)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Refinement Type Array",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: Industry",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.industry",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Site Locale",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Marketo Program IDs",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: LinkedIn Download Conversion ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: Internal Campaign Code",
+   "type": "queryStringParameter",
+   "source": "intcid",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Product Interests - L1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Context (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: Google UTM: Medium",
+   "type": "queryStringParameter",
+   "source": "utm_medium",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: CourseDiscipline",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.courseDiscipline",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Convertful Source",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div.conv_active.conv-widget"
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Reddit Vidyard Conversion ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Survey ID",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.surveys.surveyId",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: CourseLanguage",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.courseLanguage",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Site Name",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.siteName",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Solution Tags list",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - A4T SDID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Search Term (developer.ansys.com)",
+   "type": "queryStringParameter",
+   "source": "searchstax[query]",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: AccountID",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.accountID",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Yahoo Japan - File Download Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - SessionStorage - dnbData",
+   "type": "sessionStorage",
+   "source": "dnbData",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - dataLayer: Page First Published",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.firstPublished",
+   "selectors": []
+  },
+  {
+   "name": "Page - Hostname",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Solution Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Facebook ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Vidyard: Video Played Percentage",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - URL (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Active Consent Groups",
+   "type": "javascriptVariable",
+   "source": "OptanonActiveGroups",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Step",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formStep",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Is Marketing Page",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: PPC Adwords/Bing: Campaign ID",
+   "type": "queryStringParameter",
+   "source": "campaignid",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Content Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Form ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "form"
+   ]
+  },
+  {
+   "name": "DataLayer - Site Section",
+   "type": "datalayerComputedState",
+   "source": "web.webPageDetails.siteSection",
+   "selectors": []
+  },
+  {
+   "name": "XDM - Search Pagination Click",
+   "type": "index",
+   "source": " Search Pagination",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Datastream ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Tab Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".primary-nav-button[data-target="
+   ]
+  },
+  {
+   "name": "Custom - Site SubSection 2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - OneTrust Consent - Targeting",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Interaction ID (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Paid Search Keyword",
+   "type": "queryStringParameter",
+   "source": "utm_term",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - articleAuthor",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.articleAuthor",
+   "selectors": []
+  },
+  {
+   "name": "JS - User Agent",
+   "type": "javascriptVariable",
+   "source": "window.navigator.userAgent",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Product Interests - L2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Google Ads AGI - File Download Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - mkt_tok",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - WebSDK Consent State",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Product Levels 1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Alloy Library Version",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - articlePublishDate",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.articlePublishDate",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Country & Language",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.countryLanguage",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: ProductFamily",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.productFamily",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page URL (w/o params)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Capterra - File Download URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Form Provider",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".mktoForm, form[id^="
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: File Download Name",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.downloadedFilename",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page Tags",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Component Name",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.componentName",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - digitalData: Form Last Active Field",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.lastActiveField",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Core: Vidyard Page Result",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Pageview + Dnb Merge",
+   "type": "mergedObjects",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - product",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.product",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Product Level 2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData.categories.applicationGroup",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.applicationGroup",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form ID",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formID",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Marketing Stage",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Facebook - Download Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Form Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".page-title"
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: GA - Download Event Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Download ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - utm_source",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - OneTrust Consent - Performance",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Internal Campaign Click",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: TechnologyTrends",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.technologyTrends",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Event Action",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.eventAction",
+   "selectors": []
+  },
+  {
+   "name": "Page - Path",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page - Title",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Content Segment",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.contentSegment",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Thank You Page Result",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Experience Cloud ID (ECID)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Solvnet - User ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "div > c-analytics-user-detail",
+    "span[id*="
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Bing Vidyard Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Search w/ Filters",
+   "type": "index",
+   "source": "Search Filter Action",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Event Category",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.eventCategory",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Responsive Display Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Snug Year",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Previous eVar1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - OneTrust Consent - Strickly",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page - Referrer",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - adobe_brand_concierge_source",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Event Type",
+   "type": "javascriptVariable",
+   "source": "digitalData.events.eventType",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Site ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - digitalData.forms.type",
+   "type": "javascriptVariable",
+   "source": "digitalData.forms.type",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Product Level 1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Click",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.linkClicks.value",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - OneTrust: Performance (C0002)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Region",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.linkRegion",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Bing - Download Event Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - isErrorPage",
+   "type": "datalayerComputedState",
+   "source": "web.webPageDetails.isErrorPage",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Product Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Facebook Vidyard Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Product Interests - L3",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Page View",
+   "type": "index",
+   "source": "%Page - Title%",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Adswerve Floodlight Configuration",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "JS - OnetrustActiveGroups",
+   "type": "javascriptVariable",
+   "source": "OnetrustActiveGroups",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - RollWorks Company Industry",
+   "type": "datalayerComputedState",
+   "source": "company_industry",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Error Fields",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Simpli.fi Form Conversion URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "OneTrust - Geolocation State",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - DnB",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Number of Search Results",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - File Category",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Is SolvNet Domain",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Glossary Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Search",
+   "type": "index",
+   "source": "Search",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Site Section",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: Countries",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.countries",
+   "selectors": []
+  },
+  {
+   "name": "Synopsys Ansys Subdomains",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Authenticated",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "button.theavatar-loggedin"
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Coveo Index",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchIndex",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: Google UTM: Campaign",
+   "type": "queryStringParameter",
+   "source": "utm_campaign",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Facebook Form Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: GA Form Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Product Level 3",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - RollWorks Company Domain",
+   "type": "datalayerComputedState",
+   "source": "domain",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: ApplicationGroup",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.applicationGroup",
+   "selectors": []
+  },
+  {
+   "name": "Ansys Subdomains",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Page Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Visitor Type",
+   "type": "javascriptVariable",
+   "source": "digitalData.visitor.visitorType",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Video Total Length",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.videoTotalLength",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Marketo ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Page Title",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Video Provider",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.videos.videoProvider",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Product Levels 3",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Facets",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchFacets",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Google Ads Forms Conversion Label",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Legacy: Vidyard Legacy Mapper",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Custom Code: Search Term",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "atomic-search-interface"
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY - Previous pageName",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Site SubSection 2",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.siteSubSection2",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: CourseLevel",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.courseLevel",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: AEM Template",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.pageType",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - Ansys XDM Schema",
+   "type": "index",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Ansys XDM Schema Object",
+   "type": "index",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Client Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "meta[name="
+   ]
+  },
+  {
+   "name": "Target - Global Parameters",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Error Page",
+   "type": "index",
+   "source": "%Page - Title%",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Core: Page URL Path",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Survey ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "a.sg-b-l-m[href*="
+   ]
+  },
+  {
+   "name": "DataLayer - Form Start",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Blog Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    "h1.title"
+   ]
+  },
+  {
+   "name": "DataLayer - Product Interests - L4",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: LinkedIn Form Conversion ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Site SubSection 1",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webPageDetails.siteSubSection1",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Name New",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.forms.formNameNew",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS.com",
+   "type": "constant",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Search Language",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Solution - Joined String",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - URL: Google UTM: Source",
+   "type": "queryStringParameter",
+   "source": "utm_source",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Snug Search Location",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Marketo Score",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Code Version",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page - URL (Full)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Feedback Type (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Bing - Download Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Conversation ID (BC)",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - utm_content",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - OneTrust Consent - Functional",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SessionStorage - dnbData",
+   "type": "sessionStorage",
+   "source": "dnbData",
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: Bing Form Event Action",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Blog Publish Date",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".date"
+   ]
+  },
+  {
+   "name": "ANSYS LEGACY - Legacy: insight.adsrvr Form Conversion URL",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Submit Error",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Page Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - utm_medium",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form Error",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Query String - tags",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Form View",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "XDM - Search Result Click",
+   "type": "index",
+   "source": "Search Result Click",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Scroll Percent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Blog Author",
+   "type": "customCode",
+   "source": null,
+   "selectors": [
+    ".blog-author span"
+   ]
+  },
+  {
+   "name": "Custom - Product Levels 2",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - New/Return Visitor",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Cookie - s_campaign_original",
+   "type": "cookie",
+   "source": "s_campaign_original",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Article Page View Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Custom - Marketo ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData: Product Tag: Product",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.product",
+   "selectors": []
+  },
+  {
+   "name": "Custom - Site SubSection 1",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Form - Student Status No Event",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Query String - tags",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY MAIN - digitalData.categories.courseLevel",
+   "type": "javascriptVariable",
+   "source": "digitalData.categories.courseLevel",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - File Title",
+   "type": "datalayerComputedState",
+   "source": "web.webInteraction.fileTitle",
+   "selectors": []
+  },
+  {
+   "name": "Query String - utm_campaign",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Link Level",
+   "type": "datalayerComputedState",
+   "source": "_synopsys.web.webInteraction.linkLevel",
+   "selectors": []
+  },
+  {
+   "name": "DataLayer - Number of Search Results Integer",
+   "type": "datalayerComputedState",
+   "source": "siteKnowledge.supportSiteSearch.numberOfResults",
+   "selectors": []
+  },
+  {
+   "name": "Query String - utm_term",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "ANSYS LEGACY - dataLayer: Site Search Tab",
+   "type": "javascriptVariable",
+   "source": "digitalData.page.siteSearchTab",
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RL0058caed2fdf48f6890c20a112cdab3b",
+   "name": "cvent conversion - multi-die-auto-routing-wp",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "pathAndQuerystring",
+    "customCode"
+   ],
+   "paths": [
+    "/resources/multi-die-auto-routing-wp.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4217e126887d45c9bd97a985b09a57a0-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL09c193890cd142648787dd7d350a168b",
+   "name": "WebSDK - Form Tracking - Ansys Connector",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC2a6a30b8c27a43d48be7ad00852c24fb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0afbea1c887c4f91a638620855360f0c",
+   "name": "CrazyEgg - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "performancecookiesactive",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCd55c9b45a5cd408788af4e6def822464-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "script.crazyegg.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0ba5f6d0b0cb4aadae30d91b1b767cf5",
+   "name": "ANSYS LEGACY - OneTrust - Performance (C0002) - Page Top (Ansys.com)",
+   "events": [
+    "libraryLoaded",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0bad54a665f64015930f56c3baf1de38",
+   "name": "ANSYS LEGACY - JSUI to Atomic urls conversion",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC114f1e63ea2f4e1fb3ac6d5c8c1675a2-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0fe61411505042fd9acc9d53eb7cea6f",
+   "name": "ANSYS LEGACY - coveo-facet-label-change",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCa3a86732aae64217a613793532121f0b-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL11f66e3e5b0c46ac83b52607804c8894",
+   "name": "DnB - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "functionalcookiesactive",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC9c4949d7e75a42afa012a5b3bc54d8eb-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC139d75deaf294539966ae56d997b1628-source.min.js"
+   ],
+   "consentGroups": [
+    "C0003"
+   ],
+   "loads": [
+    "paapi3112.d41.co",
+    "v2.d41.co"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL12ea3a237b9641cbb64992e3215c4c5f",
+   "name": "Ansys - Student Gate Clicks",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0a0d531781da4feca7044a174e91663e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL15858b1b815a4c45a2c20ad0efe200ff",
+   "name": "Google Ads - Pageview",
+   "events": [
+    "customEvent",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:meeting-scheduled"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe18a02ea707a489396d7701699a098b9-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL16e6d290dd884afca93e8b47af0b095a",
+   "name": "ANSYS LEGACY - Coveofix",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0d0001326a1143cab1a30c5e78478019-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL17c93ffb557f453ca9b7aebc05836d27",
+   "name": "Brand Concierge (BC) - Session Timer",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:open-modal",
+    "concierge:close-confirm",
+    "concierge:minimize"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCefba549cbe164af59d181063dd6ae350-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1bf2125f51494bb7924c67166ad39340",
+   "name": "WebSDK - Form Tracking",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formInitiation",
+    "formError",
+    "formSuccess",
+    "formPrefillSuccess",
+    "form-view",
+    "formStep"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC5807268ce83f4e5fb712c4caa2f499d7-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL1cf443b0185640af897575e37d7b5722",
+   "name": "WebSDK - Pageview - SPA",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC2c73e5bd81dc444e957a8a1b4864286f-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL20851c244175488eb9a9a0c6f1fddde0",
+   "name": "ANSYS LEGACY - OneTrust - Performance (C0002) - Page Top (NextWeb)",
+   "events": [
+    "libraryLoaded",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL22ec9aae68b34318a262da674dfd821b",
+   "name": "Custom - Click Tracking (Ansys)",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe3847453fb9b4fc5a0dc57e6b496c508-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL26b445074a5a477e8a12c42b50ecb4cf",
+   "name": "Ansys - File Download Variables",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [
+    "a[href]"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC90ee8befe7324d52b4da145715fd9bb9-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2862b360fc184b28ba759ed41c102e3d",
+   "name": "OpenAI - Pageview",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC6b0bdde123b44b6f95c661c395b6bf68-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "bzrcdn.openai.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2ac61b9fb5db437ba89735bcb9ca4432",
+   "name": "Intentsify \\u2013 Retargeting Pixel",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCfebaed7cee264e8db5ea21baedde860f-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2b87ac5296c4455bba38a5ec7422c2b8",
+   "name": "cvent conversion - innovate-faster",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/multi-die-system/innovate-faster.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCba916eeb3c8443e7a4344108cc7bcb63-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2bdaebb1796a4b01860ea418bcdddb93",
+   "name": "WebSDK - Marketo Cookie",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2e5528a0247f4f478c5b5cb8e3905b70",
+   "name": "QA / Author \\u2013 Hide OneTrust UI (temporary)",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2f9dd9932c85454cb7f0d016a7f1bab3",
+   "name": "CES Registration - Pageview thankyou",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "pathAndQuerystring",
+    "customCode"
+   ],
+   "paths": [
+    "/events/ces/register/thankyou.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC7ae518fcf9624b988fbe67db1ba74f28-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL326efe4af9804912aca56c9edbe65928",
+   "name": "StackAdapt - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf06cf37939724c9dbb243b54026a7019-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "tags.srv.stackadapt.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL32af723f31e8499baa2bb94f8bdc0e76",
+   "name": "ANSYS LEGACY - Conversica Icon Reposition on Banner Close",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCfa70225de7784790bdff8bec91affd71-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL35a1fa1fe7454e249aaf8cf125890469",
+   "name": "Custom - Set Campaign Tracking Cookie",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC214db8c59bd443d78cd46afb1d33d392-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3c2ffb2ef1a949b5a9df134b061ce902",
+   "name": "Bing - Form Submit (Synopsys)",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formSuccess",
+    "formPrefillSuccess"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC35a5a8e7c6094831a2cb2b6b5ee4f0bf-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3ccedc1d8de24bc1b771aeae1b72137d",
+   "name": "Custom - Push Form Success (Ansys New Page)",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCa2d8a38966284e5ea28d4306b51a1641-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3ec18db71b844b90b5af18811b45f11e",
+   "name": "ANSYS LEGACY - WebSDK - Set ECID Cookie",
+   "events": [
+    "customEvent",
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "maxFrequency",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4209d305c98b45d6a111d94e79df9f03",
+   "name": "ANSYS LEGACY - New-Nav-Tablet-Close-Btn-Fix",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC9821880cb7d94fbdad3b88a1c45269ad-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4d2139352d0a4606aa7d2ad32fe8ffee",
+   "name": "Custom - Click Tracking (Synopsys)",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC949f9e205e414210bb409789912fa8a5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4e7a55dd47f044ad977f6202c548e816",
+   "name": "ANSYS LEGACY - Rollworks ABM Pixel Install + Site Traffic Revealer (C0003)",
+   "events": [
+    "domReady",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCdc20c380d6374a71beb7962bdc590d57-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCc1d90bb90238453182066852064585b0-source.min.js"
+   ],
+   "consentGroups": [
+    "C0003"
+   ],
+   "loads": [
+    "s.adroll.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5014c0fd6f8b4e13a55835c5afaa7fae",
+   "name": "TheTradeDesk - Click - Silicon IP Form Submit DW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path"
+   ],
+   "paths": [
+    "/dw/doc.php/wp/arc_low_power_machine_learning_for_iot.pdf"
+   ],
+   "selectors": [
+    "#form input"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC52f4b55455ed477b947e15e82fce1b50-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5253bf7224a440249c330476bd363b22",
+   "name": "TheTradeDesk - Click - Silicon IP DL Brochure DW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/designware-ip/processor-solutions/arc-processors.html"
+   ],
+   "selectors": [
+    "a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCd8d1231d93f54c8c8a98ee117964f133-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL534bfde029db45a5975d71e99c608574",
+   "name": "ANSYS Search XDM Mapping",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "^\\\\/search.*"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCb1e180681d1646f6b91cbb3550e3780b-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL54193114dca74e8992618e846bef5ef1",
+   "name": "Facebook - Pageview - Form Thanks",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC3fb21f011f524fbe8ca796be4ae948dc-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL54ad79eb13224874831016d7bf1bfa89",
+   "name": "ANSYS LEGACY - Google-recaptcha-Linktarget-override",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCd678591a19e8446a80aa8ac0eee56165-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL55c9f2efd1174bdba179c89449cec5b3",
+   "name": "ANSYS LEGACY - Global Functions",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL56c327f9b9d0404cb5665da97921d11b",
+   "name": "Intensify - Pageview thankyou",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "pathAndQuerystring",
+    "customCode"
+   ],
+   "paths": [
+    "/thankyou.html",
+    "/thank-you.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC5ac7fbbfe78d43cb83a711c64cbd937e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL57e41e68052145b3b46bfcb981de6d1e",
+   "name": "WebSDK - Set User Consent",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/page_login_timeout.html"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5890a7e52c9440d88eb11dc73e5795b6",
+   "name": "Custom - Video Tracking Events Dispatcher",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "maxFrequency",
+    "performancecookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC87573e5c95d54a6da5d912e96cfd197e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "www.youtube.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL58ca805b991e4f228f9fa81bb43d940f",
+   "name": "TheTradedesk - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC46ea8b5a5252407c9c20583439eec1fc-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL58ef247869f642f48762d807b6397f45",
+   "name": "Newscred - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCff00312a8d24463b96643e437bbf1478-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "analytics.newscred.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5903abff79e346af80b200c0f8c6f92d",
+   "name": "ANSYS LEGACY - SimulationWorld - Register Now - Virtual Events Click",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "a#reg-button"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCba0e2ca8f27446579ee0f84c7c03be03-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC1fc7d17f5e4948b6b155cb5944bc9b4e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5b0acc1bcea04597a58744024d528290",
+   "name": "WebSDK - Pageview - Error",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "page-view"
+   ],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5bfe6eb7e3f44adca6592b5109aba816",
+   "name": "Custom - Set referrerUrl Cookie",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "performancecookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC634d3bcfba0e4511888fdef439909f33-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL5eebf01c44a9406c8a467c74ce543752",
+   "name": "ANSYS LEGACY - Hotfix - Unsupported Browser (IE11) Redirect",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC01026b7cf4b64090adf0c9b8928b3d2a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL60fc47cf263c45a6956ffbe65772394b",
+   "name": "cvent conversion - start-guide",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/multi-die-system/start-guide.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCdef6522c46d94bc8beab0fe6d1c44d72-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL623adc66857249fa9d94f7daf6adc321",
+   "name": "Baidu - Pageview - CN",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring",
+    "targetingcookiesactive",
+    "valueComparison"
+   ],
+   "paths": [
+    "/zh-cn\\\\/?"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf2f9477a2a4d4b3dbed331eb8c0663bf-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "hm.baidu.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL64f21ebdb0de4123afa6cbaa99573b37",
+   "name": "OpenAI - Form Submit",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formSuccess"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC350d1d9cbf7c4912b09f4fb8a9e3c2c8-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL656cc4b75cce41979209a9e4c47e06c8",
+   "name": "Quora - All Pages (Ansys.com)",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "targetingcookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC13e16e50e5b94d4d859f8dd6c83671a1-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "a.quora.com",
+    "q.quora.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6c2eac447020495dabaf8747ff29c44a",
+   "name": "Forms - Set UTM and DnB Fields",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "page-view-dnb"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf38346be88944dd995456e5f1db2d832-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "i.test",
+    "ansys.synopsys.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL741577f363124b0180a43399c18eb6eb",
+   "name": "LinkedIn - Pageview (Ansys)",
+   "events": [
+    "customEvent",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:meeting-scheduled"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC5bf63f21b3434febb4a6ffb069bb4af6-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "snap.licdn.com",
+    "dc.ads.linkedin.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL757f0f3aaa6c4e389e0b44a2d92d987a",
+   "name": "Automitive eBook - Pageview thankyou",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "pathAndQuerystring",
+    "customCode"
+   ],
+   "paths": [
+    "/resources/navigating-software-defined-vehicle-development/thank-you.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC32999e8d0fc04bfd8da03d63aa751f0e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cnv.event.prod.bidr.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7c74ff055658407b9f5bf6f55bbed75c",
+   "name": "WebSDK -\\xa0Video Tracking",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "video_open",
+    "video_25",
+    "video_50",
+    "video_75",
+    "video_close",
+    "video_90"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC8d101f4a777c4b4abca6290ebc41b8c4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7d9cecc7ecd346e286b7774c98454a9f",
+   "name": "ANSYS LEGACY - Organization Schema",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7e41c25b361a4c37a44abe6e685c6102",
+   "name": "Set Page View Flag",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "performancecookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC79f9224ce41d4f98b48e8846acbbe295-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7edf885e81024dd3b2619b14f8a1efc9",
+   "name": "Marketo - Munchkin - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCa2f92040143546ba8ef2894a9286b67d-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "munchkin.marketo.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7f9993f7bb6b461599e3e8372edf7309",
+   "name": "Custom - Redirect with Identity",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [
+    "a[href]"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL81b6fb860a194470a4ead9cffb26ba2a",
+   "name": "Bidtellect - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC3888a5611b684a07a6539186b7455448-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "cdn.bttrack.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8294a49174f94c47a89489501828b7ec",
+   "name": "Trigger SPA Pageview",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe6e3aee72adf4e07b17a6b69ba512664-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL83d140a78e664ebfa69634ec33421fa8",
+   "name": "WebSDK - Set ECID Cookie",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "maxFrequency",
+    "performancecookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0272bab11dad421682ffe47b74a29b1a-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL867551c1f66f465a9589e246495cc6cc",
+   "name": "DnB - Visitor Intelligence Form Fill",
+   "events": [
+    "windowLoaded",
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "functionalcookiesactive",
+    "customCode",
+    "maxFrequency"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC51f539598c904fb9a62df92cf8f2245c-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC073e613f84f242019edb0acb3e2b9c70-source.min.js"
+   ],
+   "consentGroups": [
+    "C0003"
+   ],
+   "loads": [
+    "d41.co",
+    "cdn-0.d41.co"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL868ea2439b52491393fd44e7b1573816",
+   "name": "LinkedIn - Pageview (Synopsys)",
+   "events": [
+    "customEvent",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:meeting-scheduled"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe520f2cf843a4779a41c778c843b58a8-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "snap.licdn.com",
+    "dc.ads.linkedin.com",
+    "px.ads.linkedin.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8783d96d009b4e878d5b0919207492f8",
+   "name": "WebSDK - Helper Functions & Plugins Init",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL89485047fada448daf181bc4b5bd2b7b",
+   "name": "Maze - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf02695515d28448d9c4cfa7466dc7272-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "snippet.maze.co"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8956d17c0cc646b5a48d3064870a4527",
+   "name": "ANSYS LEGACY - Vidyard-Video-Fixs",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe3b7de415aba4e2fbe8c11262b2ae1cc-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8a73fea51cbc452a82c91785d2efe0b5",
+   "name": "WebSDK - Pageview - Back to Initial Setup",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "maxFrequency"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4ca92877382d4eebb2b4a69db6351a30-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8afa4cf5206848809b040c4a1ce23a66",
+   "name": "ANSYS LEGACY - Hero Banner Opacity + BC Show-Hide-Logic",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf49df29716b4421397d1fc35c61e9369-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8f3acdc3c8b24d19a64768f74a21eb8f",
+   "name": "Intensify - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCcbdf5995267b4f60a9b6fc7df0343db8-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "tracking.intentsify.io"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8f4b47856b1c4d3ea47540dad1d24426",
+   "name": "Custom - Attach Search Direct Call Listener",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL91c140943e88489eadca521dc9402325",
+   "name": "ANSYS LEGACY - GA: Universal File Download (C0002)",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCeb3a87b757734fd5af722127d663b258-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL93ef469860134c6289f4c8f6db939a39",
+   "name": "Backfill OneTrustGroupsUpdated on load",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9450b7033a1945238c6882a5b8c0c6c9",
+   "name": "Custom - Scroll",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCca586f03e8ad43b0b430baa32b1fa214-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL98042bb9b640499a99f333a30403d7ff",
+   "name": "WebSDK - Target - Show Hidden Elements",
+   "events": [
+    "monitor/index"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCc4d824d36a5748e3a828c76fdac82aa8-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL988e981895b04f079e05821db6b9b250",
+   "name": "Set PLID & CID cookies",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC853cd185971a449a8ef79b3a8f656b99-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9948ca38ac47455d9541dab356588d00",
+   "name": "Custom - Push concierge:meeting-scheduled",
+   "events": [
+    "pageBottom"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9a4fd5f8b45f435d97c215a55410c0f5",
+   "name": "WebSDK - Search - Filters",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "searchSortFilterAction"
+   ],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL9c2e0506bb104e21a1da48efd625e794",
+   "name": "LinkedIn - Form Submit (Ansys)",
+   "events": [
+    "domReady",
+    "dataElementChange",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formSuccess"
+   ],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCc09ce02cf1cb442a81132cd1255cd70e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa15fcda38fb74c82b75075b82cd757a0",
+   "name": "Custom - Track Search Abandonment & Time on Page",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC27dd050163c4489ea63933dda8c74500-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa42749b2463842e495c39d8100637f89",
+   "name": "WebSDk - Search Result Click",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "searchResultsClicksAction"
+   ],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa4d60e6f9c9743edb8d59903bf833b61",
+   "name": "WebSDK - Search Pagination Click",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "searchPaginationClicksAction"
+   ],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa84be48673134bc0b9746d39f5d8ef60",
+   "name": "Google Ads - Pageview - Virtual Processing TY",
+   "events": [
+    "customEvent",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:meeting-scheduled"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "pathAndQuerystring",
+    "customCode"
+   ],
+   "paths": [
+    "/verification/virtual-prototyping/tpt",
+    "/blogs/chip-design/ai-software-testing-architectural-separation-reliable-results.html"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC8db6f586bacb4c84bb3409309660c19a-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "www.googletagmanager.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLacd9749dc6914286afecc85010be8cb1",
+   "name": "ANSYS LEGACY - Google AGI ODTK button pixel",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "div.hero__content>div> div.cta-group>a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC1e1d227a6aa94c55ad3e599a40cc9fc8-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLafc381d22a9a4c7cb056b8f35af9e2ca",
+   "name": "ANSYS LEGACY - Column-Control-Responsive-List",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC2a6495391dda4969a1b6cff9df24aa36-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb14011989f8c4f658dd7b483faab3a17",
+   "name": "ANSYS LEGACY - GA: Universal Form Submission (C0002)",
+   "events": [
+    "domReady",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC93c7d7a73d20456b9fb097237213d688-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb2a5c6738fa443d781b2648cbd8f53f1",
+   "name": "Twitter - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC918cdfb9f5ff45cd9b4f3f0cdd00e2ea-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "static.ads-twitter.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb8cfe69a565f455284d7c1e108083df9",
+   "name": "WebSDK - Search",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "search"
+   ],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb94cc0ceea1c4f75bd2b28d2eece3b99",
+   "name": "DnB - Data Ready DataLayer Push",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCeb32e9653db14004ab4918dda9a4692b-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbcc0b4bd7372404b9df7e6f639340bce",
+   "name": "TheTradeDesk - Click - Silicon IP Form Input DW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path"
+   ],
+   "paths": [
+    "/dw/doc.php/wp/building_an_efficient_tightly_coupled_embedded_system_using_an_extensible_processor.pdf"
+   ],
+   "selectors": [
+    "#form input"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC5882544cb2514d548ef30b8eabadcec6-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbdae9d4012944413a2dd9a00091a3fa1",
+   "name": "Floodlight - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0c7fda3f028f4862b97af22d93ec2be8-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "10373687.fls.doubleclick.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbe9c867517cf4d1a86950425949fc08c",
+   "name": "Custom - LAMP Form Initiation",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCfd0c770d26f947c5af6bd3356e6637bb-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc5921507e1e348d281603d091cd83d6c",
+   "name": "ANSYS LEGACY - Media-Tags-Vidyard-Conversion",
+   "events": [
+    "windowLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0efeefd44fd44f8582875a74bf5abc0a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "play.vidyard.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc787dcd2af0443eca9f7dd11470e4e0a",
+   "name": "LinkedIn - Form Submit (Synopsys)",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formSuccess",
+    "formPrefillSuccess"
+   ],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC45125d603c5a45ff8bfcae19064217a1-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc87c2190c5b84089a1bd40255310de3c",
+   "name": "TheTradeDesk - Click - Silicon IP Arc Page DW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/designware-ip/processor-solutions/arc-processors.html"
+   ],
+   "selectors": [
+    "a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC80d334af69ab4718afd7ebc621ea3248-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLc8d4891e65b8432c897d453664da0511",
+   "name": "Custom - Click Tracking (BC)",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCea5d9678b5914bbb87938a77f206030b-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcab2d84b875642fd8f8aefdcc3444326",
+   "name": "ANSYS LEGACY - OneTrust - Targeting (C0004) - Page Load",
+   "events": [
+    "domReady",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC43435f6e229e4018afcbca4728ae445b-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCff2584f7784547aa8f1dca9e25c136ab-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf53d52b80909495fad1b60823c1da373-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC760868ba324c4fbb9d7c671e76bfeeb7-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC753c7f6465b1430a8f861a91e254e2f6-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf7a72fb164084e329f87d6a386cf9fb2-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCc7bf51b3ae82478889dcd64dbd69a3da-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCaedb36e5034a41f790ae607b8fad5275-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC6fc358b337a04a85af5de524f148b3d7-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4f294bd6ddf24a4d8e96f105c9436b15-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "bat.bing.com",
+    "connect.facebook.net",
+    "www.facebook.com",
+    "adsuite.pro",
+    "static.ads-twitter.com",
+    "js.adsrvr.org",
+    "insight.adsrvr.org",
+    "www.redditstatic.com",
+    "static.oktopost.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcc0ea567860e4ea4945de709d8433eb3",
+   "name": "Custom Rule | Temporary | Blog CSS",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring"
+   ],
+   "paths": [
+    "/blogs/chip-design(\\\\?)?.*"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcdfb74655081423ab567eabdfd582542",
+   "name": "Facebook - Pageview - JA, CH",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC3974bc40fde34c03a5e94a410caf0829-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd02fa2af4ef54a7c8fe45d57051c9b1b",
+   "name": "Bing - Pageview",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCff6eaee1e3384e2591993adfd06c5521-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "bat.bing.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd4c1054b5dbf4085912b7c05b4717695",
+   "name": "Custom - Thank You Page Redirect",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "pathAndQuerystring",
+    "subdomain"
+   ],
+   "paths": [
+    "/thankyou.html(\\\\?)?.*",
+    "/thank-you.html(\\\\?)?.*",
+    "/converge/livestream-2026/watch\\\\.html(\\\\?.*)?$",
+    "/converge/executive-forum-2025/watch.html(\\\\?.*)?$",
+    "/converge/executive-forum-2026/watch.html(\\\\?.*)?$"
+   ],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd561ec325f8f47dfaa20822697f6eff5",
+   "name": "ANSYS LEGACY - Google AGI STK button pixel",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [
+    "div.hero__content>div> div.cta-group>a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCda35dde2f0054132b0d0afbc5143ac7e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLd6896ae257a540b3a420379b01e85e04",
+   "name": "ANSYS LEGACY - Conversica-LazyLoad (C0003)",
+   "events": [
+    "windowLoaded",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe5e0b6aa703946119a10b7aef2602218-source.min.js"
+   ],
+   "consentGroups": [
+    "C0003"
+   ],
+   "loads": [
+    "chat.conversica.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLdb7660ac83de49989e5be8e3221fdcb2",
+   "name": "Custom - Navbar Hover",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCf8c5d1a1af1649f19713632b07f66da6-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLddcaa4983dd149d2844fdf87082a4ce3",
+   "name": "Custom - Push Form View (Ansys New Page)",
+   "events": [
+    "directCall"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC68d26df212c04ebcb29a0dbd99ace5a4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLde07abd4c5674f90b465f79b8d82a1b3",
+   "name": "Solvnet - Click Tracking",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC8cbe5f7e40684ac19e8a3b1c016f501a-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe9723fbb67b24d2fa2622185f916fdc4",
+   "name": "ANSYS LEGACY - Media Tags: Vidyard Conversion (C0002)",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCed345f734d034e7095a7dfad2c18fa86-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC7a9a6586af3045ef8cb9e6a1ff8a2b88-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCbf941c68be0d463cab5d7ed7de6e165a-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCa30f9401eb394e1cb58f7a365f78381b-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "connect.facebook.net",
+    "www.redditstatic.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe9dba78fecbe4411adf4583815067c2d",
+   "name": "WebSDK - Form Tracking - Ansys Connector (Ansys.com Pardot Forms)",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC83ca9a82f4894081af938dbb6c898813-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [
+    "i.test"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLea28f0a8c0b040d69b0ae548dac25a47",
+   "name": "WebSDK - Target Decisioning Pre Fetch",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "page-view-dnb"
+   ],
+   "conditions": [
+    "valueComparison",
+    "performancecookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLeb846bb0173c47a1a834de95b70029d4",
+   "name": "ANSYS LEGACY - OneTrust - Functional (C0003) - Page Load",
+   "events": [
+    "domReady",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0280355807ac4da58772f302eacfcbf3-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC66f418fbdad4413d9f20e2887ed04742-source.min.js"
+   ],
+   "consentGroups": [
+    "C0003"
+   ],
+   "loads": [
+    "app.convertful.com",
+    "siteimproveanalytics.com"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLee0c5cfe6d1e4b418933249ae22e8d94",
+   "name": "ANSYS LEGACY - Media Tags: Universal Form Submission (C0002)",
+   "events": [
+    "domReady",
+    "dataElementChange",
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "formSuccess"
+   ],
+   "conditions": [
+    "customCode",
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC6d4e76e0a50c4be9896572e0127028e0-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC7a6846b9411a4fb498f0df75f4f7189b-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC0ced5760c9144cb09bc11e6e10b9df17-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC7fd3951302e74fbfbb3b4993daba27ba-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC2c2ce419e879484d8e2da50c7eae0225-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC25475ad2e6774787b555cb1ca9f922fd-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC21db234a56594eae856ca6be7a78180f-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "platform.twitter.com",
+    "analytics.twitter.com",
+    "t.co",
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf12fcf70a7794f5692490fe5965627ec",
+   "name": "WebSDK - Navbar Hover",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "nav-hover"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC14868c3427b84848a34aa22857ce12a5-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf398f26059fc4b5abe365f99bb6ca749",
+   "name": "TheTradeDesk - Click - Silicon IP Contact Sales DW",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "path",
+    "customCode"
+   ],
+   "paths": [
+    "/designware-ip/processor-solutions/arc-processors.html"
+   ],
+   "selectors": [
+    "a"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCe8da792b220a4722b7aeca0bbb881c5b-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "js.adsrvr.org",
+    "insight.adsrvr.org"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf4e55f5f159c4e37937fb152852252b6",
+   "name": "WebSDK - Scroll",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "scroll"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf62ed3abe6a1431eaa04ec1ce92d885b",
+   "name": "Custom - DW Click Tracking",
+   "events": [
+    "domReady"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "/dw/"
+   ],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC99ed2e0c9a1d44cfb5a60173780f4d30-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf64a59e5b3a84ec587a53ed8b9493779",
+   "name": "Floodlight - Pageview - Careers",
+   "events": [
+    "customEvent"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "targetingcookiesactive",
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4b17c33047234ee3867760834e4be975-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [
+    "pubads.g.doubleclick.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf75ac0c1175f4b90ac1adf44dd68a9f8",
+   "name": "ANSYS LEGACY - Media Tags: Universal File Download (C0002)",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC6f9970920f4649469f67487e2778af1c-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4c1e6374e6fb4d2288514e09f2521fb1-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC62b68a3f88284f879f099f7351d97634-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [
+    "connect.facebook.net"
+   ],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf80f5988105d4d8abe64ee9e4db6b195",
+   "name": "WebSDK - Target - Show Hidden Elements (Contact Us & Free Trial)",
+   "events": [
+    "monitor/index"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCfe292ac245a44ad48b50ce3ae59582ee-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf96e477a9ece4933a8e584bb986cfce0",
+   "name": "Quora - Form Submit (Ansys.com)",
+   "events": [
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "targetingcookiesactive"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC4ff1c7b338604d328661a35448dd2275-source.min.js"
+   ],
+   "consentGroups": [
+    "C0004"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfc9d421a22994b58b9fcb49d62265c9b",
+   "name": "WebSDK - Component Click (Solvnet Temp)",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "click-link-solvnet"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfd4a1230b9284f60b56970341437526d",
+   "name": "ANSYS LEGACY - OneTrust - Performance (C0002) - Page Load",
+   "events": [
+    "domReady",
+    "dataElementChange"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "valueComparison",
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCcb5f826fce2d40bb97864df0c9e648e6-source.min.js",
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RC337d348f98504d00989d91c94fa8e67e-source.min.js"
+   ],
+   "consentGroups": [
+    "C0002"
+   ],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLfdf55e86a54d4a65bc47ba245e8b3fbd",
+   "name": "WebSDK - Brand Concierge (BC)",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "concierge:impression",
+    "concierge:open-modal",
+    "concierge:close-confirm",
+    "concierge:close-request",
+    "concierge:close-cancel",
+    "concierge:minimize",
+    "concierge:hide-chatbar",
+    "concierge:floating-icon-clicked",
+    "concierge:resume-chatbar",
+    "concierge:query:submitted",
+    "concierge:response:completed",
+    "concierge:link-clicked",
+    "concierge:card_clicked",
+    "concierge:citation_source_clicked",
+    "concierge:promptSuggestion:clicked",
+    "concierge:feedback:submitted",
+    "concierge:error:occurred",
+    "concierge:session-time",
+    "concierge:citation_superscript_clicked"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/58216e635e6a/RCc6a9e112619e4ba590f04f40c83e8b7c-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  }
+ ]
+}

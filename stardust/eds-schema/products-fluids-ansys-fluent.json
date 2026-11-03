@@ -1,0 +1,4137 @@
+{
+ "source": "http://localhost:8791/products-fluids-ansys-fluent-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Synopsys",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Ansys",
+     "href": "/"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ansys Fluent"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "United States"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "United States"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "United States",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "United Kingdom",
+     "href": "/en-gb/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "India",
+     "href": "/en-in/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "France",
+     "href": "/fr-fr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Deutschland",
+     "href": "/de-de/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Italia",
+     "href": "/it-it/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "日本",
+     "href": "/ja-jp/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "대한민국",
+     "href": "/ko-kr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "台灣",
+     "href": "/zh-tw/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "中国大陆",
+     "href": "/zh-cn/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Ask"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Synopsys",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Ansys",
+     "href": "/"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "/"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "/"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Ansys Fluent"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "United States"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "United States"
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "United States",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "United Kingdom",
+     "href": "/en-gb/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "India",
+     "href": "/en-in/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "France",
+     "href": "/fr-fr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Deutschland",
+     "href": "/de-de/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Italia",
+     "href": "/it-it/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "日本",
+     "href": "/ja-jp/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "대한민국",
+     "href": "/ko-kr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "台灣",
+     "href": "/zh-tw/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "中国大陆",
+     "href": "/zh-cn/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Ask"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Products & Services"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Products & Services"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Featured Products"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Products by Collection"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Student & Academic"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Technology Trends"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Applications"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Industries"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Service & Support"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Developer Portal"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "3D Design",
+     "href": "https://ansys.synopsys.com/products/3d-design"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Ansys Discovery",
+     "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Electronics",
+     "href": "https://ansys.synopsys.com/products/electronics"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Ansys HFSS",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Ansys Motor-CAD",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Ansys Icepak",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Ansys Fluent",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Ansys CFX",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Ansys Rocky",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Optics",
+     "href": "https://ansys.synopsys.com/products/optics"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Ansys Speos",
+     "href": "https://ansys.synopsys.com/products/optics/ansys-speos"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Ansys Zemax OpticStudio",
+     "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Ansys Lumerical FTDT",
+     "href": "https://ansys.synopsys.com/products/optics/fdtd"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Structures",
+     "href": "https://ansys.synopsys.com/products/structures"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Ansys Mechanical",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Ansys LS-DYNA",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Ansys Sherlock",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "All Ansys Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "3D Design",
+     "href": "https://ansys.synopsys.com/products/3d-design"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Acoustics Analysis",
+     "href": "https://ansys.synopsys.com/products/acoustics-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Additive Manufacturing",
+     "href": "https://ansys.synopsys.com/products/additive"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AI",
+     "href": "https://ansys.synopsys.com/products/ai"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Autonomous Vehicles",
+     "href": "https://ansys.synopsys.com/products/av-simulation"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "Cloud",
+     "href": "https://ansys.synopsys.com/products/cloud"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Connect",
+     "href": "https://ansys.synopsys.com/products/connect"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Digital Mission Engineering",
+     "href": "https://ansys.synopsys.com/products/missions"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Digital Twins",
+     "href": "https://ansys.synopsys.com/products/digital-twin"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Electronics",
+     "href": "https://ansys.synopsys.com/products/electronics"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Embedded Software",
+     "href": "https://ansys.synopsys.com/products/embedded-software"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Materials",
+     "href": "https://ansys.synopsys.com/products/materials"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Optics",
+     "href": "https://ansys.synopsys.com/products/optics"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "Safety Analysis",
+     "href": "https://ansys.synopsys.com/products/safety-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "Structures",
+     "href": "https://ansys.synopsys.com/products/structures"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Turn Challenges Into Breakthroughs"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Facing engineering challenges? Our experienced, innovative team can help transform obstacles into opportunities for growth. Reach out today and let’s create solutions together."
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "All Student Resources",
+     "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "Educators",
+     "href": "https://ansys.synopsys.com/academic/educators"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Researchers",
+     "href": "https://ansys.synopsys.com/academic/researchers"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "Learning Resources",
+     "href": "https://ansys.synopsys.com/academic/learning-resources"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Learning Forum",
+     "href": "https://innovationspace.ansys.com/forum/"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Innovation Courses",
+     "href": "https://innovationspace.ansys.com/courses/"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Ansys for Students"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Empowering tomorrow’s engineers with free simulation software, courses, tutorials, and a global support community."
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Get Free Student Software",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "All Technology Trends",
+     "href": "https://ansys.synopsys.com/technology-trends"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "5G/6G",
+     "href": "https://ansys.synopsys.com/technology-trends/5g"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Artificial Intelligence",
+     "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Autonomous Engineering",
+     "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "Cloud",
+     "href": "https://ansys.synopsys.com/technology-trends/cloud"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Digital Engineering",
+     "href": "https://ansys.synopsys.com/technology-trends/digital-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "Electrification",
+     "href": "https://ansys.synopsys.com/technology-trends/electrification"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "IIot",
+     "href": "https://ansys.synopsys.com/technology-trends/iiot"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Driving the Future of Autonomy"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Advancing autonomous vehicles requires both simulation and real-world testing. By combining innovation with proven expertise, we’re helping the industry create safer, more efficient mobility solutions."
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Explore Autonomous Solutions",
+     "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "All Applications",
+     "href": "https://ansys.synopsys.com/applications"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Antenna Design and Placement",
+     "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Autonomous Sensor Development",
+     "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Avionics and Flight Control",
+     "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Battery Simulation",
+     "href": "https://ansys.synopsys.com/applications/battery"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "Data Centers",
+     "href": "https://ansys.synopsys.com/applications/data-centers"
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "Electric Motors",
+     "href": "https://ansys.synopsys.com/applications/electric-motors"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Electronics Reliability",
+     "href": "https://ansys.synopsys.com/applications/electronics-reliability"
+    },
+    {
+     "role": "cta",
+     "order": 125,
+     "text": "Electrothermal Systems Engineering",
+     "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 126,
+     "text": "EMI/EMC",
+     "href": "https://ansys.synopsys.com/applications/emi-emc"
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "Gas Turbines",
+     "href": "https://ansys.synopsys.com/applications/gas-turbines"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "Power Electronics",
+     "href": "https://ansys.synopsys.com/applications/power-electronics"
+    },
+    {
+     "role": "cta",
+     "order": 129,
+     "text": "Rotating Machinery",
+     "href": "https://ansys.synopsys.com/applications/rotating-machinery"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Topology Optimization",
+     "href": "https://ansys.synopsys.com/applications/topology-optimization"
+    },
+    {
+     "role": "cta",
+     "order": 131,
+     "text": "Thermal Analysis",
+     "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Wind Turbine Design",
+     "href": "https://ansys.synopsys.com/applications/wind-turbine-design"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "Real-World Applications of Simulation"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "Discover how leading companies solve complex challenges with Ansys simulation—unlocking innovation across automotive, aerospace, energy, healthcare, and more."
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "See Real-World Results",
+     "href": "https://ansys.synopsys.com/applications"
+    },
+    {
+     "role": "cta",
+     "order": 136,
+     "text": "All Industries",
+     "href": "https://ansys.synopsys.com/industries"
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Aerospace",
+     "href": "https://ansys.synopsys.com/industries/aerospace"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Automotive",
+     "href": "https://ansys.synopsys.com/industries/automotive"
+    },
+    {
+     "role": "cta",
+     "order": 139,
+     "text": "Defense",
+     "href": "https://ansys.synopsys.com/industries/defense"
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Energy",
+     "href": "https://ansys.synopsys.com/industries/energy"
+    },
+    {
+     "role": "cta",
+     "order": 141,
+     "text": "Healthcare",
+     "href": "https://ansys.synopsys.com/industries/healthcare"
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "High Tech",
+     "href": "https://ansys.synopsys.com/industries/high-tech"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "Industrial Equipment",
+     "href": "https://ansys.synopsys.com/industries/industrial-equipment"
+    },
+    {
+     "role": "cta",
+     "order": 144,
+     "text": "Space",
+     "href": "https://ansys.synopsys.com/industries/space"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Transforming Industries with Simulation"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "Ansys empowers industries to design smarter and innovate faster with advanced simulation—driving progress in automotive, aerospace, energy, healthcare, and beyond."
+    },
+    {
+     "role": "cta",
+     "order": 147,
+     "text": "See What's Possible",
+     "href": "https://ansys.synopsys.com/industries"
+    },
+    {
+     "role": "cta",
+     "order": 148,
+     "text": "All Support",
+     "href": "https://ansys.synopsys.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "IT Solutions",
+     "href": "https://ansys.synopsys.com/it-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Quality Assurance",
+     "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+    },
+    {
+     "role": "cta",
+     "order": 151,
+     "text": "Learning Hub",
+     "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+    },
+    {
+     "role": "cta",
+     "order": 152,
+     "text": "Training Center",
+     "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+     "role": "cta",
+     "order": 153,
+     "text": "All Services",
+     "href": "https://ansys.synopsys.com/services"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "Consulting",
+     "href": "https://ansys.synopsys.com/services/consulting"
+    },
+    {
+     "role": "cta",
+     "order": 155,
+     "text": "Reliable Engineering Services",
+     "href": "https://ansys.synopsys.com/services/reliability-engineering-services"
+    },
+    {
+     "role": "cta",
+     "order": 156,
+     "text": "Automization & Customization",
+     "href": "https://ansys.synopsys.com/services/automation-customization"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "AnsysGPT: AI-Powered Support"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "A multilingual virtual assistant for commercial customers, AnsysGPT delivers 24/7 answers on products, physics, and engineering topics—securely and reliably."
+    },
+    {
+     "role": "cta",
+     "order": 159,
+     "text": "Learn about AnsysGPT",
+     "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries"
+    },
+    {
+     "role": "cta",
+     "order": 160,
+     "text": "All Developer Resources",
+     "href": "https://developer.synopsys.com"
+    },
+    {
+     "role": "cta",
+     "order": 161,
+     "text": "Documentation",
+     "href": "https://developer.synopsys.com/docs"
+    },
+    {
+     "role": "cta",
+     "order": 162,
+     "text": "Knowledge Base",
+     "href": "https://developer.synopsys.com/knowledge-base"
+    },
+    {
+     "role": "cta",
+     "order": 163,
+     "text": "App Catalog",
+     "href": "https://developer.synopsys.com/app-catalog/catalog"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "Supercharge Your Ansys Workflow with the Ansys App Catalog"
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "Discover apps to expand your Ansys capabilities, streamline workflows, and solve problems faster. Built by Ansys and trusted partners."
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "Extend Ansys Apps",
+     "href": "https://developer.synopsys.com/app-catalog/catalog"
+    },
+    {
+     "role": "cta",
+     "order": 167,
+     "text": "All Ansys Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "cta",
+     "order": 168,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "cta",
+     "order": 169,
+     "text": "Ansys Software Release R1",
+     "href": "https://ansys.synopsys.com/products/release-highlights"
+    },
+    {
+     "role": "cta",
+     "order": 170,
+     "text": "Products for Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Learn"
+    },
+    {
+     "role": "body",
+     "order": 172,
+     "text": "Learn"
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "Learn"
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "Resource Center",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 175,
+     "text": "Blogs",
+     "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+     "role": "cta",
+     "order": 176,
+     "text": "Case Studies",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+    },
+    {
+     "role": "cta",
+     "order": 177,
+     "text": "Demos",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+    },
+    {
+     "role": "cta",
+     "order": 178,
+     "text": "Videos",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+    },
+    {
+     "role": "cta",
+     "order": 179,
+     "text": "On-Demand Webinars",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+    },
+    {
+     "role": "cta",
+     "order": 180,
+     "text": "White Papers",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+    },
+    {
+     "role": "cta",
+     "order": 181,
+     "text": "Simulation Topics",
+     "href": "https://ansys.synopsys.com/simulation-topics"
+    },
+    {
+     "role": "cta",
+     "order": 182,
+     "text": "Ansys Training Center",
+     "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+     "role": "cta",
+     "order": 183,
+     "text": "Training for You",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+    },
+    {
+     "role": "cta",
+     "order": 184,
+     "text": "Training for Your Team",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+    },
+    {
+     "role": "cta",
+     "order": 185,
+     "text": "Training for Your Corporation",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+    },
+    {
+     "role": "cta",
+     "order": 186,
+     "text": "Find a Training Course",
+     "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+     "role": "cta",
+     "order": 187,
+     "text": "Ansys Learning Hub",
+     "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+    },
+    {
+     "role": "cta",
+     "order": 188,
+     "text": "Browse Courses",
+     "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+     "role": "cta",
+     "order": 189,
+     "text": "Student & Academic",
+     "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+     "role": "cta",
+     "order": 190,
+     "text": "Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 191,
+     "text": "Educators",
+     "href": "https://ansys.synopsys.com/academic/educators"
+    },
+    {
+     "role": "cta",
+     "order": 192,
+     "text": "Researchers",
+     "href": "https://ansys.synopsys.com/academic/researchers"
+    },
+    {
+     "role": "cta",
+     "order": 193,
+     "text": "Learning Resources",
+     "href": "https://ansys.synopsys.com/academic/learning-resources"
+    },
+    {
+     "role": "cta",
+     "order": 194,
+     "text": "Learning Forum",
+     "href": "https://innovationspace.ansys.com/forum"
+    },
+    {
+     "role": "cta",
+     "order": 195,
+     "text": "Innovation Courses",
+     "href": "https://innovationspace.ansys.com/courses"
+    },
+    {
+     "role": "cta",
+     "order": 196,
+     "text": "Events & Webinars",
+     "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 197,
+     "text": "SIM World 2025",
+     "href": "https://ansys.synopsys.com/events/simulation-world"
+    },
+    {
+     "role": "cta",
+     "order": 198,
+     "text": "Upcoming Events",
+     "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 199,
+     "text": "Past Webinars",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar"
+    },
+    {
+     "role": "body",
+     "order": 200,
+     "text": "Ansys empowers the next generation of engineers."
+    },
+    {
+     "role": "body",
+     "order": 201,
+     "text": "Students get free access to world-class simulation software."
+    },
+    {
+     "role": "cta",
+     "order": 202,
+     "text": "Access Free Student Software",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "body",
+     "order": 203,
+     "text": "About"
+    },
+    {
+     "role": "body",
+     "order": 204,
+     "text": "About"
+    },
+    {
+     "role": "body",
+     "order": 205,
+     "text": "About Ansys"
+    },
+    {
+     "role": "cta",
+     "order": 206,
+     "text": "Company Information",
+     "href": "https://ansys.synopsys.com/company-information"
+    },
+    {
+     "role": "cta",
+     "order": 207,
+     "text": "Ansys Story",
+     "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+    },
+    {
+     "role": "cta",
+     "order": 208,
+     "text": "Success Stories",
+     "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+    },
+    {
+     "role": "cta",
+     "order": 209,
+     "text": "Leadership",
+     "href": "https://ansys.synopsys.com/company-information/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 210,
+     "text": "Sustainability",
+     "href": "https://ansys.synopsys.com/company-information/sustainability"
+    },
+    {
+     "role": "cta",
+     "order": 211,
+     "text": "Contacts & Locations",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 212,
+     "text": "Corporate Responsibility",
+     "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 213,
+     "text": "Quality Assurance",
+     "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+    },
+    {
+     "role": "cta",
+     "order": 214,
+     "text": "Contact Us",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 215,
+     "text": "Partner Ecosystem",
+     "href": "https://ansys.synopsys.com/partner-ecosystem"
+    },
+    {
+     "role": "cta",
+     "order": 216,
+     "text": "Find a Partner",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+    },
+    {
+     "role": "cta",
+     "order": 217,
+     "text": "Become an Ansys Partner",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+    },
+    {
+     "role": "cta",
+     "order": 218,
+     "text": "Technology Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+    },
+    {
+     "role": "cta",
+     "order": 219,
+     "text": "Channel Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners"
+    },
+    {
+     "role": "cta",
+     "order": 220,
+     "text": "Services Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners"
+    },
+    {
+     "role": "cta",
+     "order": 221,
+     "text": "Strategic Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners"
+    },
+    {
+     "role": "cta",
+     "order": 222,
+     "text": "Academic Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners"
+    },
+    {
+     "role": "cta",
+     "order": 223,
+     "text": "Startup Program",
+     "href": "https://ansys.synopsys.com/startup-program"
+    },
+    {
+     "role": "cta",
+     "order": 224,
+     "text": "News Center",
+     "href": "https://ansys.synopsys.com/news-center"
+    },
+    {
+     "role": "cta",
+     "order": 225,
+     "text": "Press Releases",
+     "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 226,
+     "text": "Advantage Magazine",
+     "href": "https://ansys.synopsys.com/advantage-magazine"
+    },
+    {
+     "role": "cta",
+     "order": 227,
+     "text": "Blogs",
+     "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+     "role": "cta",
+     "order": 228,
+     "text": "Careers",
+     "href": "https://ansys.synopsys.com/careers"
+    },
+    {
+     "role": "cta",
+     "order": 229,
+     "text": "Life at Ansys",
+     "href": "https://ansys.synopsys.com/careers/life-at-ansys"
+    },
+    {
+     "role": "cta",
+     "order": 230,
+     "text": "University Programs",
+     "href": "https://ansys.synopsys.com/careers/university-programs"
+    },
+    {
+     "role": "cta",
+     "order": 231,
+     "text": "Employee Stories",
+     "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys"
+    },
+    {
+     "role": "cta",
+     "order": 232,
+     "text": "Search for Jobs",
+     "href": "https://careers.synopsys.com/"
+    },
+    {
+     "role": "body",
+     "order": 233,
+     "text": "Design your future."
+    },
+    {
+     "role": "body",
+     "order": 234,
+     "text": "Connect with Ansys to explore how simulation can power your next breakthrough."
+    },
+    {
+     "role": "cta",
+     "order": 235,
+     "text": "Connect with Ansys Now!",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 236,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 237,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 238,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "heading",
+     "order": 239,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "cta",
+     "order": 240,
+     "text": "United States",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 241,
+     "text": "United Kingdom",
+     "href": "/en-gb/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 242,
+     "text": "India",
+     "href": "/en-in/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 243,
+     "text": "France",
+     "href": "/fr-fr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 244,
+     "text": "Deutschland",
+     "href": "/de-de/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 245,
+     "text": "Italia",
+     "href": "/it-it/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 246,
+     "text": "日本",
+     "href": "/ja-jp/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 247,
+     "text": "대한민국",
+     "href": "/ko-kr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 248,
+     "text": "台灣",
+     "href": "/zh-tw/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 249,
+     "text": "中国大陆",
+     "href": "/zh-cn/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "body",
+     "order": 250,
+     "text": "Customers"
+    },
+    {
+     "role": "body",
+     "order": 251,
+     "text": "Customers"
+    },
+    {
+     "role": "cta",
+     "order": 252,
+     "text": "Customer Center",
+     "href": "https://innovation.ansys.com/customer-center"
+    },
+    {
+     "role": "cta",
+     "order": 253,
+     "text": "Support",
+     "href": "https://ansys.synopsys.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 254,
+     "text": "Partner Communities",
+     "href": "https://partner.ansys.com/"
+    },
+    {
+     "role": "cta",
+     "order": 255,
+     "text": "Contact Sales",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 256,
+     "text": "For United States and Canada"
+    },
+    {
+     "role": "cta",
+     "order": 257,
+     "text": "+1.844.462.6797",
+     "href": "tel:+18444626797"
+    },
+    {
+     "role": "cta",
+     "order": 258,
+     "text": "Sign In",
+     "href": "https://ansysaccount.b2clogin.com/ansysaccount.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_ANSYSID_SIGNUP_SIGNIN&client_id=b7f08794-f038-4c33-ae5a-5b589c912f36&redirect_uri=https://ansys.synopsys.com/content/ansysincprogram/en-us/home.ssologin.json&scope=openid&response_type=code%20id_token&response_mode=query&state=OpenIdConnect.AuthenticationProperties%3DZrhsk_kNHv8ptM5lY_fBHd1uIAs1d8CzZNpALhjxg6qOBx85yPJVjt0ysM6zfCdPdTpuzUeBXa2ItkPU6oXIkNVRzMqtTZgBiaqZrBQUi4vFSaI9U-FO-1adCX8wWOjJUNv8QZLEfZGG7yBov797MjQ_uSMyBvinimi8T5UtAqVzLBLU_x5D7Ez4vr6kMgJB&nonce=637646961893973035.OGRhOThjNzAtNDExYi00MmY3LThkNzEtYzNlZjdjMzg3MDA4YmNhODg4Y2YtY2E2Zi00YWVkLWI5MTctMmUxNGU0ZTBlMmE2&x-client-SKU=ID_NET461&x-client-ver=5.3.0.0"
+    },
+    {
+     "role": "cta",
+     "order": 259,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "body",
+     "order": 260,
+     "text": "Menu"
+    },
+    {
+     "role": "body",
+     "order": 261,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 262,
+     "text": "Products & Services"
+    },
+    {
+     "role": "body",
+     "order": 263,
+     "text": "Learn"
+    },
+    {
+     "role": "body",
+     "order": 264,
+     "text": "About"
+    },
+    {
+     "role": "body",
+     "order": 265,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "body",
+     "order": 266,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "heading",
+     "order": 267,
+     "text": "Countries & Regions"
+    },
+    {
+     "role": "cta",
+     "order": 268,
+     "text": "United States",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 269,
+     "text": "United Kingdom",
+     "href": "/en-gb/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 270,
+     "text": "India",
+     "href": "/en-in/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 271,
+     "text": "France",
+     "href": "/fr-fr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 272,
+     "text": "Deutschland",
+     "href": "/de-de/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 273,
+     "text": "Italia",
+     "href": "/it-it/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 274,
+     "text": "日本",
+     "href": "/ja-jp/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 275,
+     "text": "대한민국",
+     "href": "/ko-kr/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 276,
+     "text": "台灣",
+     "href": "/zh-tw/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 277,
+     "text": "中国大陆",
+     "href": "/zh-cn/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "body",
+     "order": 278,
+     "text": "Customers"
+    },
+    {
+     "role": "body",
+     "order": 279,
+     "text": "Customers"
+    },
+    {
+     "role": "cta",
+     "order": 280,
+     "text": "Customer Center",
+     "href": "https://innovation.ansys.com/customer-center"
+    },
+    {
+     "role": "cta",
+     "order": 281,
+     "text": "Support",
+     "href": "https://ansys.synopsys.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 282,
+     "text": "Partner Communities",
+     "href": "https://partner.ansys.com/"
+    },
+    {
+     "role": "cta",
+     "order": 283,
+     "text": "Contact Sales",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 284,
+     "text": "For United States and Canada"
+    },
+    {
+     "role": "cta",
+     "order": 285,
+     "text": "+1.844.462.6797",
+     "href": "tel:+18444626797"
+    },
+    {
+     "role": "cta",
+     "order": 286,
+     "text": "Sign In",
+     "href": "https://ansysaccount.b2clogin.com/ansysaccount.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1A_ANSYSID_SIGNUP_SIGNIN&client_id=b7f08794-f038-4c33-ae5a-5b589c912f36&redirect_uri=https://ansys.synopsys.com/content/ansysincprogram/en-us/home.ssologin.json&scope=openid&response_type=code%20id_token&response_mode=query&state=OpenIdConnect.AuthenticationProperties%3DZrhsk_kNHv8ptM5lY_fBHd1uIAs1d8CzZNpALhjxg6qOBx85yPJVjt0ysM6zfCdPdTpuzUeBXa2ItkPU6oXIkNVRzMqtTZgBiaqZrBQUi4vFSaI9U-FO-1adCX8wWOjJUNv8QZLEfZGG7yBov797MjQ_uSMyBvinimi8T5UtAqVzLBLU_x5D7Ez4vr6kMgJB&nonce=637646961893973035.OGRhOThjNzAtNDExYi00MmY3LThkNzEtYzNlZjdjMzg3MDA4YmNhODg4Y2YtY2E2Zi00YWVkLWI5MTctMmUxNGU0ZTBlMmE2&x-client-SKU=ID_NET461&x-client-ver=5.3.0.0"
+    },
+    {
+     "role": "body",
+     "order": 287,
+     "text": "Ask"
+    },
+    {
+     "role": "cta",
+     "order": 288,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "cta",
+     "order": 289,
+     "text": "synopsys.com",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "body",
+     "order": 290,
+     "text": "Synopsys and Ansys power the future of innovation - connecting silicon to systems."
+    },
+    {
+     "role": "body",
+     "order": 291,
+     "text": "Back"
+    },
+    {
+     "role": "body",
+     "order": 292,
+     "text": "Products & Services"
+    },
+    {
+     "role": "body",
+     "order": 293,
+     "text": "Featured Products"
+    },
+    {
+     "role": "body",
+     "order": 294,
+     "text": "Featured Products"
+    },
+    {
+     "role": "cta",
+     "order": 295,
+     "text": "3D Design",
+     "href": "https://ansys.synopsys.com/products/3d-design"
+    },
+    {
+     "role": "cta",
+     "order": 296,
+     "text": "Ansys Discovery",
+     "href": "https://ansys.synopsys.com/products/3d-design/ansys-discovery"
+    },
+    {
+     "role": "cta",
+     "order": 297,
+     "text": "Electronics",
+     "href": "https://ansys.synopsys.com/products/electronics"
+    },
+    {
+     "role": "cta",
+     "order": 298,
+     "text": "Ansys HFSS",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss"
+    },
+    {
+     "role": "cta",
+     "order": 299,
+     "text": "Ansys Motor-CAD",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-motor-cad"
+    },
+    {
+     "role": "cta",
+     "order": 300,
+     "text": "Ansys Icepak",
+     "href": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+    },
+    {
+     "role": "cta",
+     "order": 301,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "cta",
+     "order": 302,
+     "text": "Ansys Fluent",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 303,
+     "text": "Ansys CFX",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-cfx"
+    },
+    {
+     "role": "cta",
+     "order": 304,
+     "text": "Ansys Rocky",
+     "href": "https://ansys.synopsys.com/products/fluids/ansys-rocky"
+    },
+    {
+     "role": "cta",
+     "order": 305,
+     "text": "Optics",
+     "href": "https://ansys.synopsys.com/products/optics"
+    },
+    {
+     "role": "cta",
+     "order": 306,
+     "text": "Ansys Speos",
+     "href": "https://ansys.synopsys.com/products/optics/ansys-speos"
+    },
+    {
+     "role": "cta",
+     "order": 307,
+     "text": "Ansys Zemax OpticStudio",
+     "href": "https://ansys.synopsys.com/products/optics/ansys-zemax-opticstudio"
+    },
+    {
+     "role": "cta",
+     "order": 308,
+     "text": "Ansys Lumerical FTDT",
+     "href": "https://ansys.synopsys.com/products/optics/fdtd"
+    },
+    {
+     "role": "cta",
+     "order": 309,
+     "text": "Structures",
+     "href": "https://ansys.synopsys.com/products/structures"
+    },
+    {
+     "role": "cta",
+     "order": 310,
+     "text": "Ansys Mechanical",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-mechanical"
+    },
+    {
+     "role": "cta",
+     "order": 311,
+     "text": "Ansys LS-DYNA",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-ls-dyna"
+    },
+    {
+     "role": "cta",
+     "order": 312,
+     "text": "Ansys Sherlock",
+     "href": "https://ansys.synopsys.com/products/structures/ansys-sherlock"
+    },
+    {
+     "role": "body",
+     "order": 313,
+     "text": "Products by Collection"
+    },
+    {
+     "role": "body",
+     "order": 314,
+     "text": "Products by Collection"
+    },
+    {
+     "role": "cta",
+     "order": 315,
+     "text": "All Ansys Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "cta",
+     "order": 316,
+     "text": "3D Design",
+     "href": "https://ansys.synopsys.com/products/3d-design"
+    },
+    {
+     "role": "cta",
+     "order": 317,
+     "text": "Acoustics Analysis",
+     "href": "https://ansys.synopsys.com/products/acoustics-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 318,
+     "text": "Additive Manufacturing",
+     "href": "https://ansys.synopsys.com/products/additive"
+    },
+    {
+     "role": "cta",
+     "order": 319,
+     "text": "AI",
+     "href": "https://ansys.synopsys.com/products/ai"
+    },
+    {
+     "role": "cta",
+     "order": 320,
+     "text": "Autonomous Vehicles",
+     "href": "https://ansys.synopsys.com/products/av-simulation"
+    },
+    {
+     "role": "cta",
+     "order": 321,
+     "text": "Cloud",
+     "href": "https://ansys.synopsys.com/products/cloud"
+    },
+    {
+     "role": "cta",
+     "order": 322,
+     "text": "Connect",
+     "href": "https://ansys.synopsys.com/products/connect"
+    },
+    {
+     "role": "cta",
+     "order": 323,
+     "text": "Digital Mission Engineering",
+     "href": "https://ansys.synopsys.com/products/missions"
+    },
+    {
+     "role": "cta",
+     "order": 324,
+     "text": "Digital Twins",
+     "href": "https://ansys.synopsys.com/products/digital-twin"
+    },
+    {
+     "role": "cta",
+     "order": 325,
+     "text": "Electronics",
+     "href": "https://ansys.synopsys.com/products/electronics"
+    },
+    {
+     "role": "cta",
+     "order": 326,
+     "text": "Embedded Software",
+     "href": "https://ansys.synopsys.com/products/embedded-software"
+    },
+    {
+     "role": "cta",
+     "order": 327,
+     "text": "Fluids",
+     "href": "https://ansys.synopsys.com/products/fluids"
+    },
+    {
+     "role": "cta",
+     "order": 328,
+     "text": "Materials",
+     "href": "https://ansys.synopsys.com/products/materials"
+    },
+    {
+     "role": "cta",
+     "order": 329,
+     "text": "Optics",
+     "href": "https://ansys.synopsys.com/products/optics"
+    },
+    {
+     "role": "cta",
+     "order": 330,
+     "text": "Safety Analysis",
+     "href": "https://ansys.synopsys.com/products/safety-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 331,
+     "text": "Structures",
+     "href": "https://ansys.synopsys.com/products/structures"
+    },
+    {
+     "role": "body",
+     "order": 332,
+     "text": "Turn Challenges Into Breakthroughs"
+    },
+    {
+     "role": "body",
+     "order": 333,
+     "text": "Facing engineering challenges? Our experienced, innovative team can help transform obstacles into opportunities for growth. Reach out today and let’s create solutions together."
+    },
+    {
+     "role": "cta",
+     "order": 334,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "body",
+     "order": 335,
+     "text": "Student & Academic"
+    },
+    {
+     "role": "body",
+     "order": 336,
+     "text": "Student & Academic"
+    },
+    {
+     "role": "cta",
+     "order": 337,
+     "text": "All Student Resources",
+     "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+     "role": "cta",
+     "order": 338,
+     "text": "Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 339,
+     "text": "Educators",
+     "href": "https://ansys.synopsys.com/academic/educators"
+    },
+    {
+     "role": "cta",
+     "order": 340,
+     "text": "Researchers",
+     "href": "https://ansys.synopsys.com/academic/researchers"
+    },
+    {
+     "role": "cta",
+     "order": 341,
+     "text": "Learning Resources",
+     "href": "https://ansys.synopsys.com/academic/learning-resources"
+    },
+    {
+     "role": "cta",
+     "order": 342,
+     "text": "Learning Forum",
+     "href": "https://innovationspace.ansys.com/forum/"
+    },
+    {
+     "role": "cta",
+     "order": 343,
+     "text": "Innovation Courses",
+     "href": "https://innovationspace.ansys.com/courses/"
+    },
+    {
+     "role": "body",
+     "order": 344,
+     "text": "Ansys for Students"
+    },
+    {
+     "role": "body",
+     "order": 345,
+     "text": "Empowering tomorrow’s engineers with free simulation software, courses, tutorials, and a global support community."
+    },
+    {
+     "role": "cta",
+     "order": 346,
+     "text": "Get Free Student Software",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "body",
+     "order": 347,
+     "text": "Technology Trends"
+    },
+    {
+     "role": "body",
+     "order": 348,
+     "text": "Technology Trends"
+    },
+    {
+     "role": "cta",
+     "order": 349,
+     "text": "All Technology Trends",
+     "href": "https://ansys.synopsys.com/technology-trends"
+    },
+    {
+     "role": "cta",
+     "order": 350,
+     "text": "5G/6G",
+     "href": "https://ansys.synopsys.com/technology-trends/5g"
+    },
+    {
+     "role": "cta",
+     "order": 351,
+     "text": "Artificial Intelligence",
+     "href": "https://ansys.synopsys.com/technology-trends/artificial-intelligence"
+    },
+    {
+     "role": "cta",
+     "order": 352,
+     "text": "Autonomous Engineering",
+     "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 353,
+     "text": "Cloud",
+     "href": "https://ansys.synopsys.com/technology-trends/cloud"
+    },
+    {
+     "role": "cta",
+     "order": 354,
+     "text": "Digital Engineering",
+     "href": "https://ansys.synopsys.com/technology-trends/digital-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 355,
+     "text": "Electrification",
+     "href": "https://ansys.synopsys.com/technology-trends/electrification"
+    },
+    {
+     "role": "cta",
+     "order": 356,
+     "text": "IIot",
+     "href": "https://ansys.synopsys.com/technology-trends/iiot"
+    },
+    {
+     "role": "body",
+     "order": 357,
+     "text": "Driving the Future of Autonomy"
+    },
+    {
+     "role": "body",
+     "order": 358,
+     "text": "Advancing autonomous vehicles requires both simulation and real-world testing. By combining innovation with proven expertise, we’re helping the industry create safer, more efficient mobility solutions."
+    },
+    {
+     "role": "cta",
+     "order": 359,
+     "text": "Explore Autonomous Solutions",
+     "href": "https://ansys.synopsys.com/technology-trends/autonomous-engineering"
+    },
+    {
+     "role": "body",
+     "order": 360,
+     "text": "Applications"
+    },
+    {
+     "role": "body",
+     "order": 361,
+     "text": "Applications"
+    },
+    {
+     "role": "cta",
+     "order": 362,
+     "text": "All Applications",
+     "href": "https://ansys.synopsys.com/applications"
+    },
+    {
+     "role": "cta",
+     "order": 363,
+     "text": "Antenna Design and Placement",
+     "href": "https://ansys.synopsys.com/applications/antenna-design-and-placement"
+    },
+    {
+     "role": "cta",
+     "order": 364,
+     "text": "Autonomous Sensor Development",
+     "href": "https://ansys.synopsys.com/applications/autonomous-sensor-development"
+    },
+    {
+     "role": "cta",
+     "order": 365,
+     "text": "Avionics and Flight Control",
+     "href": "https://ansys.synopsys.com/applications/avionics-and-flight-controls"
+    },
+    {
+     "role": "cta",
+     "order": 366,
+     "text": "Battery Simulation",
+     "href": "https://ansys.synopsys.com/applications/battery"
+    },
+    {
+     "role": "cta",
+     "order": 367,
+     "text": "Data Centers",
+     "href": "https://ansys.synopsys.com/applications/data-centers"
+    },
+    {
+     "role": "cta",
+     "order": 368,
+     "text": "Electric Motors",
+     "href": "https://ansys.synopsys.com/applications/electric-motors"
+    },
+    {
+     "role": "cta",
+     "order": 369,
+     "text": "Electronics Reliability",
+     "href": "https://ansys.synopsys.com/applications/electronics-reliability"
+    },
+    {
+     "role": "cta",
+     "order": 370,
+     "text": "Electrothermal Systems Engineering",
+     "href": "https://ansys.synopsys.com/applications/electrothermal-systems-engineering"
+    },
+    {
+     "role": "cta",
+     "order": 371,
+     "text": "EMI/EMC",
+     "href": "https://ansys.synopsys.com/applications/emi-emc"
+    },
+    {
+     "role": "cta",
+     "order": 372,
+     "text": "Gas Turbines",
+     "href": "https://ansys.synopsys.com/applications/gas-turbines"
+    },
+    {
+     "role": "cta",
+     "order": 373,
+     "text": "Power Electronics",
+     "href": "https://ansys.synopsys.com/applications/power-electronics"
+    },
+    {
+     "role": "cta",
+     "order": 374,
+     "text": "Rotating Machinery",
+     "href": "https://ansys.synopsys.com/applications/rotating-machinery"
+    },
+    {
+     "role": "cta",
+     "order": 375,
+     "text": "Topology Optimization",
+     "href": "https://ansys.synopsys.com/applications/topology-optimization"
+    },
+    {
+     "role": "cta",
+     "order": 376,
+     "text": "Thermal Analysis",
+     "href": "https://ansys.synopsys.com/applications/thermal-analysis-simulation-software"
+    },
+    {
+     "role": "cta",
+     "order": 377,
+     "text": "Wind Turbine Design",
+     "href": "https://ansys.synopsys.com/applications/wind-turbine-design"
+    },
+    {
+     "role": "body",
+     "order": 378,
+     "text": "Real-World Applications of Simulation"
+    },
+    {
+     "role": "body",
+     "order": 379,
+     "text": "Discover how leading companies solve complex challenges with Ansys simulation—unlocking innovation across automotive, aerospace, energy, healthcare, and more."
+    },
+    {
+     "role": "cta",
+     "order": 380,
+     "text": "See Real-World Results",
+     "href": "https://ansys.synopsys.com/applications"
+    },
+    {
+     "role": "body",
+     "order": 381,
+     "text": "Industries"
+    },
+    {
+     "role": "body",
+     "order": 382,
+     "text": "Industries"
+    },
+    {
+     "role": "cta",
+     "order": 383,
+     "text": "All Industries",
+     "href": "https://ansys.synopsys.com/industries"
+    },
+    {
+     "role": "cta",
+     "order": 384,
+     "text": "Aerospace",
+     "href": "https://ansys.synopsys.com/industries/aerospace"
+    },
+    {
+     "role": "cta",
+     "order": 385,
+     "text": "Automotive",
+     "href": "https://ansys.synopsys.com/industries/automotive"
+    },
+    {
+     "role": "cta",
+     "order": 386,
+     "text": "Defense",
+     "href": "https://ansys.synopsys.com/industries/defense"
+    },
+    {
+     "role": "cta",
+     "order": 387,
+     "text": "Energy",
+     "href": "https://ansys.synopsys.com/industries/energy"
+    },
+    {
+     "role": "cta",
+     "order": 388,
+     "text": "Healthcare",
+     "href": "https://ansys.synopsys.com/industries/healthcare"
+    },
+    {
+     "role": "cta",
+     "order": 389,
+     "text": "High Tech",
+     "href": "https://ansys.synopsys.com/industries/high-tech"
+    },
+    {
+     "role": "cta",
+     "order": 390,
+     "text": "Industrial Equipment",
+     "href": "https://ansys.synopsys.com/industries/industrial-equipment"
+    },
+    {
+     "role": "cta",
+     "order": 391,
+     "text": "Space",
+     "href": "https://ansys.synopsys.com/industries/space"
+    },
+    {
+     "role": "body",
+     "order": 392,
+     "text": "Transforming Industries with Simulation"
+    },
+    {
+     "role": "body",
+     "order": 393,
+     "text": "Ansys empowers industries to design smarter and innovate faster with advanced simulation—driving progress in automotive, aerospace, energy, healthcare, and beyond."
+    },
+    {
+     "role": "cta",
+     "order": 394,
+     "text": "See What's Possible",
+     "href": "https://ansys.synopsys.com/industries"
+    },
+    {
+     "role": "body",
+     "order": 395,
+     "text": "Service & Support"
+    },
+    {
+     "role": "body",
+     "order": 396,
+     "text": "Service & Support"
+    },
+    {
+     "role": "cta",
+     "order": 397,
+     "text": "All Support",
+     "href": "https://ansys.synopsys.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 398,
+     "text": "IT Solutions",
+     "href": "https://ansys.synopsys.com/it-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 399,
+     "text": "Quality Assurance",
+     "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+    },
+    {
+     "role": "cta",
+     "order": 400,
+     "text": "Learning Hub",
+     "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+    },
+    {
+     "role": "cta",
+     "order": 401,
+     "text": "Training Center",
+     "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+     "role": "cta",
+     "order": 402,
+     "text": "All Services",
+     "href": "https://ansys.synopsys.com/services"
+    },
+    {
+     "role": "cta",
+     "order": 403,
+     "text": "Consulting",
+     "href": "https://ansys.synopsys.com/services/consulting"
+    },
+    {
+     "role": "cta",
+     "order": 404,
+     "text": "Reliable Engineering Services",
+     "href": "https://ansys.synopsys.com/services/reliability-engineering-services"
+    },
+    {
+     "role": "cta",
+     "order": 405,
+     "text": "Automization & Customization",
+     "href": "https://ansys.synopsys.com/services/automation-customization"
+    },
+    {
+     "role": "body",
+     "order": 406,
+     "text": "AnsysGPT: AI-Powered Support"
+    },
+    {
+     "role": "body",
+     "order": 407,
+     "text": "A multilingual virtual assistant for commercial customers, AnsysGPT delivers 24/7 answers on products, physics, and engineering topics—securely and reliably."
+    },
+    {
+     "role": "cta",
+     "order": 408,
+     "text": "Learn about AnsysGPT",
+     "href": "https://ansys.synopsys.com/blog/ansysgpt-your-virtual-assistant-simulation-queries"
+    },
+    {
+     "role": "body",
+     "order": 409,
+     "text": "Developer Portal"
+    },
+    {
+     "role": "body",
+     "order": 410,
+     "text": "Developer Portal"
+    },
+    {
+     "role": "cta",
+     "order": 411,
+     "text": "All Developer Resources",
+     "href": "https://developer.synopsys.com"
+    },
+    {
+     "role": "cta",
+     "order": 412,
+     "text": "Documentation",
+     "href": "https://developer.synopsys.com/docs"
+    },
+    {
+     "role": "cta",
+     "order": 413,
+     "text": "Knowledge Base",
+     "href": "https://developer.synopsys.com/knowledge-base"
+    },
+    {
+     "role": "cta",
+     "order": 414,
+     "text": "App Catalog",
+     "href": "https://developer.synopsys.com/app-catalog/catalog"
+    },
+    {
+     "role": "body",
+     "order": 415,
+     "text": "Supercharge Your Ansys Workflow with the Ansys App Catalog"
+    },
+    {
+     "role": "body",
+     "order": 416,
+     "text": "Discover apps to expand your Ansys capabilities, streamline workflows, and solve problems faster. Built by Ansys and trusted partners."
+    },
+    {
+     "role": "cta",
+     "order": 417,
+     "text": "Extend Ansys Apps",
+     "href": "https://developer.synopsys.com/app-catalog/catalog"
+    },
+    {
+     "role": "cta",
+     "order": 418,
+     "text": "All Ansys Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "cta",
+     "order": 419,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "cta",
+     "order": 420,
+     "text": "Ansys Software Release R1",
+     "href": "https://ansys.synopsys.com/products/release-highlights"
+    },
+    {
+     "role": "cta",
+     "order": 421,
+     "text": "Products for Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 422,
+     "text": "synopsys.com",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "body",
+     "order": 423,
+     "text": "Synopsys and Ansys power the future of innovation - connecting silicon to systems."
+    },
+    {
+     "role": "body",
+     "order": 424,
+     "text": "Back"
+    },
+    {
+     "role": "body",
+     "order": 425,
+     "text": "Learn"
+    },
+    {
+     "role": "cta",
+     "order": 426,
+     "text": "Resource Center",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 427,
+     "text": "Blogs",
+     "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+     "role": "cta",
+     "order": 428,
+     "text": "Case Studies",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Case%20Study"
+    },
+    {
+     "role": "cta",
+     "order": 429,
+     "text": "Demos",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Demo"
+    },
+    {
+     "role": "cta",
+     "order": 430,
+     "text": "Videos",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Video"
+    },
+    {
+     "role": "cta",
+     "order": 431,
+     "text": "On-Demand Webinars",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=Webinar"
+    },
+    {
+     "role": "cta",
+     "order": 432,
+     "text": "White Papers",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=25&f-resourcetype=White%20Paper"
+    },
+    {
+     "role": "cta",
+     "order": 433,
+     "text": "Simulation Topics",
+     "href": "https://ansys.synopsys.com/simulation-topics"
+    },
+    {
+     "role": "cta",
+     "order": 434,
+     "text": "Ansys Training Center",
+     "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+     "role": "cta",
+     "order": 435,
+     "text": "Training for You",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-you"
+    },
+    {
+     "role": "cta",
+     "order": 436,
+     "text": "Training for Your Team",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-team"
+    },
+    {
+     "role": "cta",
+     "order": 437,
+     "text": "Training for Your Corporation",
+     "href": "https://ansys.synopsys.com/training-center/course-catalog/training-for-your-corporation"
+    },
+    {
+     "role": "cta",
+     "order": 438,
+     "text": "Find a Training Course",
+     "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+     "role": "cta",
+     "order": 439,
+     "text": "Ansys Learning Hub",
+     "href": "https://ansys.synopsys.com/services/ansys-learning-hub"
+    },
+    {
+     "role": "cta",
+     "order": 440,
+     "text": "Browse Courses",
+     "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+     "role": "cta",
+     "order": 441,
+     "text": "Student & Academic",
+     "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+     "role": "cta",
+     "order": 442,
+     "text": "Students",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 443,
+     "text": "Educators",
+     "href": "https://ansys.synopsys.com/academic/educators"
+    },
+    {
+     "role": "cta",
+     "order": 444,
+     "text": "Researchers",
+     "href": "https://ansys.synopsys.com/academic/researchers"
+    },
+    {
+     "role": "cta",
+     "order": 445,
+     "text": "Learning Resources",
+     "href": "https://ansys.synopsys.com/academic/learning-resources"
+    },
+    {
+     "role": "cta",
+     "order": 446,
+     "text": "Learning Forum",
+     "href": "https://innovationspace.ansys.com/forum"
+    },
+    {
+     "role": "cta",
+     "order": 447,
+     "text": "Innovation Courses",
+     "href": "https://innovationspace.ansys.com/courses"
+    },
+    {
+     "role": "cta",
+     "order": 448,
+     "text": "Events & Webinars",
+     "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 449,
+     "text": "SIM World 2025",
+     "href": "https://ansys.synopsys.com/events/simulation-world"
+    },
+    {
+     "role": "cta",
+     "order": 450,
+     "text": "Upcoming Events",
+     "href": "https://ansys.synopsys.com/events#tab=EventsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 451,
+     "text": "Past Webinars",
+     "href": "https://ansys.synopsys.com/resource-center#tab=ResourceCenterTab&sortCriteria=relevancy&numberOfResults=50&f-resourcetype=Webinar"
+    },
+    {
+     "role": "body",
+     "order": 452,
+     "text": "Ansys empowers the next generation of engineers."
+    },
+    {
+     "role": "body",
+     "order": 453,
+     "text": "Students get free access to world-class simulation software."
+    },
+    {
+     "role": "cta",
+     "order": 454,
+     "text": "Access Free Student Software",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 455,
+     "text": "synopsys.com",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "body",
+     "order": 456,
+     "text": "Synopsys and Ansys power the future of innovation - connecting silicon to systems."
+    },
+    {
+     "role": "body",
+     "order": 457,
+     "text": "Back"
+    },
+    {
+     "role": "body",
+     "order": 458,
+     "text": "About"
+    },
+    {
+     "role": "cta",
+     "order": 459,
+     "text": "Company Information",
+     "href": "https://ansys.synopsys.com/company-information"
+    },
+    {
+     "role": "cta",
+     "order": 460,
+     "text": "Ansys Story",
+     "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+    },
+    {
+     "role": "cta",
+     "order": 461,
+     "text": "Success Stories",
+     "href": "https://ansys.synopsys.com/company-information/ansys-success-stories#tab=CustomerStoryTab"
+    },
+    {
+     "role": "cta",
+     "order": 462,
+     "text": "Leadership",
+     "href": "https://ansys.synopsys.com/company-information/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 463,
+     "text": "Sustainability",
+     "href": "https://ansys.synopsys.com/company-information/sustainability"
+    },
+    {
+     "role": "cta",
+     "order": 464,
+     "text": "Contacts & Locations",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 465,
+     "text": "Corporate Responsibility",
+     "href": "https://ansys.synopsys.com/company-information/corporate-responsibility"
+    },
+    {
+     "role": "cta",
+     "order": 466,
+     "text": "Quality Assurance",
+     "href": "https://ansys.synopsys.com/company-information/quality-assurance"
+    },
+    {
+     "role": "cta",
+     "order": 467,
+     "text": "Contact Us",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 468,
+     "text": "Partner Ecosystem",
+     "href": "https://ansys.synopsys.com/partner-ecosystem"
+    },
+    {
+     "role": "cta",
+     "order": 469,
+     "text": "Find a Partner",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/find-a-partner#tab=PartnersTab"
+    },
+    {
+     "role": "cta",
+     "order": 470,
+     "text": "Become an Ansys Partner",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/become-a-partner"
+    },
+    {
+     "role": "cta",
+     "order": 471,
+     "text": "Technology Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/technology-partners"
+    },
+    {
+     "role": "cta",
+     "order": 472,
+     "text": "Channel Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/channel-partners"
+    },
+    {
+     "role": "cta",
+     "order": 473,
+     "text": "Services Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/services-partners"
+    },
+    {
+     "role": "cta",
+     "order": 474,
+     "text": "Strategic Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/strategic-partners"
+    },
+    {
+     "role": "cta",
+     "order": 475,
+     "text": "Academic Partners",
+     "href": "https://ansys.synopsys.com/partner-ecosystem/academic-partners"
+    },
+    {
+     "role": "cta",
+     "order": 476,
+     "text": "Startup Program",
+     "href": "https://ansys.synopsys.com/startup-program"
+    },
+    {
+     "role": "cta",
+     "order": 477,
+     "text": "News Center",
+     "href": "https://ansys.synopsys.com/news-center"
+    },
+    {
+     "role": "cta",
+     "order": 478,
+     "text": "Press Releases",
+     "href": "https://ansys.synopsys.com/news-center/press-releases#tab=NewsTab&sortCriteria=relevancy"
+    },
+    {
+     "role": "cta",
+     "order": 479,
+     "text": "Advantage Magazine",
+     "href": "https://ansys.synopsys.com/advantage-magazine"
+    },
+    {
+     "role": "cta",
+     "order": 480,
+     "text": "Blogs",
+     "href": "https://ansys.synopsys.com/blog#tab=BlogsTab"
+    },
+    {
+     "role": "cta",
+     "order": 481,
+     "text": "Careers",
+     "href": "https://ansys.synopsys.com/careers"
+    },
+    {
+     "role": "cta",
+     "order": 482,
+     "text": "Life at Ansys",
+     "href": "https://ansys.synopsys.com/careers/life-at-ansys"
+    },
+    {
+     "role": "cta",
+     "order": 483,
+     "text": "University Programs",
+     "href": "https://ansys.synopsys.com/careers/university-programs"
+    },
+    {
+     "role": "cta",
+     "order": 484,
+     "text": "Employee Stories",
+     "href": "https://ansys.synopsys.com/blog#search&tab=BlogsTab&sortCriteria=relevancy&numberOfResults=24&f-blogtype=Life%20at%20Ansys"
+    },
+    {
+     "role": "cta",
+     "order": 485,
+     "text": "Search for Jobs",
+     "href": "https://careers.synopsys.com/"
+    },
+    {
+     "role": "body",
+     "order": 486,
+     "text": "Design your future."
+    },
+    {
+     "role": "body",
+     "order": 487,
+     "text": "Connect with Ansys to explore how simulation can power your next breakthrough."
+    },
+    {
+     "role": "cta",
+     "order": 488,
+     "text": "Connect with Ansys Now!",
+     "href": "https://ansys.synopsys.com/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 489,
+     "text": "synopsys.com",
+     "href": "https://www.synopsys.com"
+    },
+    {
+     "role": "body",
+     "order": 490,
+     "text": "Synopsys and Ansys power the future of innovation - connecting silicon to systems."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 70,
+   "repeats": [
+    {
+     "unitSelector": "DIALOG.modal",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.nav-item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 99,
+      "imgs": 0,
+      "textRuns": 123
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ansys Fluent – Fluid Simulation Software"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Engineering the Future with Precision and Power"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The world’s most advanced Computational Fluid Dynamics (CFD) software, designed to help engineers solve their most challenging fluid dynamics problems at gold-standard accuracy."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Fluent"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Overview",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Capabilities",
+     "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Resources",
+     "href": "/products/fluids/ansys-fluent/resources"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Product Updates",
+     "href": "/products/fluids/ansys-fluent/product-updates"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fluent"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fluent"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Overview",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Capabilities",
+     "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Resources",
+     "href": "/products/fluids/ansys-fluent/resources"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Product Updates",
+     "href": "/products/fluids/ansys-fluent/product-updates"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Fluent"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Overview",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Capabilities",
+     "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Resources",
+     "href": "/products/fluids/ansys-fluent/resources"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Product Updates",
+     "href": "/products/fluids/ansys-fluent/product-updates"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Fluent"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Fluent"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Overview",
+     "href": "/products/fluids/ansys-fluent"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Capabilities",
+     "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Resources",
+     "href": "/products/fluids/ansys-fluent/resources"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Product Updates",
+     "href": "/products/fluids/ansys-fluent/product-updates"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.subnav__cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.subnav__cta",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Play video"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "What is Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ansys Fluent is an industry-leading computational fluid dynamics (CFD) software that simulates fluid flow phenomena using advanced numerics."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Play video"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "What is Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ansys Fluent is an industry-leading computational fluid dynamics (CFD) software that simulates fluid flow phenomena using advanced numerics."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Why Choose Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ansys Fluent is an industry-leading CFD software code, backed by extensive validation programs, providing users with advanced modeling capabilities, gold-standard accuracy, and fast solve times with a GPU-native solver."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Speed and performance"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Leverage Fluent’s multi-GPU solver and high-performance computing integrations to run massively more complex simulations faster than ever before."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Unrivaled accuracy"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Achieve precise results with industry-leading physics models that are rigorously validated against experimental data."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Automation and training"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Streamline workflows with automation and boost your skills through comprehensive training support and resources."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Trusted by innovators in nearly every industry"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "See how Fluent solves industry challenges"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Automotive"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "From aerodynamics to EV battery cooling, Ansys Fluent is transforming automotive design with precision and speed. Engineers trust Fluent to optimize performance, reduce emissions, and innovate across every aspect of vehicle development."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Aerospace & Defense"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Simulate aerodynamics, propulsion, and combustion reactions with Fluent’s industry-leading accuracy, ensuring safety and performance in mission-critical designs."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Energy"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Optimize renewable energy systems, hydrogen storage, and combustion processes with Fluent’s powerful multiphysics capabilities for increased efficiency and sustainability."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "High Tech"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Enhance cooling and thermal reliability in cutting-edge electronics with Fluent’s advanced heat transfer and fluid flow modeling solutions."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Explore"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "3X"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "More Simulations"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Using wind tunnels on GT cars are extremely expensive, which is why a partner like Ansys is so important to Ferrari. Being able to extract the maximum out of our aerodynamic ability through CFD is vital to keep our performance on track. ”"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "“"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "— Sam Bird, Ferrari Competizioni GT Driver"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Read Case Study",
+     "href": "https://ansys.synopsys.com/blog/ferrari-competizioni-gt-produces-simulations-3x-faster-cfd-workflow"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "50X"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Exponentially Faster Solve Times"
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "With NVIDIA DGX and Ansys Fluent software, we are able to reduce the runtimes of our internal drive flow models from hours to minutes, approximately a 50 times improvement. ”"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "“"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "— Kent Forebord, Senior Director of Advanced Mechanical Development, Seagate"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Read Case Study",
+     "href": "https://ansys.synopsys.com/resource-center/case-study/seagate"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "80%"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Reduction in Energy Costs"
+    },
+    {
+     "role": "heading",
+     "order": 42,
+     "text": "Our ability to harness the power of Ansys Fluent native multi-GPU solver has saved us considerable time while using a fraction of the typical hardware resources. ”"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "“"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "— Francesco Manara, Leonardo Helicopters"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Read Case Study",
+     "href": "https://ansys.synopsys.com/resource-center/case-study/leonardo-helicopters"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Applications & Use Cases"
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "Built for Real-World Complexity"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "From battery cooling to hypersonic flight, Ansys Fluent empowers engineers to tackle industry-specific challenges with confidence—combining advanced physics, proven accuracy, and scalable performance to solve what matters most."
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Gas Turbines"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Ansys gas turbine simulation solution enables you to design and optimize the next generation of gas turbines."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 52,
+     "text": "Mixing"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Mixing is at the heart of critical processes in chemical, pharmaceutical, food, and energy industries. Fluent helps engineers understand and optimize fluid behavior—reducing waste, shortening development cycles, and improving product quality."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "Heat Exchangers"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Designing efficient heat exchangers is critical across the energy, HVAC, automotive, and electronics industries. Ansys Fluent delivers the accuracy and speed engineers need to model complex thermal behavior, reduce over design, and meet performance targets faster."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 58,
+     "text": "Wind Turbines"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Fluent empowers engineers with advanced aerodynamic, thermal, and acoustic modeling to maximize power output, reduce noise, and accelerate innovation across the entire turbine system."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Explore"
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "Battery Simulation"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "As battery systems grow more powerful and compact, thermal safety and electrochemical precision are mission-critical. Ansys Fluent provides engineers with detailed, multiphysics simulation capabilities to optimize battery cell, module, and pack performance—helping reduce thermal risk, extend lifetime, and accelerate electrification across industries."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Explore"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Fluent capabilities"
+    },
+    {
+     "role": "heading",
+     "order": 65,
+     "text": "Engineered for Both Speed and Accuracy"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Fluent offers a comprehensive suite of features, from advanced physics models to built-in optimization to multi-physics integrations, and empowers users at every stage of their CFD journey."
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "See Fluent Capabilities",
+     "href": "/products/fluids/ansys-fluent/capabilities"
+    },
+    {
+     "role": "heading",
+     "order": 68,
+     "text": "Advanced physics"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Access the broadest range of advanced physics models available, including turbulent and laminar, reactive, multi-phase flows and more."
+    },
+    {
+     "role": "heading",
+     "order": 70,
+     "text": "Built-in optimization & customization"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Access built-in optimization tools, such as shape optimization, one-click optimization, customization with PyFluent and user-defined functions (UDFs)."
+    },
+    {
+     "role": "heading",
+     "order": 72,
+     "text": "Multi-physics integrations"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Leverage the broader Ansys portfolio with multiphysics integrations with Ansys Mechanical, Icepak, Motion, and more."
+    },
+    {
+     "role": "heading",
+     "order": 74,
+     "text": "Learn from Ansys"
+    },
+    {
+     "role": "heading",
+     "order": 75,
+     "text": "Dive into Fluent resources"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Master Ansys Fluent with a curated collection of resources designed to boost your CFD expertise. From in-depth tutorials and whitepapers to hands-on training modules and real-world case studies, our resource center has everything you need to unlock Fluent’s full potential and elevate your simulation skills."
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "View Fluent Resources",
+     "href": "/products/fluids/ansys-fluent/resources"
+    },
+    {
+     "role": "heading",
+     "order": 78,
+     "text": "See what's new"
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "Fluent’s latest features and updates"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Ansys Fluent has two software releases each year. Discover new features, including pre-processing, solving and post-processing enhancements, designed to transform your simulation speed, accuracy and usability."
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "View Latest Updates",
+     "href": "/products/fluids/ansys-fluent/product-updates"
+    }
+   ],
+   "imgCount": 42,
+   "editableTexts": 32,
+   "repeats": [
+    {
+     "unitSelector": "DIV.blk",
+     "count": 9,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.railblk",
+     "count": 2,
+     "unit": {
+      "headings": 4,
+      "ctas": 0,
+      "imgs": 8,
+      "textRuns": 12
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Frequently asked questions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Find quick answers and practical guidance in our Fluent FAQs, designed to help you troubleshoot, optimize workflows and get the most out of your simulations."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "What is Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "What is Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ansys Fluent is a general-purpose computational fluid dynamics (CFD) software used to model fluid flow, heat and mass transfer, chemical reactions, and more. Fluent offers a modern, user-friendly interface that streamlines the CFD process from pre- to post-processing within a single window workflow. Fluent is known for its advanced physics modeling capabilities, which include turbulence modeling, single and multiphase flows, combustion, battery modeling, fluid-structure interaction, and much more."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Also known for its efficient HPC scaling, large models can easily be solved in Fluent on multiple processors on either CPU or GPU. Multiple solver options are available, including pressure-based and density-based CPU solvers to cover low-speed to hypersonic flows and a pressure-based native GPU solver."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "How do I install Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "How do I install Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "To install Ansys Fluent, follow the steps below:"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Download the Fluids package from the Download Center in the Ansys Customer Center."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Open the Ansys Installation Launcher and select Install Ansys Products. Read and accept the clickwrap to continue."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Click the right arrow button to accept the default values throughout the installation."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Paste your hostname in the Hostname box on the Enter License Server Specification step and click Next."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "When selecting the products to install, check the Fluid Dynamics box and Ansys Geometry Interface box."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Continue to click Next until the products are installed, and finally, click Exit to close the installer."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "If you need more help downloading the License Manager or other Ansys products, view this video from the Ansys How To Videos YouTube channel."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Installing Ansys License Manager on Windows",
+     "href": "https://www.youtube.com/watch?v=EEEMwc8Ns8w"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "How do I export data from Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "How do I export data from Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "You can export data after a Fluent calculation by selecting File - Export - Solution Data. Fluent allows users to export data to Mechanical APDL input, ASCII, ACS, CDAT, CGNS, CFF, EnSight Case Gold, and many other formats. To export data during a transient calculation, you will have to set up the case file so that the solution and particle history data are exported as the calculation progresses. This can be done by creating an automatic export definition using the Calculations Activities Task Page. Click the Create button under Automatic Export and select Solution Data Export, then select the file type, cell zones, surfaces, and quantities you would like to export."
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "How do I download Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "How do I download Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Current customers can download Ansys Fluent from the Download Center in the Ansys Customer Portal. For those who are not current customers but are interested in trying Fluent, Ansys offers a free 30-day trial of Fluent. If you are a student, you can download our free student software and use it along with our free courses, support community, and a wealth of student-focused tutorials."
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "How can I learn Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "How can I learn Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Ansys offers a variety of options for users of all skill levels to learn how to use Ansys Fluent. If you are interested in enhancing your simulation and general physics knowledge of fluids, Ansys offers , which are free courses that will teach you the underlying physics in a problem and how Fluent is used to help solve this problem."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Ansys Innovation Courses",
+     "href": "https://innovationspace.ansys.com/courses/fluids/"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "For introductory product-specific step-by-step tutorials, new feature videos, and general tips & tricks, we have the ."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Ansys How-to Videos on YouTube",
+     "href": "https://www.youtube.com/playlist?list=PL0lZXwHtV6OmedTRo0xU5AFxCrtsSsHda"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Finally, the provides customers with all the training resources needed to learn Ansys Fluent from the ground up. The Learning Hub has self-paced video courses, CAD models, best practice guides, demo videos, and learning rooms for questions and discussions to learn from the Ansys experts."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Ansys Learning Hub",
+     "href": "https://learninghub.ansys.com/learn"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "How do I create a mesh in Ansys Fluent?"
+    },
+    {
+     "role": "heading",
+     "order": 32,
+     "text": "How do I create a mesh in Ansys Fluent?"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Ansys Fluent has two guided workflows to mesh a CAD model, the watertight geometry workflow and the fault-tolerant meshing workflow. Both workflows accelerate meshing by organizing the process into a user-friendly, task-based workflow that offers relevant choices and options but also has the flexibility to be customized. The watertight geometry workflow is for watertight CAD geometries that do not require much clean-up and modifications. The fault-tolerant meshing workflow is for more complicated non-water-tight CAD geometries that may require some clean-up and modifications (defects such as overlaps, intersections, holes, duplicates, etc.)."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Learn more in this free course from Ansys Innovation Space."
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Mesh Generation using Ansys Fluent Watertight Workflow",
+     "href": "https://innovationspace.ansys.com/product/mesh-generation-using-ansys-fluent-watertight-workflow/"
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "What is Ansys Fluent used for?"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "What is Ansys Fluent used for?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Ansys Fluent is primarily used for computational fluid dynamics (CFD) simulations to analyze, design, and optimize products and processes involving fluid flow, heat transfer, chemical reactions, and related phenomena. It models complex physical phenomena in real-world geometries to help engineers understand, predict, and improve the performance and efficiency of devices in various industries, such as aerospace, automotive, and energy."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 30,
+   "repeats": [
+    {
+     "unitSelector": "DIV.faq__row",
+     "count": 7,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ansys Fluent"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Ready to Simulate Without Limits?"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Try Fluent Today",
+     "href": "#gate-ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "sec",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ansys delivers industry-leading simulation solutions, empowering engineers to design innovative, reliable, and sustainable products across every industry."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "The latest from Ansys",
+     "href": "https://ansys.synopsys.com/email-opt-in"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Products",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "All Products",
+     "href": "https://ansys.synopsys.com/products"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Industries",
+     "href": "https://ansys.synopsys.com/industries"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Student Software",
+     "href": "https://ansys.synopsys.com/academic/students"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Free Trials",
+     "href": "https://ansys.synopsys.com/products#tab=ProductsTab&sortCriteria=relevancy&layout=card&numberOfResults=25&f-promotion=Free%20Trial"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Support",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Customer Center",
+     "href": "https://innovation.ansys.com/customer-center"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Platform Support",
+     "href": "https://ansys.synopsys.com/it-solutions/platform-support"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Licensing",
+     "href": "https://ansys.synopsys.com/it-solutions/licensing"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Learning",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Resource Center",
+     "href": "https://ansys.synopsys.com/resource-center"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Training Center",
+     "href": "https://ansys.synopsys.com/training-center"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Student & Academic",
+     "href": "https://ansys.synopsys.com/academic"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Events & Webinars",
+     "href": "https://ansys.synopsys.com/events"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "About",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Our Story",
+     "href": "https://ansys.synopsys.com/company-information/the-ansys-story"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Careers",
+     "href": "https://ansys.synopsys.com/careers"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Investors",
+     "href": "https://investors.ansys.com/"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Leadership",
+     "href": "https://ansys.synopsys.com/company-information/leadership"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "News Center",
+     "href": "https://ansys.synopsys.com/news-center"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "The latest from Ansys",
+     "href": "https://ansys.synopsys.com/email-opt-in"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Copyright © 2026 Synopsys, Inc. and ANSYS, Inc."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Legal Notices",
+     "href": "https://ansys.synopsys.com/legal/legal-notices"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Privacy Notice",
+     "href": "https://ansys.synopsys.com/legal/privacy-notice"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Cookie Policy",
+     "href": "https://ansys.synopsys.com/legal/cookie-policy"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Export Compliance",
+     "href": "https://ansys.synopsys.com/legal/export-control-compliance"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Terms and Conditions",
+     "href": "https://ansys.synopsys.com/legal/terms-and-conditions"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Report Piracy",
+     "href": "https://ansys.synopsys.com/legal/report-piracy"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Site Map",
+     "href": "https://ansys.synopsys.com/site-map#"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Learn about how all Ansys software is accessible."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "View VPAT Reports",
+     "href": "https://ansys.synopsys.com/accessibility-conformance-reports"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "A.sf__social-link",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.sf__col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 5,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "A.sf__social-link",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

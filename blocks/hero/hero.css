@@ -1,37 +1,221 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
+/* hero — lifted from the gated prototype (canon.css "Hero"), scoped to the block */
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+.hero .hero-bg {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #000;
 }
 
-.hero img {
-  object-fit: cover;
+.hero .hero-bg .vy {
+  position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .vy-region {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.hero .vy-poster,
+.hero .vy-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.hero .hero-pad {
+  position: relative;
+  padding: 4rem 1.5rem;
+}
+
+.hero .hero-wrap {
+  max-width: 80rem;
+  margin-inline: auto;
+}
+
+.hero .hero-stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.hero .hero-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.hero .hero-eyebrow {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 800;
+  line-height: 1.375;
+  text-wrap: balance;
+}
+
+.hero .hero-title {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.hero .hero-lede {
+  max-width: 65ch;
+  font-size: var(--text-2xl);
+  line-height: calc(2 / 1.5);
+}
+
+.hero .hero-cta {
+  justify-content: center;
+}
+
+@container section (width >= 48rem) {
+  .hero .hero-pad {
+    padding: 5rem 2rem;
+  }
+
+  .hero .hero-title {
+    font-size: var(--text-5xl);
+  }
+}
+
+@container section (width >= 64rem) {
+  .hero .hero-pad {
+    padding: 8rem 4rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .hero .hero-pad {
+    padding: 10rem 7rem;
+  }
+}
+
+@container section (width >= 103.75rem) {
+  .hero .hero-title {
+    font-size: var(--text-6xl);
+  }
+}
+
+/* default variant — text-only page hero (program / listing archetypes, canon .phero) */
+.hero:not(.video) .hero-pad {
+  display: flex;
+  width: 100%;
+  min-height: 36.25rem;
+  padding: 4rem 1.5rem;
+}
+
+.hero:not(.video) .hero-wrap {
+  width: 100%;
+  max-width: 103.75rem;
+}
+
+.hero:not(.video) .hero-stack {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  max-width: 64rem;
+  margin-left: 0;
+  padding-bottom: 3rem;
+  text-align: left;
+}
+
+.hero:not(.video) .hero-head {
+  align-items: stretch;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.hero:not(.video) .hero-lede {
+  max-width: 64rem;
+  font-size: var(--text-lg);
+  line-height: calc(1.75 / 1.125);
+}
+
+.hero:not(.video) .hero-eyebrow {
+  color: inherit;
+  font-weight: 600;
+}
+
+/* eyebrow + title sit closer than the head's copy gap (canon .phero__head gap .5rem / .75rem) */
+.hero:not(.video) .hero-eyebrow + .hero-title {
+  margin-top: -1rem;
+}
+
+@container section (width >= 48rem) {
+  .hero:not(.video) .hero-pad {
+    min-height: 38.75rem;
+    align-items: center;
+    padding: 5rem 2rem;
+  }
+}
+
+@container section (width >= 64rem) {
+  .hero:not(.video) .hero-pad {
+    min-height: 37.5rem;
+    padding: 8rem 4rem;
+  }
+
+  .hero:not(.video) .hero-stack {
+    padding-bottom: 0;
+  }
+
+  .hero:not(.video) .hero-eyebrow + .hero-title {
+    margin-top: -0.75rem;
+  }
+
+  .hero:not(.video) .hero-lede {
+    font-size: var(--text-2xl);
+    line-height: calc(2 / 1.5);
+  }
+}
+
+@container section (width >= 80rem) {
+  .hero:not(.video) .hero-pad {
+    min-height: 43.75rem;
+  }
+}
+
+@container section (width >= 96rem) {
+  .hero:not(.video) .hero-pad {
+    padding: 10rem 7rem;
+  }
+
+  .hero:not(.video) .hero-stack,
+  .hero:not(.video) .hero-head {
+    gap: 2rem;
+  }
+
+  .hero:not(.video) .hero-eyebrow + .hero-title {
+    margin-top: -1.25rem;
+  }
+}
+
+@container section (width >= 120rem) {
+  .hero:not(.video) .hero-pad {
+    min-height: 48.75rem;
   }
 }

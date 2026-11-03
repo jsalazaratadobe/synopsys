@@ -1,0 +1,197 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/optimize",
+    "writtenAt": "2026-11-03T20:09:36.328Z",
+    "stardustVersion": "0.0.0"
+  },
+  "runs": [
+    {
+      "id": "run-1",
+      "at": "2026-11-03T20:06:40.639Z",
+      "scopePages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--0f0b9fb5--aemcoder.aem.live"
+    },
+    {
+      "id": "run-2",
+      "at": "2026-11-03T20:08:14.316Z",
+      "scopePages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--0f0b9fb5--aemcoder.aem.live"
+    },
+    {
+      "id": "run-3",
+      "at": "2026-11-03T20:09:36.328Z",
+      "scopePages": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-product-updates",
+        "products-fluids-ansys-fluent-resources"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--0f0b9fb5--aemcoder.aem.live"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f-500175bf65",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "products-fluids-ansys-fluent-resources"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-03T20:09:36.328Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-50d80a717c",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-03T20:09:36.328Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-9ce43e2c68",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "products-fluids-ansys-fluent-product-updates"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-03T20:09:36.328Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-bcdce61516",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "products-fluids-ansys-fluent"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-03T20:09:36.328Z",
+        "note": "no longer detected on delivered page"
+      }
+    }
+  ]
+}

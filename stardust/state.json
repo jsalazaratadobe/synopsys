@@ -1,0 +1,219 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-03T04:27:52Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://ansys.synopsys.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-03T00:23:48.181Z",
+    "pageCap": null,
+    "totalDiscovered": 4,
+    "crawled": 4,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-03T00:23:48.181Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "products-fluids-ansys-fluent",
+      "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent",
+      "title": "Ansys Fluent | Fluid Simulation Software",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T00:18:50.657Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-03T02:54:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T02:54:00Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T04:27:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/products-fluids-ansys-fluent.json",
+      "prototypePath": "stardust/prototypes/products-fluids-ansys-fluent-proposed.html",
+      "migratedPath": "stardust/migrated/products/fluids/ansys-fluent/index.html"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/capabilities",
+      "title": "Ansys Fluent Capabilities | Ansys",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T00:19:01.916Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T03:28:39Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T04:27:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/products-fluids-ansys-fluent-capabilities.json",
+      "prototypePath": "stardust/prototypes/products-fluids-ansys-fluent-capabilities-proposed.html",
+      "migratedPath": "stardust/migrated/products/fluids/ansys-fluent/capabilities/index.html"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/resources",
+      "title": "Ansys Fluent Resources | Webinars, Tutorials & Documentation",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T00:17:45.250Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T03:46:12Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T04:27:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/products-fluids-ansys-fluent-resources.json",
+      "prototypePath": "stardust/prototypes/products-fluids-ansys-fluent-resources-proposed.html",
+      "migratedPath": "stardust/migrated/products/fluids/ansys-fluent/resources/index.html"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "url": "https://ansys.synopsys.com/products/fluids/ansys-fluent/product-updates",
+      "title": "Ansys Fluent Updates | Fluent 2026 R1",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T00:17:51.878Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T04:08:11Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T04:27:52Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/products-fluids-ansys-fluent-product-updates.json",
+      "prototypePath": "stardust/prototypes/products-fluids-ansys-fluent-product-updates-proposed.html",
+      "migratedPath": "stardust/migrated/products/fluids/ansys-fluent/product-updates/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-03T04:27:34Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/products/fluids/ansys-fluent",
+        "outputPath": "products/fluids/ansys-fluent/index.html",
+        "slug": "products-fluids-ansys-fluent",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/products/fluids/ansys-fluent/capabilities",
+        "outputPath": "products/fluids/ansys-fluent/capabilities/index.html",
+        "slug": "products-fluids-ansys-fluent-capabilities",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/products/fluids/ansys-fluent/resources",
+        "outputPath": "products/fluids/ansys-fluent/resources/index.html",
+        "slug": "products-fluids-ansys-fluent-resources",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/products/fluids/ansys-fluent/product-updates",
+        "outputPath": "products/fluids/ansys-fluent/product-updates/index.html",
+        "slug": "products-fluids-ansys-fluent-product-updates",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 14,
+    "bundledAssets": [
+      "css/canon.css",
+      "css/products-fluids-ansys-fluent-capabilities.css",
+      "css/products-fluids-ansys-fluent-product-updates.css",
+      "css/products-fluids-ansys-fluent-resources.css",
+      "css/products-fluids-ansys-fluent.css",
+      "favicon.ico",
+      "fonts/montserrat-latin-ext-normal.woff2",
+      "fonts/montserrat-latin-italic.woff2",
+      "fonts/montserrat-latin-normal.woff2",
+      "fonts/source-sans-3-latin-ext-normal.woff2",
+      "fonts/source-sans-3-latin-italic.woff2",
+      "fonts/source-sans-3-latin-normal.woff2",
+      "js/canon.js",
+      "js/products-fluids-ansys-fluent-resources.js"
+    ],
+    "pages": [
+      {
+        "slug": "products-fluids-ansys-fluent",
+        "file": "stardust/migrated/products/fluids/ansys-fluent/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "products-fluids-ansys-fluent-capabilities",
+        "file": "stardust/migrated/products/fluids/ansys-fluent/capabilities/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "products-fluids-ansys-fluent-resources",
+        "file": "stardust/migrated/products/fluids/ansys-fluent/resources/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "products-fluids-ansys-fluent-product-updates",
+        "file": "stardust/migrated/products/fluids/ansys-fluent/product-updates/index.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-03T04:27:34Z",
+      "rendered": [
+        "products-fluids-ansys-fluent",
+        "products-fluids-ansys-fluent-capabilities",
+        "products-fluids-ansys-fluent-resources",
+        "products-fluids-ansys-fluent-product-updates"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

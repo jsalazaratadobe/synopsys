@@ -1,0 +1,623 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 2,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://ansys.synopsys.com/next-web-public/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 2,
+    "pagesWithSameSiteData": 2,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fcb0a-3dc6-7e13-b07b-7b16394f3285.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/events/{n}/get/live/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/components/events/56074102/get/live/events",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fd83b-490c-7d45-9028-4886629ec68b/en.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ansys.synopsys.com",
+        "path": "/content/ansysincprogram/en-us/home/search.coveotoken.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://ansys.synopsys.com/content/ansysincprogram/en-us/home/search.coveotoken.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202607.1.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202607.1.0/assets/v2/otPcTab.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202607.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otCommonStyles.css",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/bLayout-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/019fcb0a-3dc6-7e13-b07b-7b16394f3285/019fd83b-490c-7d45-9028-4886629ec68b/bLayout-en.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/gate_translation_groups/{n}/{uuid}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/gate_translation_groups/56074102/48c92dc6-414d-4ee3-b690-7628be6aa765",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "app.gatedcontent.com",
+        "path": "/tools/geoip",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/tools/geoip",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ansys.synopsys.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://ansys.synopsys.com/cdn-cgi/rum",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/gates/{n}/{uuid}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/gates/56074102/ffce5c21-f6fb-4d1c-ad33-fc2c1d0a009e",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/form_types/{n}/get/live/FreeTrialStandardMKTOProductionAnsys",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/components/form_types/56074102/get/live/FreeTrialStandardMKTOProductionAnsys",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "app.gatedcontent.com",
+        "path": "/components/translations/{n}/get/live/en",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://app.gatedcontent.com/components/translations/56074102/get/live/en",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/e7Td9zHEYciGVUJtUiuc7d.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/e7Td9zHEYciGVUJtUiuc7d.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/imwPW713ZTF3fKSDJrgVPF.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/imwPW713ZTF3fKSDJrgVPF.json",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insights.gatedcontent.com",
+        "path": "/log_entry",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insights.gatedcontent.com/log_entry",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ansys.synopsys.com",
+        "path": "/cdn-cgi/challenge-platform/h/g/jsd/oneshot/5c2e6b612edd/0.23202492039853762:1793660732:yTbB6WnKaSFQsMv5AOHdGBlgIFMWhUIyf3svJkrwPtE/{hash}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://ansys.synopsys.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/5c2e6b612edd/0.23202492039853762:1793660732:yTbB6WnKaSFQsMv5AOHdGBlgIFMWhUIyf3svJkrwPtE/a54733ecd83b5b6a",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/Yv473KZk1DmCPJJKZtqyqq.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/Yv473KZk1DmCPJJKZtqyqq.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/privacy/set-consent",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://adobedc.demdex.net/ee/v1/privacy/set-consent",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/LggnF4sTjaeAGs87mCxi1N.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/LggnF4sTjaeAGs87mCxi1N.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "smetrics.synopsys.com",
+        "path": "/ee/or2/v1/privacy/set-consent",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://smetrics.synopsys.com/ee/or2/v1/privacy/set-consent",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/9jfFYuYygWfziQ3Gb1eV4B.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/9jfFYuYygWfziQ3Gb1eV4B.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/thhpcYp54pbjg7pgkBzGD8.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/thhpcYp54pbjg7pgkBzGD8.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/SYqYTjfKLV9PLECxgxY8M3.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/SYqYTjfKLV9PLECxgxY8M3.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "play.vidyard.com",
+        "path": "/background/aqz2BuAaaTChQMkdKLM9a3.json",
+        "query": [
+          "autoplay",
+          "disable_ctas",
+          "disable_popouts",
+          "embed_button",
+          "hidden_controls",
+          "loop",
+          "muted",
+          "type",
+          "v",
+          "viral_sharing"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://play.vidyard.com/background/aqz2BuAaaTChQMkdKLM9a3.json",
+        "pages": 1,
+        "examples": [
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "assets.vidyard.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "challenges.cloudflare.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "app.gatedcontent.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "universal-editor-service.adobe.io",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      },
+      {
+        "host": "play.vidyard.com",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 2,
+        "examples": [
+          "products-fluids-ansys-fluent",
+          "products-fluids-ansys-fluent-capabilities"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "products-fluids-ansys-fluent",
+      "verdict": "recaptured",
+      "notes": "OneTrust banner overlaid first viewport at medium wait; recaptured at slow wait, banner gone"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-capabilities",
+      "verdict": "recaptured",
+      "notes": "same consent overlay; recaptured at slow wait"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-resources",
+      "verdict": "ok",
+      "notes": "hero, tutorials list, webinar cards, blog/whitepaper/case-study grids, gold resource cards render"
+    },
+    {
+      "slug": "products-fluids-ansys-fluent-product-updates",
+      "verdict": "ok",
+      "notes": "release cards, release-notes accordion text, resource links, post carousel render"
+    }
+  ],
+  "siblingCandidates": []
+}

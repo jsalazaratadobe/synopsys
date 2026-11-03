@@ -1,0 +1,74 @@
+{
+ "pages": 5,
+ "vendors": [
+  {
+   "host": "ansys.synopsys.com",
+   "pages": 5,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 5,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "universal-editor-service.adobe.io",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "challenges.cloudflare.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "experience.adobe.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "static.cloud.coveo.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "search: hosted search service",
+   "class": "S",
+   "inCsp": false
+  },
+  {
+   "host": "play.vidyard.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "video: hosted player",
+   "class": "V",
+   "inCsp": false
+  },
+  {
+   "host": "cdn.jsdelivr.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "library CDN (not dynamic by itself)",
+   "class": "-",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "digitalData": 5,
+  "_satellite": 1
+ },
+ "cspHosts": []
+}

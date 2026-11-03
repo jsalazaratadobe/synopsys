@@ -143,6 +143,17 @@ function decorateButtons(main) {
 }
 
 /**
+ * Gated-form links (#gate-<id>) open the source's trial form until the owner picks a form
+ * service on this host (dynamic-features D2): the source page opens the form from the hash.
+ * @param {Element} main The container element
+ */
+function decorateGateLinks(main) {
+  main.querySelectorAll('a[href^="#gate-"]').forEach((a) => {
+    a.href = `https://ansys.synopsys.com${window.location.pathname}${a.getAttribute('href')}`;
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -153,6 +164,7 @@ export function decorateMain(main) {
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateGateLinks(main);
 }
 
 /**
@@ -160,6 +172,7 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
+  import('./martech.js').then((m) => m.loadConsent());
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
@@ -204,6 +217,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

@@ -1,0 +1,217 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "article"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-11-03T04:38:55Z",
+      "endedAt": "2026-11-03T05:43:33.624Z",
+      "gates": {
+        "360": {
+          "headerBand": "0.00%",
+          "footerBand": "0.41%",
+          "chromeCompare": "exit 2 \u2014 14 errors / 4 warnings"
+        },
+        "1440": {
+          "headerBand": "0.00%",
+          "footerBand": "0.00%",
+          "chromeCompare": "exit 2 \u2014 3 errors / 25 warnings"
+        },
+        "crop": "header/footer \u2264 0.41% both widths (shell preview vs live)",
+        "chrome": "residuals: Ask chat + Coveo type-ahead (dynamics rows 13/9, owner/backend); drawer accordion open-state + Back-key focus + C&R links queued in foundation-requests.md"
+      },
+      "verdict": "foundation: files 63 committed (head 127b972), nav/footer live, lint ok, chrome-compare 1440 exit 2 (3E/25W) 360 exit 2 (14E/4W), header band 0.00%/0.00%, footer band 0.00%/0.41%"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T05:44:49Z",
+      "endedAt": "2026-11-03T06:34:44Z",
+      "verdict": "archetype-landing: DELIVERED \u2014 1440 3.51 % \u0394h 0, 360 4.80 % \u0394h -1px, clipped 0, presence 0; live published",
+      "gates": {
+        "360": {
+          "pixel": "4.80%",
+          "dh": -1,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.15%"
+        },
+        "1440": {
+          "pixel": "3.51%",
+          "dh": 0,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.00%"
+        }
+      },
+      "cluster": "empty (no siblings) \u2014 done with archetype",
+      "commit": "4b59c0d"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T06:34:58Z",
+      "endedAt": "2026-11-03T07:20:14Z",
+      "verdict": "archetype-program: DELIVERED \u2014 1440 2.04 % \u0394h 0, 360 1.31 % \u0394h -1px, clipped 0, presence 0; live published",
+      "gates": {
+        "360": {
+          "pixel": "1.31%",
+          "dh": -1,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.29%"
+        },
+        "1440": {
+          "pixel": "2.04%",
+          "dh": 0,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.00%"
+        },
+        "landingRegate": {
+          "360": "4.08% \u0394h 0",
+          "1440": "3.27% \u0394h 0"
+        }
+      },
+      "cluster": "empty (no siblings) \u2014 done with archetype",
+      "commit": "744310c",
+      "fixRounds": 3
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T07:38:40Z",
+      "endedAt": "2026-11-03T08:16:23Z",
+      "verdict": "archetype-listing: DELIVERED \u2014 1440 0.43 % \u0394h 0, 360 1.76 % \u0394h 0, clipped 0, presence 0; live published",
+      "gates": {
+        "360": {
+          "pixel": "1.76%",
+          "dh": 0,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.04%"
+        },
+        "1440": {
+          "pixel": "0.43%",
+          "dh": 0,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.00%"
+        },
+        "regate": {
+          "landing": {
+            "360": "3.77% \u0394h 0",
+            "1440": "3.34% \u0394h 0"
+          },
+          "program": {
+            "360": "1.13% \u0394h -1",
+            "1440": "1.99% \u0394h 0"
+          }
+        }
+      },
+      "cluster": "empty (no siblings) \u2014 done with archetype",
+      "commit": "4674b10",
+      "fixRounds": 1
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T08:16:31Z",
+      "endedAt": "2026-11-03T08:34:28Z",
+      "verdict": "archetype-article: DELIVERED \u2014 1440 0.89 % \u0394h 0, 360 3.29 % \u0394h -1px, clipped 0, presence 0; live published",
+      "gates": {
+        "360": {
+          "pixel": "3.29%",
+          "dh": -1,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.08%"
+        },
+        "1440": {
+          "pixel": "0.89%",
+          "dh": 0,
+          "clipped": 0,
+          "presence": 0,
+          "headerBand": "0.00%",
+          "footerBand": "0.00%"
+        },
+        "regate": {
+          "listing": {
+            "360": "1.76% \u0394h 0",
+            "1440": "0.44% \u0394h 0"
+          }
+        }
+      },
+      "cluster": "empty (no siblings) \u2014 done with archetype",
+      "commit": "fb916eb",
+      "fixRounds": 0
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "pages": 4,
+      "startedAt": "2026-11-03T19:04:04Z",
+      "endedAt": "2026-11-03T19:23:42Z",
+      "verdict": "gate-all: 4/4 PASS at 1440 and 360 (pixel, height, clip, content, units), published origin aem.live",
+      "gates": {
+        "1440": {
+          "products-fluids-ansys-fluent": 2.15,
+          "products-fluids-ansys-fluent-capabilities": 2.0,
+          "products-fluids-ansys-fluent-resources": 0.44,
+          "products-fluids-ansys-fluent-product-updates": 0.89,
+          "dh": "0 all"
+        },
+        "360": {
+          "products-fluids-ansys-fluent": 4.15,
+          "products-fluids-ansys-fluent-capabilities": 1.13,
+          "products-fluids-ansys-fluent-resources": 1.76,
+          "products-fluids-ansys-fluent-product-updates": 3.3,
+          "dh": "0/-1"
+        },
+        "summaries": [
+          "stardust/replica/gates/all-1440/summary.json",
+          "stardust/replica/gates/all-360/summary.json"
+        ],
+        "foundationQueue": "applied at C-final before the run (stardust/rollout/foundation-requests.md \u00a7 Applied at C-final)"
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-03T19:24:45Z",
+      "endedAt": "2026-11-03T19:24:45Z",
+      "verdict": "final: freeze check clean (20 files), foundation queue applied once (header breadcrumb fix), gate-all 4/4 both widths, coverage 4/4 deployed with gate rows"
+    }
+  },
+  "note": "No sibling pages: every template's only page is its archetype, so the per-template cluster units are empty and are recorded done with their archetype unit."
+}

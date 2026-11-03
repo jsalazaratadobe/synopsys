@@ -1,0 +1,33 @@
+{
+  "_provenance": {"writtenBy":"stardust:extract","writtenAt":"2026-11-03T00:30:00Z","readArtifacts":["stardust/current/_computed-styles.json","stardust/current/assets/css/ansys.css","stardust/current/pages/*.json"],"synthesizedInputs":[],"stardustVersion":"0.36.0"},
+  "origins": [{"origin":"https://ansys.synopsys.com","role":"primary","pages":4}],
+  "logo": {"file":"assets/logo.svg","source":"inline-svg","selector":"header nav > a > svg","note":"paths carry class fill-white; render on dark header"},
+  "favicon": {"file":"assets/favicon.ico","url":"https://ansys.synopsys.com/next-web-public/favicon.ico"},
+  "palette": [
+    {"role":"background","hex":"#171917","token":"--color-tungsten-950","source":"_computed-styles.json aggregate.colors[1]"},
+    {"role":"surface","hex":"#272a27","token":"--color-tungsten-800","source":"aggregate.colors[2]"},
+    {"role":"text","hex":"#fcfcfc","token":"--color-tungsten-50","source":"aggregate.colors[0]"},
+    {"role":"primary","hex":"#fdb71a","token":"--color-gold-500","source":"aggregate.colors[3]"},
+    {"role":"muted-text","hex":"#c1c2c1","token":"--color-tungsten-200","source":"aggregate.colors[4]"},
+    {"role":"border","hex":"#373b37","token":"--color-tungsten-600","source":"aggregate.colors[6]"},
+    {"role":"light-surface","hex":"#ffffff","token":"--color-base (light theme)","source":"ansys.css"},
+    {"role":"link","hex":"#2166c5","token":"--color-blue-700","source":"aggregate.colors[8]"}
+  ],
+  "type": {
+    "headingFamily":"Montserrat","bodyFamily":"Source Sans 3",
+    "files":[
+      {"family":"Montserrat","file":"assets/fonts/montserrat-latin-normal.woff2","license":"OFL"},
+      {"family":"Montserrat","file":"assets/fonts/montserrat-latin-ext-normal.woff2","license":"OFL"},
+      {"family":"Montserrat","file":"assets/fonts/montserrat-latin-italic.woff2","license":"OFL"},
+      {"family":"Source Sans 3","file":"assets/fonts/source-sans-3-latin-normal.woff2","license":"OFL"},
+      {"family":"Source Sans 3","file":"assets/fonts/source-sans-3-latin-ext-normal.woff2","license":"OFL"},
+      {"family":"Source Sans 3","file":"assets/fonts/source-sans-3-latin-italic.woff2","license":"OFL"}
+    ],
+    "levels":{"h1":{"fontSize":48,"fontWeight":800},"h2":{"fontSize":48,"fontWeight":800}},
+    "scaleAudit":{"kind":"modular","basis":"Tailwind v4 text scale (--text-xs … --text-8xl)"}
+  },
+  "motifs": {"radius":{"mode":"4px","areaMode":"24px (--border-radius-box)","button":"999rem pill"},"themes":"sections switch between dark (tungsten-950) and light (white) theme scopes"},
+  "voice": {"heroHeadline":"Engineering the Future with Precision and Power","heroLede":"The world's most advanced Computational Fluid Dynamics (CFD) software, designed to help engineers solve their most challenging fluid dynamics problems at gold-standard accuracy.","ctas":["Try Fluent Today","Free Trials","Download the Brochure"]},
+  "systemComponents": ["global header (utility bar + mega menu)","product sub-nav (Fluent · Overview · Capabilities · Resources · Product Updates · Try Fluent Today)","global footer","floating Ask button"],
+  "iconFont": null
+}
